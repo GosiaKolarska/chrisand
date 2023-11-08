@@ -1,0 +1,48 @@
+{
+    "hero": {
+        "title": "Product Designer \n in love with Storytelling",
+        "description": "I believe that complicated products can be explained in an easygoing way",
+        "links": [
+            {
+                "href": "/path",
+                "type": "background",
+                "text": "Case studies"
+            },
+            {
+                "href": "/about",
+                "type": "simple",
+                "text": "About me"
+            }
+        ],
+        "heroVideo": "video-hero.mp4",
+        "trusted": "They trusted me",
+        "companies": [
+            "logo-tietoevry.svg",
+            "logo-comgy.svg",
+            "logo-pg.svg",
+            "logo-quppy.svg",
+            "logo-moonite.svg"
+        ]
+    },
+    "stories": {
+        "title": "My favourite stories",
+        "columns": [
+            {
+                "image": "column1.png",
+                "headline": "Energy Data Infrastructure",
+                "description": "Real estate companies use ComgyOS for their portfolios to automate their billing for tenants and maintenance energy consumption.",
+                "href": "/path",
+                "type": "underline-arrow",
+                "text": "Check case study"
+            },
+            {
+                "image": "column2.png",
+                "headline": "Smart calendar for personal trainers",
+                "description": "Automates and simplifies scheduling and client management for flexible personal trainers.",
+                "href": "/path1",
+                "type": "underline-arrow",
+                "text": "Check case study"
+            }
+        ]
+    }
+}

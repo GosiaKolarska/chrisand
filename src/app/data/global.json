@@ -1,0 +1,45 @@
+{
+    "header": [
+        {
+            "text": "Work",
+            "href": "https://google.com",
+            "type": "simple"
+        },
+        {
+            "text": "About",
+            "href": "/about",
+            "type": "simple"
+        }
+    ],
+    "footer": {
+        "copy": "Based in Krakow. Design by me, code by my beloved sister ❤️ 2023"
+    },
+    "testimonials": {
+        "title": "Listen to what they said about me",
+        "people": [
+            {
+                "name": "Franziska Kaiser",
+                "role": "Product manager at Comgy",
+                "video": "https://www.dailymotion.com/video/k4gUUbkwWtYXYnzzxMa"
+            },
+            {
+                "name": "Aneta Rejdych",
+                "role": "Product designer at TietoEvry",
+                "video": "https://www.dailymotion.com/video/k21AU9p9gfSLStzzdyq"
+            },
+            {
+                "name": "Aneta Rejdych",
+                "role": "Product designer at TietoEvry",
+                "video": "https://www.dailymotion.com/video/k21AU9p9gfSLStzzdyq"
+            }
+        ]
+    },
+    "cta": {
+        "title": "Need help?",
+        "link": {
+            "href": "/about",
+            "type": "underline-arrow",
+            "text": "Send me a message"
+        }
+    }
+}

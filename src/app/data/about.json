@@ -1,0 +1,173 @@
+{
+    "abouthero": {
+        "title": "Hello! I am Chris",
+        "description": "As a Senior Product Designer, I love solving complex problems and creating user-friendly solutions. I'm always looking for ways to innovate and simplify digital experiences.",
+        "list": [
+            "10+ years of experience",
+            "ERP, MES, IoT expert",
+            "Startup creator Calenday",
+            "Government advisor MEDT"
+        ]
+    },
+    "experience": {
+        "title": "Experience",
+        "items": [
+            {
+                "title": "Smart metering software",
+                "description": "I took on the responsibility of designing two web platforms and one mobile application.",
+                "points": [
+                    "MGM: A platform tailored to real estate companies utilizing an app for their portfolios. The platform aimed to automate reporting, leverage decarbonization potential, meet regulatory obligations and promote energy-saving initiatives.",
+                    "Tenant Portal: An interactive tenant portal enabling users to monitor their consumption and identify potential areas for energy savings.",
+                    "MIM: A mobile application designed for installers who have install devices in real estates."
+                ]
+            },
+            {
+                "title": "Industries Paper management solutions",
+                "description": "I was responsible for the design of six web applications (ERP, MES) integrated within the paper industry, each handling distinct aspects of the business. These applications cover logistics, production, measurement, packaging, HR, and ordering."
+            },
+            {
+                "title": "Taxonomy management software",
+                "description": "I was responsible for the design of a web application for businesses that deal with large volumes of data."
+            }
+        ],
+        "awards": {
+            "title": "Awards",
+            "items": [
+                {
+                    "title": "Aquathon 2021",
+                    "position": "1st place",
+                    "description": "A portal for local activists to assess the advantages of implementing retention measures in the city."
+                },
+                {
+                    "title": "HackYeah 2020",
+                    "position": "1st place",
+                    "description": "An agricultural farm portal that enables the calculation of afforestation benefits."
+                },
+                {
+                    "title": "CodePlay 2019",
+                    "position": "3rd place",
+                    "description": "An AI-powered application that utilizes Machine Learning to track users and notify them about nearby store discounts."
+                },
+                {
+                    "title": "HackYeah 2018",
+                    "position": "3rd place",
+                    "description": "A web application designed to compute the most efficient route for heavy transport."
+                }
+            ]
+        }
+    },
+    "aboutlinkedin": {
+        "titleFirstRow": "Passionate",
+        "titleMiddleRowBlue": "problem solver",
+        "titleLastRow": "and mentor",
+        "description": [
+            "As a designer, I am driven by a passion for innovation and a commitment to sharing my knowledge with others in the design community.",
+            "I have not only refined my design skills but have also won hackathons and spoken at conferences. I am constantly learning and growing as a designer."
+        ],
+        "linkedinText": "Linkedin Profile",
+        "linkedinLink": "#",
+        "linkedinPhotos": [
+            {
+                "imageSrc": "Group 22522.svg",
+                "imageAlt": "win win",
+                "className": "first",
+                "value": 6
+            },
+            {
+                "imageSrc": "Group 22530.svg",
+                "imageAlt": "won",
+                "className": "second",
+                "value": 3
+            },
+            {
+                "imageSrc": "Group 22525.svg",
+                "imageAlt": "test",
+                "className": "third",
+                "value": 2
+            },
+            {
+                "imageSrc": "Group 22523.svg",
+                "imageAlt": "test4",
+                "className": "forth",
+                "value": -4
+            }
+        ]
+    },
+    "work": {
+        "title": "How I make projects",
+        "titleBlue": "real",
+        "description": "This is a description of how I make projects real.",
+        "steps": [
+            {
+                "number": 1,
+                "title": "Discover",
+                "contentTitle": "Understanding the problem and user needs",
+                "content": "I explore the problem space. I gather information, insights, and empathize with the end-users or stakeholders. Based on the research, I define the problem I am trying to solve. I reframe the challenge, identify opportunities, and clearly articulate the problem statement."
+            },
+            {
+                "number": 2,
+                "title": "Define",
+                "contentTitle": "Define the problem and user needs",
+                "content": "This is the content for the 'Define' step."
+            },
+            {
+                "number": 3,
+                "title": "Develop",
+                "contentTitle": "Develop the problem and user needs",
+                "content": "This is the content for the 'Develop' step."
+            },
+            {
+                "number": 4,
+                "title": "Deliver",
+                "contentTitle": "Deliver the problem and user needs",
+                "content": "This is the content for the 'Deliver' step."
+            }
+        ]
+    },
+    "skillset": {
+        "title": "Skillset",
+        "description": "I am continually seeking new opportunities to learn, grow, and refine my craft, aiming to push the boundaries of my creative potential.",
+        "skills": [
+            {
+                "icon": "skillset-1.svg",
+                "title": "User-centered Design",
+                "description": "UCD is my design philosophy, prioritizing user needs and behaviors. It guides me to create not just visually appealing but also highly functional and intuitive designs through in-depth user research."
+            },
+            {
+                "icon": "skillset-1.svg",
+                "title": "Prototyping and Wireframing",
+                "description": "Prototyping and wireframing are my creative playgrounds, where I transform ideas into tangible, interactive representations, allowing quick experimentation, iteration, and user validation."
+            },
+            {
+                "icon": "skillset-2.svg",
+                "title": "Presentation Skills",
+                "description": "I view presentations as storytelling opportunities to convey design concepts and decisions compellingly, making stakeholders as passionate about our designs as I am."
+            },
+            {
+                "icon": "skillset-3.svg",
+                "title": "Design Research",
+                "description": "Design research is my tool to understand user behavior and needs, helping me uncover pain points and opportunities through methods like interviews, surveys, and usability studies."
+            },
+            {
+                "icon": "skillset-4.svg",
+                "title": "Project Management",
+                "description": "I take a proactive role in project management, ensuring design initiatives align with broader goals, keep on track, and deliver on time and within scope."
+            },
+            {
+                "icon": "skillset-5.svg",
+                "title": "Cross-Functional Collaboration",
+                "description": "In cross-functional teams, I act as a bridge, translating the design vision to resonate with product managers, developers, and marketers, fostering open communication and understanding."
+            },
+            {
+                "icon": "skillset-6.svg",
+                "title": "Strategic Thinking",
+                "description": "I bring a strategic perspective to design, aligning it with our business goals by translating objectives into actionable design strategies."
+            },
+            {
+                "icon": "skillset-7.svg",
+                "title": "Design System Knowledge",
+                "description": "I value design systems for their efficiency, scalability, and ability to ensure a coherent user experience. They are the blueprint for a harmonious design journey."
+            }
+        ]
+    }
+}
