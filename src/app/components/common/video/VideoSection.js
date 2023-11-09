@@ -21,7 +21,6 @@ import {
 const VideoSection = () => {
   const { title, people } = globalData.testimonials;
   const [selectedVideo, setSelectedVideo] = useState(0);
-  const [showTranscript, setShowTranscript] = useState(false);
 
   const { ref, inView } = useInView({
     threshold: 0,
@@ -98,7 +97,7 @@ const VideoSection = () => {
                       <iframe
                         src={`https://www.dailymotion.com/embed/video/${videoId}?queue-enable=false&ui-start-screen-info=false${
                           inView ? "&autoplay=1" : ""
-                        }&mute=1&subtitles-default=eng`}
+                        }&mute=1&queue-autoplay-next=false&sharing-enable=false&ui-logo=false&subtitles=1`}
                         frameBorder="0"
                         width="100%"
                         height="480"
