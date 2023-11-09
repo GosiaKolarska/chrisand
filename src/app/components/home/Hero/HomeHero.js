@@ -33,11 +33,24 @@ const HomeHero = () => {
           <WhiteLine />
           <HeroContent>{description}</HeroContent>
           <LinksWrapper>
-            {links.map((link) => (
-              <StyledLink key={link.text} href={link.href} type={link.type}>
-                {link.text}
-              </StyledLink>
-            ))}
+            {links.map((link) => {
+              const isAnchorLink = link.href.startsWith("#");
+              const targetId = isAnchorLink ? link.href.slice(1) : null;
+              return (
+                <StyledLink
+                  key={link.text}
+                  href={link.href}
+                  type={link.type}
+                  onClick={
+                    isAnchorLink
+                      ? (e) => handleSmoothScroll(e, targetId)
+                      : undefined
+                  }
+                >
+                  {link.text}
+                </StyledLink>
+              );
+            })}
           </LinksWrapper>
         </HeroSectionContentWrapper>
         <CompaniesWrapper>

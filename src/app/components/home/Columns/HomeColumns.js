@@ -18,7 +18,7 @@ const HomeColumns = () => {
   const { title, columns } = homeData.stories;
 
   return (
-    <ColumnsSection>
+    <ColumnsSection id="case-studies">
       <ColumnsSectionContainer className="container">
         <ColumnsSectionTitle>{title}</ColumnsSectionTitle>
         <ColumnsSectionTitleList>

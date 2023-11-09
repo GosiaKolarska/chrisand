@@ -4,7 +4,7 @@
         "description": "I believe that complicated products can be explained in an easygoing way",
         "links": [
             {
-                "href": "/path",
+                "href": "#case-studies",
                 "type": "background",
                 "text": "Case studies"
             },
@@ -31,7 +31,7 @@
                 "image": "column1.png",
                 "headline": "Energy Data Infrastructure",
                 "description": "Real estate companies use ComgyOS for their portfolios to automate their billing for tenants and maintenance energy consumption.",
-                "href": "/path",
+                "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84",
                 "type": "underline-arrow",
                 "text": "Check case study"
             },
@@ -39,7 +39,7 @@
                 "image": "column2.png",
                 "headline": "Smart calendar for personal trainers",
                 "description": "Automates and simplifies scheduling and client management for flexible personal trainers.",
-                "href": "/path1",
+                "href": "https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574",
                 "type": "underline-arrow",
                 "text": "Check case study"
             }

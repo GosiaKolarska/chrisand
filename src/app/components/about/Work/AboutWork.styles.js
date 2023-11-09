@@ -85,6 +85,10 @@ export const WorkTabInner = styled.div`
 
   @media (max-width: 790px) {
     max-width: 100%;
+
+    &::after {
+      display: none;
+    }
   }
 `;
 

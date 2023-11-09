@@ -57,7 +57,11 @@ const AboutLinkedin = () => {
               <LinkedinContent key={index}>{paragraph}</LinkedinContent>
             ))}
           </div>
-          <StyledLink href={linkedinData.linkedinLink} type="underline-arrow">
+          <StyledLink
+            target="_blank"
+            href={linkedinData.linkedinLink}
+            type="underline-arrow"
+          >
             {linkedinData.linkedinText}
           </StyledLink>
         </LinkedinLeft>

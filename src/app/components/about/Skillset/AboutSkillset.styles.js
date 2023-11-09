@@ -36,7 +36,7 @@ export const StickyContainer = styled.div`
 
 export const StickyBox = styled.div`
   position: sticky;
-  top: 60px;
+  top: 140px;
 
   @media (max-width: 790px) {
     position: static;

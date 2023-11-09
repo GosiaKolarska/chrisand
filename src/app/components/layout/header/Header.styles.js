@@ -27,7 +27,9 @@ export const StyledHeader = styled.header`
   }
 
   @media (max-width: 790px) {
-    padding: 36px 37px 20px 32px;
+    padding: ;
+    padding: ${(props) =>
+      props.$isScrolled ? "23px 37px 23px 32px" : "36px 37px 20px 32px"};
   }
 `;
 

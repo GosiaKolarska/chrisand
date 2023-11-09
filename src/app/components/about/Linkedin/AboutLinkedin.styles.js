@@ -21,7 +21,7 @@ export const LinkedinSection = styled.section`
   }
 
   @media (max-width: 590px) {
-    padding: 122px 0 108px;
+    padding: 54px 0 108px;
 
     .abs-rect {
       bottom: 3px;
@@ -157,10 +157,11 @@ export const Image = styled.img`
       bottom: 10px;
       right: 27px;
       z-index: 1;
+      top: unset;
     }
     &.forth {
       top: 0;
-      right: -14px;
+      right: -16px;
       max-width: 213px;
     }
   }

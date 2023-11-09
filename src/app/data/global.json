@@ -1,8 +1,14 @@
 {
+    "siteMetadata": {
+        "title": "Chris Piskorz",
+        "description": "This is a description of your site for SEO purposes.",
+        "keywords": "keyword1, keyword2, keyword3",
+        "author": "Chris Piskorz"
+    },
     "header": [
         {
             "text": "Work",
-            "href": "https://google.com",
+            "href": "/",
             "type": "simple"
         },
         {
@@ -18,19 +24,14 @@
         "title": "Listen to what they said about me",
         "people": [
             {
+                "name": "Aneta Rejdych",
+                "role": "Product designer at TietoEvry",
+                "video": "https://www.dailymotion.com/video/k21AU9p9gfSLStzzdyq"
+            },
+            {
                 "name": "Franziska Kaiser",
                 "role": "Product manager at Comgy",
                 "video": "https://www.dailymotion.com/video/k4gUUbkwWtYXYnzzxMa"
-            },
-            {
-                "name": "Aneta Rejdych",
-                "role": "Product designer at TietoEvry",
-                "video": "https://www.dailymotion.com/video/k21AU9p9gfSLStzzdyq"
-            },
-            {
-                "name": "Aneta Rejdych",
-                "role": "Product designer at TietoEvry",
-                "video": "https://www.dailymotion.com/video/k21AU9p9gfSLStzzdyq"
             }
         ]
     },

@@ -5,14 +5,14 @@ export const ColumnsSection = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 155px 0 95px;
+  padding: 85px 0 76px;
 
   @media (max-width: 790px) {
-    padding: 155px 32px 95px;
+    padding: 85px 32px 76px;
   }
 
   @media (max-width: 590px) {
-    padding: 112px 32px 40px;
+    padding: 54px 32px 40px;
   }
 `;
 
