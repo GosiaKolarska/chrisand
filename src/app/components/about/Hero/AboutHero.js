@@ -22,7 +22,7 @@ const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
   };
 
   return (
-    <HeroSection>
+    <HeroSection className="scrollHero">
       <Container className="container">
         <VideoContainer>
           <video autoPlay loop muted>
@@ -41,9 +41,11 @@ const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
               <ListItem key={index}>{item}</ListItem>
             ))}
           </List>
-          <ButtonMore>
+          <ButtonMore
+            className={`button-transition ${isBioVisible ? "hide" : "show"}`}
+          >
             <StyledButton onClick={toggleBio} color="light">
-              {isBioVisible ? "Hide full bio" : "Show full bio"}
+              Show full bio
             </StyledButton>
           </ButtonMore>
         </LeftContent>

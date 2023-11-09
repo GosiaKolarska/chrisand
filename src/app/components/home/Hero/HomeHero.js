@@ -21,7 +21,7 @@ const HomeHero = () => {
     homeData.hero;
 
   return (
-    <HeroSection id="main-content">
+    <HeroSection id="main-content" className="scrollHero">
       <VideoContainer>
         <video autoPlay loop muted>
           <source src={`/assets/${heroVideo}`} type="video/mp4" />

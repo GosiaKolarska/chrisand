@@ -15,11 +15,6 @@ export const ButtonBase = styled.button`
   border-bottom: 2px solid
     ${({ color }) => (color === "light" ? "#fff" : "#0C0E15")};
 
-  &:focus {
-    outline: 3px solid #213ed7; // Example focus style
-    outline-offset: 2px;
-  }
-
   svg {
     display: inline-block;
     margin-left: 12px;

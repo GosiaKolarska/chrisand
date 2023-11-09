@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { useInView } from "react-intersection-observer";
 import globalData from "../../../data/global.json";
 import {
   SectionVideo,
@@ -20,6 +21,11 @@ import {
 const VideoSection = () => {
   const { title, people } = globalData.testimonials;
   const [selectedVideo, setSelectedVideo] = useState(0);
+  const [showTranscript, setShowTranscript] = useState(false);
+
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
 
   const extractDailymotionId = (url) => {
     const match = url.match(/video\/([a-zA-Z0-9]+)/);
@@ -79,18 +85,20 @@ const VideoSection = () => {
           <RightColumn>
             <ul>
               {people.map((person, index) => {
-                // Ensure videoId is defined within the map function scope
                 const videoId = extractDailymotionId(person.video);
                 return (
                   <li
                     key={index}
+                    ref={index === selectedVideo ? ref : null}
                     className={`${
                       selectedVideo === index ? "visible" : "hidden"
                     }`}
                   >
                     {videoId && (
                       <iframe
-                        src={`https://www.dailymotion.com/embed/video/${videoId}?queue-enable=false&ui-start-screen-info=false`}
+                        src={`https://www.dailymotion.com/embed/video/${videoId}?queue-enable=false&ui-start-screen-info=false${
+                          inView ? "&autoplay=1" : ""
+                        }&mute=1&subtitles-default=eng`}
                         frameBorder="0"
                         width="100%"
                         height="480"

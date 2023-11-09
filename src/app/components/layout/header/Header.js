@@ -21,7 +21,13 @@ function Header() {
   const router = useRouter();
 
   const handleScroll = debounce(() => {
-    setIsScrolled(window.pageYOffset > 100);
+
+    const heroSection = document.querySelector(".scrollHero");
+
+    if (heroSection) {
+      const heroBottom = heroSection.offsetTop + heroSection.offsetHeight - 150;
+      setIsScrolled(window.pageYOffset > heroBottom);
+    }
   }, 100);
 
   useEffect(() => {

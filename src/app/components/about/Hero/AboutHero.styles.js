@@ -1,5 +1,3 @@
-// AboutHeroStyles.js
-
 import styled from "styled-components";
 
 export const HeroSection = styled.section`
@@ -44,6 +42,10 @@ export const VideoContainer = styled.div`
 
   @media (max-width: 790px) {
     width: 100%;
+
+    video {
+      opacity: 0.4;
+    }
   }
 `;
 
@@ -138,10 +140,18 @@ export const ListItem = styled.li`
 `;
 
 export const ButtonMore = styled.div`
-  padding-bottom: 98px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 98px;
+  transition: all 0.3s;
+  height: auto;
+
+  &.hide {
+    opacity: 0;
+    padding: 0;
+    height: 0;
+  }
 
   @media (max-width: 790px) {
     padding-bottom: 50px;

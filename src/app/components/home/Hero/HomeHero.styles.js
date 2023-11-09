@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeroSection = styled.div`
+export const HeroSection = styled.section`
   padding: 215px 0 65px;
   background-color: #0c0e15;
   position: relative;
@@ -49,6 +49,10 @@ export const VideoContainer = styled.div`
 
   @media (max-width: 790px) {
     width: 100%;
+
+    video {
+      opacity: 0.12;
+    }
   }
 `;
 

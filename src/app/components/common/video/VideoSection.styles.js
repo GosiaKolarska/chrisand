@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SectionVideo = styled.div`
+export const SectionVideo = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;

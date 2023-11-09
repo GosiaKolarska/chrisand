@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ColumnsSection = styled.div`
+export const ColumnsSection = styled.section`
   background-color: white;
   display: flex;
   align-items: center;

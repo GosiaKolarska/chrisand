@@ -121,3 +121,42 @@ export const LinkBackground = styled(LinkBase)`
     }
   }
 `;
+
+
+export const LinkExtrenal = styled.a`
+  color: #0c0e15;
+  font-size: 22px;
+  font-weight: 600;
+  border-bottom: 2px solid #0c0e15;
+  padding-bottom: 8px;
+  transition: all 0.2s;
+
+  ${({ color }) =>
+    color === "light" &&
+    css`
+      color: #fff;
+      border-bottom-color: #fff;
+      ${SVGIcon} {
+        path {
+          fill: #fff;
+        }
+      }
+    `}
+
+  &:hover {
+    color: #213ed7;
+    border-bottom: 2px solid #213ed7;
+
+    ${SVGIcon} {
+      path {
+        fill: #213ed7;
+        transition: fill 0.2s ease-out;
+      }
+    }
+  }
+
+  @media (max-width: 590px) {
+    font-size: 18px;
+  }
+`;
+
