@@ -1,4 +1,5 @@
 import React from "react";
+// import ReactMarkdown from "react-markdown";
 import aboutContent from "../../../data/about.json";
 import StyledButton from "../../common/button/StyledButton";
 import {
@@ -21,6 +22,15 @@ const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
     setIsBioVisible(!isBioVisible);
   };
 
+  function convertMarkdownLinksToHTML(text) {
+    const markdownLinkRegex = /\[([^\]]+)\]\((https?:\/\/[^\s]+)\)/g;
+    return text.replace(
+      markdownLinkRegex,
+      (match, label, url) =>
+        `<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`
+    );
+  }
+
   return (
     <HeroSection className="scrollHero">
       <Container className="container">
@@ -38,7 +48,12 @@ const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
           </FirstSection>
           <List>
             {abouthero.list.map((item, index) => (
-              <ListItem key={index}>{item}</ListItem>
+              <ListItem
+                key={index}
+                dangerouslySetInnerHTML={{
+                  __html: convertMarkdownLinksToHTML(item),
+                }}
+              />
             ))}
           </List>
           <ButtonMore

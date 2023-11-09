@@ -102,6 +102,10 @@ export const List = styled.ul`
   column-gap: 80px;
   color: white;
 
+  a {
+    text-decoration-line: underline;
+  }
+
   @media (max-width: 790px) {
     padding: 0 32px 75px;
     column-gap: 40px;
@@ -120,7 +124,7 @@ export const ListItem = styled.li`
   display: flex;
   padding: 20px 24px 23px 0;
   align-items: flex-start;
-  gap: 16px;
+  gap: 6px;
   border-top: 1px solid #292f49;
 
   &:nth-child(3),
