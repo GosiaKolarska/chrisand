@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
           property="og:description"
           content={global.siteMetadata.description}
         />
-        <meta property="og:image" content="../public/meta.png" />
+        <meta property="og:image" content="https://chrisand.design/meta.png" />
         <meta property="og:url" content="https://chrisand.design/" />
         <meta property="og:type" content="website" />
       </Head>
