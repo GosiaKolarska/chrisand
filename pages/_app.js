@@ -23,6 +23,15 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content={global.siteMetadata.description} />
         <meta name="keywords" content={global.siteMetadata.keywords} />
         <meta name="author" content={global.siteMetadata.author} />
+
+        <meta property="og:title" content={global.siteMetadata.title} />
+        <meta
+          property="og:description"
+          content={global.siteMetadata.description}
+        />
+        <meta property="og:image" content="../public/meta.png" />
+        <meta property="og:url" content="https://chrisand.design/" />
+        <meta property="og:type" content="website" />
       </Head>
       <Component {...pageProps} />
     </Layout>

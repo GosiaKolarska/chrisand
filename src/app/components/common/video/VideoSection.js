@@ -97,7 +97,7 @@ const VideoSection = () => {
                       <iframe
                         src={`https://www.dailymotion.com/embed/video/${videoId}?queue-enable=false&ui-start-screen-info=false${
                           inView ? "&autoplay=1" : ""
-                        }&mute=1&queue-autoplay-next=false&sharing-enable=false&ui-logo=false&subtitles=1`}
+                        }&mute=1&queue-autoplay-next=false&sharing-enable=false&ui-logo=false&subtitlesp`}
                         frameBorder="0"
                         width="100%"
                         height="480"

@@ -1,8 +1,19 @@
 {
     "siteMetadata": {
-        "title": "Chris Piskorz",
-        "description": "This is a description of your site for SEO purposes.",
-        "keywords": "keyword1, keyword2, keyword3",
+        "title": "Chris Piskorz - Product Designer",
+        "description": "Transforming Complex Challenges into User-Friendly Solutions | Specializing in MES and ERP Industries | Expert Problem Solver with a User-Centric Approach | Discover My Product Design Case Studies",
+        "keywords": [
+            "User-Centric Design",
+            "MES Expertise",
+            "ERP Solutions",
+            "Problem-Solving",
+            "Product Design",
+            "Case Studies",
+            "Innovation in Technology",
+            "Process Optimization",
+            "User Experience (UX)",
+            "Industry-Specific Design"
+        ],
         "author": "Chris Piskorz"
     },
     "header": [
