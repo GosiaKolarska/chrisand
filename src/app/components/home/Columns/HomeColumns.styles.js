@@ -88,6 +88,8 @@ export const ColumnsSectionTitleListItemWrapper = styled.article`
   align-items: center;
 `;
 export const ColumnsSectionTitleListItemImage = styled.img`
+  max-width: 480px;
+
   @media (max-width: 790px) {
     max-width: 50%;
   }
