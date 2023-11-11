@@ -34,7 +34,7 @@ const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
   return (
     <HeroSection className="scrollHero">
       <Container className="container">
-        <VideoContainer>
+        <VideoContainer onClick={(e) => e.preventDefault()}>
           <video autoPlay loop muted>
             <source src="/assets/about-video.mp4" type="video/mp4" />
           </video>
