@@ -23,7 +23,7 @@ const HomeHero = () => {
   return (
     <HeroSection id="main-content" className="scrollHero">
       <VideoContainer onClick={(e) => e.preventDefault()}>
-        <video autoPlay loop muted>
+        <video autoPlay loop muted playsInline>
           <source src={`/assets/${heroVideo}`} type="video/mp4" />
         </video>
       </VideoContainer>
