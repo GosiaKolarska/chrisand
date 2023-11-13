@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import debounce from "lodash/debounce";
@@ -17,23 +15,30 @@ import globalData from "../../../data/global.json";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolledPast100px, setIsScrolledPast100px] = useState(false); // New state variable
+  const [lastScrollY, setLastScrollY] = useState(0);
   const { header } = globalData;
   const router = useRouter();
 
   const handleScroll = debounce(() => {
+    const currentScrollY = window.pageYOffset;
 
-    const heroSection = document.querySelector(".scrollHero");
+    // Update isScrolledPast100px based on scroll position
+    setIsScrolledPast100px(currentScrollY > 200);
 
-    if (heroSection) {
-      const heroBottom = heroSection.offsetTop + heroSection.offsetHeight - 150;
-      setIsScrolled(window.pageYOffset > heroBottom);
+    if (currentScrollY > lastScrollY) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
     }
+
+    setLastScrollY(currentScrollY);
   }, 100);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [lastScrollY]);
 
   const skipToContent = () => {
     const mainContent = document.getElementById("main-content");
@@ -43,7 +48,10 @@ function Header() {
   };
 
   return (
-    <StyledHeader $isScrolled={isScrolled}>
+    <StyledHeader
+      $isScrolled={isScrolled}
+      className={isScrolledPast100px ? "background-black" : ""}
+    >
       <Container className="container">
         <a href="#main-content" onClick={skipToContent} className="skip-link">
           Skip to content

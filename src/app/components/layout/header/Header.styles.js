@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  transition: all 0.1s ease-in-out;
+  transition: 1s;
   position: fixed;
   width: 100%;
-  top: 0;
   display: flex;
   justify-content: center;
   z-index: 10;
-  padding: ${(props) => (props.$isScrolled ? "20px 0" : "40px 0")};
-  background-color: ${(props) =>
-    props.$isScrolled ? "#0C0E15" : "transparent"};
+  background-color: transparent;
+  padding: 19px 0;
+  top: ${(props) => (props.$isScrolled ? "-70px" : "0")};
+  transition: top 0.3s ease-in-out;
+
+  &.background-black {
+    background-color: #0c0e15;
+  }
 
   .skip-link {
     position: absolute;
@@ -27,9 +31,7 @@ export const StyledHeader = styled.header`
   }
 
   @media (max-width: 790px) {
-    padding: ;
-    padding: ${(props) =>
-      props.$isScrolled ? "23px 37px 23px 32px" : "36px 37px 20px 32px"};
+    padding: 23px 37px 23px 32px;
   }
 `;
 
@@ -45,10 +47,12 @@ export const Logo = styled.div`
     color: #fff;
     font-size: 24px;
     font-weight: 500;
+    line-height: 32px;
   }
   .logo-second {
     color: #fff;
     font-size: 24px;
+    line-height: 32px;
     font-weight: 400;
   }
 
@@ -80,6 +84,9 @@ export const NavItem = styled.li`
     color: #fff;
     text-decoration: none;
     margin: 0 9px;
+    span {
+      margin: 0;
+    }
   }
 
   &:last-child {
