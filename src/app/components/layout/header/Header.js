@@ -15,18 +15,18 @@ import globalData from "../../../data/global.json";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isScrolledPast100px, setIsScrolledPast100px] = useState(false); // New state variable
+  const [isAtTop, setIsAtTop] = useState(true);
+  const [isScrolledPast200px, setIsScrolledPast200px] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const { header } = globalData;
   const router = useRouter();
 
   const handleScroll = debounce(() => {
     const currentScrollY = window.pageYOffset;
+    setIsAtTop(currentScrollY < 160);
+    setIsScrolledPast200px(currentScrollY > 200);
 
-    // Update isScrolledPast100px based on scroll position
-    setIsScrolledPast100px(currentScrollY > 200);
-
-    if (currentScrollY > lastScrollY) {
+    if (currentScrollY > 160 && currentScrollY > lastScrollY) {
       setIsScrolled(true);
     } else {
       setIsScrolled(false);
@@ -50,7 +50,9 @@ function Header() {
   return (
     <StyledHeader
       $isScrolled={isScrolled}
-      className={isScrolledPast100px ? "background-black" : ""}
+      className={`${isScrolledPast200px ? "background-black" : ""} ${
+        isAtTop ? "top0" : ""
+      }`}
     >
       <Container className="container">
         <a href="#main-content" onClick={skipToContent} className="skip-link">

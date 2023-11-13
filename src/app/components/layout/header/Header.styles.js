@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-  transition: 1s;
   position: fixed;
   width: 100%;
   display: flex;
@@ -9,8 +8,12 @@ export const StyledHeader = styled.header`
   z-index: 10;
   background-color: transparent;
   padding: 19px 0;
-  top: ${(props) => (props.$isScrolled ? "-70px" : "0")};
-  transition: top 0.3s ease-in-out;
+  top: ${(props) => (props.$isScrolled ? "-100px" : "0")};
+  transition: 0.3s;
+
+  &.top0 {
+    padding: 49px 0 19px;
+  }
 
   &.background-black {
     background-color: #0c0e15;
@@ -32,6 +35,10 @@ export const StyledHeader = styled.header`
 
   @media (max-width: 790px) {
     padding: 23px 37px 23px 32px;
+
+    &.top0 {
+      padding: 23px 37px 23px 32px;
+    }
   }
 `;
 
