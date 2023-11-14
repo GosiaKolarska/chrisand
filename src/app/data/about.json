@@ -107,19 +107,19 @@
             {
                 "number": 2,
                 "title": "Define",
-                "contentTitle": "Define the problem and user needs",
+                "contentTitle": "Clarify vision and establish parameters",
                 "content": "Together with stakeholders, we create a clear document that summarizes our vision. We set specific goals, identify our target audience, and establish design principles to guide our creative process."
             },
             {
                 "number": 3,
                 "title": "Develop",
-                "contentTitle": "Develop the problem and user needs",
+                "contentTitle": "Breathe life into ideas",
                 "content": "Bringing our ideas to life, I love working together in design sessions. We use sketches, prototypes, and make improvements to create solutions that combine functionality, beauty, and an amazing user experience."
             },
             {
                 "number": 4,
                 "title": "Deliver",
-                "contentTitle": "Deliver the problem and user needs",
+                "contentTitle": "Polish and implement",
                 "content": "In this step, I make sure our design looks good and works well. We test it with users and get their feedback. Then, I create detailed documents and resources to help with the implementation process."
             }
         ]
