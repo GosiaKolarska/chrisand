@@ -102,25 +102,25 @@
                 "number": 1,
                 "title": "Discover",
                 "contentTitle": "Understanding the problem and user needs",
-                "content": "I explore the problem space. I gather information, insights, and empathize with the end-users or stakeholders. Based on the research, I define the problem I am trying to solve. I reframe the challenge, identify opportunities, and clearly articulate the problem statement."
+                "content": "I explore the problem space, exploring through research and interviews to grasp client needs, understand the audience, and uncover challenges that will shape our design journey."
             },
             {
                 "number": 2,
                 "title": "Define",
                 "contentTitle": "Define the problem and user needs",
-                "content": "This is the content for the 'Define' step."
+                "content": "Together with stakeholders to create a clear document that summarizes our vision. We set specific goals, identify our target audience, and establish design principles to guide our creative process."
             },
             {
                 "number": 3,
                 "title": "Develop",
                 "contentTitle": "Develop the problem and user needs",
-                "content": "This is the content for the 'Develop' step."
+                "content": "Bringing our ideas to life, I love working together in design sessions. We use sketches, prototypes, and make improvements to create solutions that combine functionality, beauty, and an amazing user experience."
             },
             {
                 "number": 4,
                 "title": "Deliver",
                 "contentTitle": "Deliver the problem and user needs",
-                "content": "This is the content for the 'Deliver' step."
+                "content": "In this step, I make sure our design looks good and works well. We test it with users and get their feedback. Then, I create detailed documents and resources to help with the implementation process."
             }
         ]
     },
