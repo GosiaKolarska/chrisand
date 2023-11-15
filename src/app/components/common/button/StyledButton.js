@@ -21,7 +21,6 @@ const StyledButton = ({
         height="18"
         viewBox="0 0 20 18"
         fill="none"
-        role="img"
         aria-labelledby="Right arrow"
         xmlns="http://www.w3.org/2000/svg"
       >

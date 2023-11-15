@@ -86,7 +86,7 @@ export const VideoTabList = styled.ul`
 export const VideoTabItemInner = styled.div`
   display: flex;
   align-items: center;
-  padding: 19px 26px;
+  padding: 22px 24px;
   transition: 0.2s;
 
   @media (max-width: 768px) {
