@@ -88,6 +88,7 @@ export const VideoTabItemInner = styled.div`
   align-items: center;
   padding: 22px 24px;
   transition: 0.2s;
+  border-bottom: 1px solid #292f49;
 
   @media (max-width: 768px) {
     padding: 7px 6px;
@@ -111,10 +112,6 @@ export const VideoTabItemContentParagraph = styled.h4`
   @media (max-width: 768px) {
     font-size: 18px;
   }
-`;
-
-export const VideoTabItemHr = styled.hr`
-  border-color: #292f49;
 `;
 
 export const VideoTabItem = styled.li`
@@ -160,6 +157,7 @@ export const VideoTabItem = styled.li`
 
     ${VideoTabItemInner} {
       transform: translateX(3px);
+      border-bottom: 1px solid #fff;
     }
 
     ${VideoTabItemContentTitle} {
@@ -178,10 +176,6 @@ export const VideoTabItem = styled.li`
       path {
         fill: #fff;
       }
-    }
-
-    ${VideoTabItemHr} {
-      border-color: transparent;
     }
   }
 

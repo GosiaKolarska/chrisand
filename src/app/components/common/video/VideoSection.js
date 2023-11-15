@@ -15,7 +15,6 @@ import {
   VideoTabItemContent,
   VideoTabItemContentTitle,
   VideoTabItemContentParagraph,
-  VideoTabItemHr,
 } from "./VideoSection.styles";
 
 const VideoSection = () => {
@@ -76,7 +75,6 @@ const VideoSection = () => {
                       </VideoTabItemContentParagraph>
                     </VideoTabItemContent>
                   </VideoTabItemInner>
-                  <VideoTabItemHr />
                 </VideoTabItem>
               ))}
             </VideoTabList>

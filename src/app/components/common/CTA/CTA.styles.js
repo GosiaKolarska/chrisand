@@ -19,8 +19,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   padding: 125px 0 128px;
-  border-top: 1px solid #1e293b;
-  border-bottom: 1px solid #1e293b;
+  border-top: 1px solid #292f49;
+  border-bottom: 1px solid #292f49;
   align-items: center;
   width: 100%;
 
