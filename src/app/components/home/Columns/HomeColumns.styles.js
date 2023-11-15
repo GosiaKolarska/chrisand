@@ -94,12 +94,14 @@ export const ColumnsSectionTitleListItemWrapper = styled.article`
   @media (max-width: 790px) {
     img {
       max-width: 50%;
+      height: auto;
     }
   }
 
   @media (max-width: 590px) {
     img {
       max-width: 100%;
+      height: auto;
     }
   }
 `;
