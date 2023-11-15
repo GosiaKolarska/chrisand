@@ -24,6 +24,8 @@ export const VideoContainer = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
+    max-width: 100%;
   }
   &::before {
     content: "";
@@ -92,7 +94,7 @@ export const WhiteLine = styled.span`
   }
 `;
 
-export const HeroContent = styled.p`
+export const HeroContent = styled.h2`
   color: white;
   max-width: 426px;
   font-size: 32px;
@@ -121,7 +123,7 @@ export const CompaniesWrapper = styled.div`
   }
 `;
 
-export const CompaniesTitle = styled.h4`
+export const CompaniesTitle = styled.h3`
   color: #64748b;
   font-size: 12px;
   font-weight: 500;

@@ -83,7 +83,7 @@ export const FirstSectionTtile = styled.h1`
   }
 `;
 
-export const FirstSectionParagraph = styled.p`
+export const FirstSectionParagraph = styled.h2`
   color: white;
   font-size: 32px;
   font-weight: 600;

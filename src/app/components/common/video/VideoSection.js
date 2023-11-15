@@ -37,7 +37,7 @@ const VideoSection = () => {
         <VideoTitle>{title}</VideoTitle>
         <VideoColumns>
           <LeftColumn>
-            <VideoTabList>
+            <VideoTabList role="tablist">
               {people.map((person, index) => (
                 <VideoTabItem
                   key={index}
@@ -82,7 +82,7 @@ const VideoSection = () => {
             </VideoTabList>
           </LeftColumn>
           <RightColumn>
-            <ul role="tablist">
+            <ul role="tabpanel">
               {people.map((person, index) => {
                 const videoId = extractDailymotionId(person.video);
                 return (
@@ -92,6 +92,7 @@ const VideoSection = () => {
                     className={`${
                       selectedVideo === index ? "visible" : "hidden"
                     }`}
+                    role="tabpanel"
                   >
                     {videoId && (
                       <iframe
