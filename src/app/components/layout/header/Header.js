@@ -23,10 +23,10 @@ function Header() {
 
   const handleScroll = debounce(() => {
     const currentScrollY = window.pageYOffset;
-    setIsAtTop(currentScrollY < 160);
+    setIsAtTop(currentScrollY < 140);
     setIsScrolledPast200px(currentScrollY > 200);
 
-    if (currentScrollY > 160 && currentScrollY > lastScrollY) {
+    if (currentScrollY > 140 && currentScrollY > lastScrollY) {
       setIsScrolled(true);
     } else {
       setIsScrolled(false);

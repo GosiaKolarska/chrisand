@@ -86,16 +86,21 @@ export const ColumnsSectionTitleListItem = styled.li`
 export const ColumnsSectionTitleListItemWrapper = styled.article`
   display: flex;
   align-items: center;
-`;
-export const ColumnsSectionTitleListItemImage = styled.img`
-  max-width: 480px;
+
+  img {
+    max-width: 480px;
+  }
 
   @media (max-width: 790px) {
-    max-width: 50%;
+    img {
+      max-width: 50%;
+    }
   }
 
   @media (max-width: 590px) {
-    max-width: 100%;
+    img {
+      max-width: 100%;
+    }
   }
 `;
 

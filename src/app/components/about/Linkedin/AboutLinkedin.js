@@ -10,8 +10,9 @@ import {
   LinkedinTitle,
   LinkedinContent,
   LinkedinImages,
-  Image,
+  LinkedinContentWrapper,
 } from "./AboutLinkedin.styles";
+import Image from "next/image";
 
 const AboutLinkedin = () => {
   const linkedinData = aboutContent.aboutlinkedin;
@@ -37,7 +38,6 @@ const AboutLinkedin = () => {
 
     document.addEventListener("mousemove", parallax);
 
-    // Remove the event listener on cleanup
     return () => {
       document.removeEventListener("mousemove", parallax);
     };
@@ -52,11 +52,11 @@ const AboutLinkedin = () => {
             <span className="blue">{linkedinData.titleMiddleRowBlue}</span>
             <span>{linkedinData.titleLastRow}</span>
           </LinkedinTitle>
-          <div>
+          <LinkedinContentWrapper>
             {linkedinData.description.map((paragraph, index) => (
               <LinkedinContent key={index}>{paragraph}</LinkedinContent>
             ))}
-          </div>
+          </LinkedinContentWrapper>
           <StyledLink
             target="_blank"
             href={linkedinData.linkedinLink}
@@ -73,6 +73,8 @@ const AboutLinkedin = () => {
               key={index}
               data-value={photo.value}
               className={`parallax-element ${photo.className}`}
+              width={photo.width}
+              height={photo.height}
             />
           ))}
           <svg

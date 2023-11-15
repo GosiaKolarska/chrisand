@@ -15,6 +15,7 @@ import {
   CompaniesList,
   CompanyItem,
 } from "./HomeHero.styles";
+import Image from "next/image";
 
 const HomeHero = () => {
   const { title, description, links, trusted, companies, heroVideo } =
@@ -56,11 +57,13 @@ const HomeHero = () => {
         <CompaniesWrapper>
           <CompaniesTitle>{trusted}</CompaniesTitle>
           <CompaniesList>
-            {companies.map((logo) => (
-              <CompanyItem key={logo}>
-                <img
-                  src={`/assets/companies-logo/${logo}`}
-                  alt={`Logo of ${logo.split(".")[0]}`}
+            {companies.map((company) => (
+              <CompanyItem key={company.logo}>
+                <Image
+                  src={`/assets/companies-logo/${company.logo}`}
+                  alt={`Logo of ${company.logo.split(".")[0]}`}
+                  width={company.width}
+                  height={company.height}
                 />
               </CompanyItem>
             ))}

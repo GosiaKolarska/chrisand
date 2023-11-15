@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import aboutContent from "../../../data/about.json";
 import {
@@ -9,7 +10,6 @@ import {
   SkillsetContent,
   SkillsetList,
   SkillsetItem,
-  SkillsetItemImage,
   SkillsetItemTitle,
   SkillsetItemParagraph,
 } from "./AboutSkillset.styles";
@@ -27,9 +27,11 @@ const AboutSkillset = ({ skillset }) => {
         <SkillsetList>
           {skillset.skills.map((skill, index) => (
             <SkillsetItem key={index}>
-              <SkillsetItemImage
+              <Image
                 src={`/assets/skillset-icons/${skill.icon}`}
                 alt={skill.title}
+                width="55"
+                height="55"
               />
               <SkillsetItemTitle>{skill.title}</SkillsetItemTitle>
               <SkillsetItemParagraph>{skill.description}</SkillsetItemParagraph>

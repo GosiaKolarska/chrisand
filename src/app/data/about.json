@@ -71,25 +71,33 @@
                 "imageSrc": "Group 22522.svg",
                 "imageAlt": "win win",
                 "className": "first",
-                "value": 6
+                "value": 6,
+                "width": 190,
+                "height": 114.68
             },
             {
                 "imageSrc": "Group 22530.svg",
                 "imageAlt": "won",
                 "className": "second",
-                "value": 3
+                "value": 3,
+                "width": 431,
+                "height": 287.334
             },
             {
                 "imageSrc": "Group 22525.svg",
                 "imageAlt": "test",
                 "className": "third",
-                "value": 2
+                "value": 2,
+                "width": 164,
+                "height": 118.353
             },
             {
                 "imageSrc": "Group 22523.svg",
                 "imageAlt": "test4",
                 "className": "forth",
-                "value": -4
+                "value": -4,
+                "width": 238,
+                "height": 267
             }
         ]
     },

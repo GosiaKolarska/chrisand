@@ -13,6 +13,7 @@ import {
   ColumnsSectionTitleListItemInnerTitle,
   ColumnsSectionTitleListItemInnerParagraph,
 } from "./HomeColumns.styles";
+import Image from "next/image";
 
 const HomeColumns = () => {
   const { title, columns } = homeData.stories;
@@ -25,9 +26,11 @@ const HomeColumns = () => {
           {columns.map((column, index) => (
             <ColumnsSectionTitleListItem key={column.headline + index}>
               <ColumnsSectionTitleListItemWrapper>
-                <ColumnsSectionTitleListItemImage
+                <Image
                   src={`/assets/${column.image}`}
                   alt={`Story about ${column.headline}`}
+                  width="480"
+                  height="430"
                 />
                 <ColumnsSectionTitleListItemInner>
                   <ColumnsSectionTitleListItemInnerTitle>

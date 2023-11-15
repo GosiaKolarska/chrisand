@@ -9,7 +9,7 @@ export const LinkedinSection = styled.section`
 
   .abs-rect {
     position: absolute;
-    bottom: 35px;
+    bottom: 16px;
     left: 35px;
   }
 
@@ -74,6 +74,10 @@ export const LinkedinTitle = styled.h2`
   }
 `;
 
+export const LinkedinContentWrapper = styled.div`
+  padding-bottom: 12px;
+`;
+
 export const LinkedinContent = styled.p`
   color: #0c0e15;
   font-size: 22px;
@@ -94,75 +98,77 @@ export const LinkedinContent = styled.p`
 export const LinkedinImages = styled.div`
   position: relative;
 
-  @media (max-width: 590px) {
-    overflow: hidden;
-    padding-bottom: 68px;
-  }
-`;
-
-export const Image = styled.img`
-  display: inline-block;
-  &.first {
-    position: absolute;
-    top: -63px;
-    right: 24px;
-  }
-  &.second {
-    padding-top: 83px;
-  }
-  &.third {
-    padding-top: 50px;
-    padding-left: 43px;
-  }
-  &.forth {
-    position: absolute;
-    top: 324px;
-    right: 10px;
-  }
-
-  @media (max-width: 790px) {
+  img {
+    display: inline-block;
     &.first {
+      position: absolute;
       top: -63px;
-      right: 210px;
+      right: 24px;
     }
     &.second {
-      padding-top: 340px;
+      margin-top: 83px;
     }
     &.third {
-      position: absolute;
-      top: 190px;
-      right: 220px;
-      z-index: 9;
+      margin-top: 50px;
+      margin-left: 43px;
     }
     &.forth {
-      top: 30px;
+      position: absolute;
+      top: 324px;
       right: 10px;
     }
   }
 
+  @media (max-width: 790px) {
+    img {
+      &.first {
+        top: -63px;
+        right: 210px;
+      }
+      &.second {
+        margin-top: 340px;
+      }
+      &.third {
+        position: absolute;
+        top: 190px;
+        right: 220px;
+        z-index: 9;
+      }
+      &.forth {
+        top: 30px;
+        right: 10px;
+      }
+    }
+  }
+
   @media (max-width: 590px) {
-    &.first {
-      top: 33px;
-      right: unset;
-      left: 30px;
-      max-width: 144px;
-    }
-    &.second {
-      padding-top: 133px;
-      margin-left: -26px;
-      max-width: 424px;
-    }
-    &.third {
-      padding: 0px;
-      bottom: 10px;
-      right: 27px;
-      z-index: 1;
-      top: unset;
-    }
-    &.forth {
-      top: 0;
-      right: -16px;
-      max-width: 213px;
+    overflow: hidden;
+    padding-bottom: 68px;
+
+    img {
+      &.first {
+        top: 33px;
+        right: unset;
+        left: 30px;
+        max-width: 144px;
+      }
+      &.second {
+        margin-top: 133px;
+        margin-left: -26px;
+        max-width: 424px;
+      }
+      &.third {
+        padding: 0px;
+        bottom: 10px;
+        right: 27px;
+        z-index: 1;
+        top: unset;
+      }
+      &.forth {
+        top: 0;
+        right: -16px;
+        max-width: 213px;
+      }
     }
   }
 `;

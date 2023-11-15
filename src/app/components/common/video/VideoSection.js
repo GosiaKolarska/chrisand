@@ -46,7 +46,7 @@ const VideoSection = () => {
                   role="tab"
                   tabIndex={0}
                 >
-                  <VideoTabItemInner className="flex items-center">
+                  <VideoTabItemInner>
                     <svg
                       width="40"
                       height="40"

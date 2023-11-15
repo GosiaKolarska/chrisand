@@ -114,8 +114,6 @@ export const SkillsetItem = styled.li`
   }
 `;
 
-export const SkillsetItemImage = styled.img``;
-
 export const SkillsetItemTitle = styled.h4`
   color: #0c0e15;
   font-size: 22px;

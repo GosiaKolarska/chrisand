@@ -17,11 +17,31 @@
         "heroVideo": "video-hero.mp4",
         "trusted": "They trusted me",
         "companies": [
-            "logo-tietoevry.svg",
-            "logo-comgy.svg",
-            "logo-pg.svg",
-            "logo-quppy.svg",
-            "logo-moonite.svg"
+            {
+                "logo": "logo-tietoevry.svg",
+                "width": 118.138,
+                "height": 39.049
+            },
+            {
+                "logo": "logo-comgy.svg",
+                "width": 87.202,
+                "height": 21.049
+            },
+            {
+                "logo": "logo-pg.svg",
+                "width": 48.376,
+                "height": 21.049
+            },
+            {
+                "logo": "logo-quppy.svg",
+                "width": 83.193,
+                "height": 21.049
+            },
+            {
+                "logo": "logo-moonite.svg",
+                "width": 84.526,
+                "height": 18.997
+            }
         ]
     },
     "stories": {
