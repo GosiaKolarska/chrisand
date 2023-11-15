@@ -82,7 +82,7 @@ const VideoSection = () => {
             </VideoTabList>
           </LeftColumn>
           <RightColumn>
-            <ul>
+            <ul role="tablist">
               {people.map((person, index) => {
                 const videoId = extractDailymotionId(person.video);
                 return (

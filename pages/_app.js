@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }) {
           type="image/png"
         />
         <title>{global.siteMetadata.title}</title>
+        <meta name="robots" content="all" />
         <meta name="description" content={global.siteMetadata.description} />
         <meta name="keywords" content={global.siteMetadata.keywords} />
         <meta name="author" content={global.siteMetadata.author} />
