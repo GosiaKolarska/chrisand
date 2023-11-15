@@ -16,6 +16,11 @@ export const Container = styled.div``;
 
 export const ExperienceContainer = styled.div`
   padding-bottom: 40px;
+  width: 100%;
+`;
+
+export const AwardContainer = styled.div`
+  width: 100%;
 `;
 
 export const Title = styled.h2`

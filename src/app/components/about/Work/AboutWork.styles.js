@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const WorkSection = styled.section`
-  padding: 80px 0 195px;
+  padding: 80px 0 305px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -62,8 +62,8 @@ export const WorkTabInner = styled.div`
   position: relative;
 
   svg {
-    margin-right: 29px;
-    width: 12px;
+    margin-right: 16px;
+    width: 16px;
     path {
       fill: #000;
     }
@@ -113,6 +113,7 @@ export const WorkTabTitleWrapper = styled.div`
 `;
 export const WorkTabTitle = styled.h3`
   color: #000;
+  font-weight: 600;
 `;
 
 export const WorkContent = styled.div`

@@ -17,6 +17,7 @@ import {
   AwardsItemTitle,
   AwardsItemPosition,
   AwardsItemParagraph,
+  AwardContainer,
 } from "./AboutExperience.styles";
 
 const AboutExperience = () => {
@@ -49,7 +50,7 @@ const AboutExperience = () => {
             ))}
           </ExperienceList>
         </ExperienceContainer>
-        <div>
+        <AwardContainer>
           <Title>{experience.awards.title}</Title>
           <AwardsList>
             {experience.awards.items.map((award, index) => (
@@ -64,7 +65,7 @@ const AboutExperience = () => {
               </AwardsItem>
             ))}
           </AwardsList>
-        </div>
+        </AwardContainer>
       </Container>
     </SectionHero>
   );

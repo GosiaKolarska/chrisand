@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const LinkedinSection = styled.section`
-  padding: 200px 0 196px;
+  padding: 200px 0 208px;
   background: white;
   display: flex;
   align-items: center;
@@ -75,7 +75,7 @@ export const LinkedinTitle = styled.h2`
 `;
 
 export const LinkedinContentWrapper = styled.div`
-  padding-bottom: 12px;
+  padding-bottom: 16px;
 `;
 
 export const LinkedinContent = styled.p`

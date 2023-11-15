@@ -13,6 +13,10 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,6 +31,7 @@ body {
 .container {
   max-width: 960px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .text-darkgrey {
@@ -36,6 +41,12 @@ body {
 a {
   display: inline-block;
   text-decoration: unset;
+  color: unset;
+}
+
+button {
+  background-color: unset;
+  border: unset;
 }
 
 h1 {

@@ -9,7 +9,6 @@ export const ButtonBase = styled.button`
   color: ${({ color }) => (color === "light" ? "#fff" : "#0C0E15")};
   font-size: 22px;
   font-style: normal;
-  font-weight: 600;
   line-height: normal;
   padding-bottom: 12px;
   border-bottom: 2px solid

@@ -98,9 +98,9 @@ export const FirstSectionParagraph = styled.p`
 export const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  padding: 70px 0 75px;
-  column-gap: 80px;
+  padding: 70px 0 79px;
   color: white;
+  justify-content: space-between;
 
   a {
     text-decoration-line: underline;
@@ -122,7 +122,7 @@ export const ListItem = styled.li`
   font-size: 22px;
   font-weight: 600;
   display: flex;
-  padding: 20px 24px 23px 0;
+  padding: 23px 0;
   align-items: flex-start;
   gap: 6px;
   border-top: 1px solid #292f49;
@@ -139,7 +139,7 @@ export const ListItem = styled.li`
   @media (max-width: 590px) {
     max-width: 100%;
     font-size: 18px;
-    padding: 22px 24px 22px 0;
+    padding: 22px 0;
   }
 `;
 
