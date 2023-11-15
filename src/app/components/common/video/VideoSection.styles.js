@@ -103,7 +103,7 @@ export const VideoTabItemContentTitle = styled.h3`
   }
 `;
 
-export const VideoTabItemContentParagraph = styled.p`
+export const VideoTabItemContentParagraph = styled.h4`
   color: #6b7394;
   font-size: 22px;
   font-weight: 400;
