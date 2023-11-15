@@ -18,7 +18,7 @@ export const SectionCTA = styled.div`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 85px 0 78px;
+  padding: 125px 0 128px;
   border-top: 1px solid #1e293b;
   border-bottom: 1px solid #1e293b;
   align-items: center;
