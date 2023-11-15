@@ -22,6 +22,7 @@ export const Container = styled.div`
   border-top: 1px solid #1e293b;
   border-bottom: 1px solid #1e293b;
   align-items: center;
+  width: 100%;
 
   .CTA-link {
     color: #fff;

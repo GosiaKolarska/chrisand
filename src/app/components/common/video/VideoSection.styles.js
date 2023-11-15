@@ -181,7 +181,7 @@ export const VideoTabItem = styled.li`
     }
 
     ${VideoTabItemHr} {
-      border-color: #fff;
+      border-color: transparent;
     }
   }
 

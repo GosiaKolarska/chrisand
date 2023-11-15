@@ -115,13 +115,15 @@ export const ColumnsSectionTitleListItemInnerTitle = styled.h3`
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
-  padding-bottom: 38px;
+  padding-bottom: 30px;
+  max-width: 330px;
 
   @media (max-width: 590px) {
     flex-direction: column;
     font-size: 24px;
     padding-bottom: 29px;
     line-height: 30px;
+    max-width: 100%;
   }
 `;
 
@@ -130,7 +132,7 @@ export const ColumnsSectionTitleListItemInnerParagraph = styled.p`
   font-size: 22px;
   font-weight: 400;
   line-height: normal;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
 
   @media (max-width: 590px) {
     font-size: 18px;
