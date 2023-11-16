@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import globalData from "../../../data/global.json";
 import {
@@ -29,6 +29,28 @@ const VideoSection = () => {
     const match = url.match(/video\/([a-zA-Z0-9]+)/);
     return match ? match[1] : null;
   };
+
+  const videoRefs = useRef([]);
+  videoRefs.current = people.map(
+    (_, i) => videoRefs.current[i] ?? React.createRef()
+  );
+
+  useEffect(() => {
+    // Update the iframe src only for the selected video
+    const updateVideoSource = (index) => {
+      if (videoRefs.current[index]) {
+        const videoId = extractDailymotionId(people[index].video);
+        videoRefs.current[
+          index
+        ].current.src = `https://www.dailymotion.com/embed/video/${videoId}?queue-enable=false&ui-start-screen-info=false${
+          index === selectedVideo && inView ? "&autoplay=1" : "&autoplay=0"
+        }&mute=1&queue-autoplay-next=false&sharing-enable=false&ui-logo=false&subtitles`;
+      }
+    };
+
+    // Call the function to update the src
+    updateVideoSource(selectedVideo);
+  }, [selectedVideo, inView]);
 
   return (
     <SectionVideo>
@@ -81,33 +103,25 @@ const VideoSection = () => {
           </LeftColumn>
           <RightColumn>
             <ul role="tabpanel">
-              {people.map((person, index) => {
-                const videoId = extractDailymotionId(person.video);
-                const isCurrentVideo = index === selectedVideo;
-                return (
-                  <li
-                    key={index}
-                    ref={isCurrentVideo ? ref : null}
-                    className={isCurrentVideo ? "visible" : "hidden"}
-                    role="tabpanel"
-                  >
-                    {videoId && (
-                      <iframe
-                        src={`https://www.dailymotion.com/embed/video/${videoId}?queue-enable=false&ui-start-screen-info=false${
-                          isCurrentVideo && inView
-                            ? "&autoplay=1"
-                            : "&autoplay=0"
-                        }&mute=1&queue-autoplay-next=false&sharing-enable=false&ui-logo=false&subtitles`}
-                        frameBorder="0"
-                        width="100%"
-                        height="480"
-                        allow="autoplay"
-                        title={`video-${index}`}
-                      ></iframe>
-                    )}
-                  </li>
-                );
-              })}
+              {people.map((person, index) => (
+                <li
+                  key={index}
+                  ref={index === selectedVideo ? ref : null}
+                  className={`${
+                    selectedVideo === index ? "visible" : "hidden"
+                  }`}
+                  role="tabpanel"
+                >
+                  <iframe
+                    ref={videoRefs.current[index]}
+                    frameBorder="0"
+                    width="100%"
+                    height="480"
+                    allow="autoplay"
+                    title={`video-${index}`}
+                  ></iframe>
+                </li>
+              ))}
             </ul>
           </RightColumn>
         </VideoColumns>
