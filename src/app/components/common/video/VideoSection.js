@@ -83,20 +83,21 @@ const VideoSection = () => {
             <ul role="tabpanel">
               {people.map((person, index) => {
                 const videoId = extractDailymotionId(person.video);
+                const isCurrentVideo = index === selectedVideo;
                 return (
                   <li
                     key={index}
-                    ref={index === selectedVideo ? ref : null}
-                    className={`${
-                      selectedVideo === index ? "visible" : "hidden"
-                    }`}
+                    ref={isCurrentVideo ? ref : null}
+                    className={isCurrentVideo ? "visible" : "hidden"}
                     role="tabpanel"
                   >
                     {videoId && (
                       <iframe
                         src={`https://www.dailymotion.com/embed/video/${videoId}?queue-enable=false&ui-start-screen-info=false${
-                          inView ? "&autoplay=1" : ""
-                        }&mute=1&queue-autoplay-next=false&sharing-enable=false&ui-logo=false&subtitlesp`}
+                          isCurrentVideo && inView
+                            ? "&autoplay=1"
+                            : "&autoplay=0"
+                        }&mute=1&queue-autoplay-next=false&sharing-enable=false&ui-logo=false&subtitles`}
                         frameBorder="0"
                         width="100%"
                         height="480"
