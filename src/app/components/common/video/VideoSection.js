@@ -36,7 +36,6 @@ const VideoSection = () => {
   );
 
   useEffect(() => {
-    // Update the iframe src only for the selected video
     const updateVideoSource = (index) => {
       if (videoRefs.current[index]) {
         const videoId = extractDailymotionId(people[index].video);
@@ -48,7 +47,6 @@ const VideoSection = () => {
       }
     };
 
-    // Call the function to update the src
     updateVideoSource(selectedVideo);
   }, [selectedVideo, inView]);
 

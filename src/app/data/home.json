@@ -14,7 +14,8 @@
                 "text": "About me"
             }
         ],
-        "heroVideo": "video-hero.mp4",
+        "heroVideo": "homepage-hero-video.mp4",
+        "heroVideoPoster": "homepage-hero-poster.png",
         "trusted": "They trusted me",
         "companies": [
             {

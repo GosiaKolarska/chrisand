@@ -1,5 +1,4 @@
 import React from "react";
-// import ReactMarkdown from "react-markdown";
 import aboutContent from "../../../data/about.json";
 import StyledButton from "../../common/button/StyledButton";
 import {
@@ -35,8 +34,16 @@ const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
     <HeroSection className="scrollHero">
       <Container className="container">
         <VideoContainer onClick={(e) => e.preventDefault()}>
-          <video autoPlay loop muted playsInline>
-            <source src="/assets/about-video.mp4" type="video/mp4" />
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            aria-label="Background video"
+            role="img"
+            poster={`/assets/${abouthero.heroVideoPoster}`}
+          >
+            <source src="/assets/about-hero-video.mp4" type="video/mp4" />
           </video>
         </VideoContainer>
         <LeftContent>
