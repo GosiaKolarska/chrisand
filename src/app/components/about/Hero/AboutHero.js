@@ -34,17 +34,10 @@ const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
     <HeroSection className="scrollHero">
       <Container className="container">
         <VideoContainer onClick={(e) => e.preventDefault()}>
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            aria-label="Background video"
-            role="img"
-            poster={`/assets/${abouthero.heroVideoPoster}`}
-          >
-            <source src="/assets/about-hero-video.mp4" type="video/mp4" />
-          </video>
+          <img
+            src={`/assets/${abouthero.heroVideoPoster}`}
+            alt="Background image"
+          />
         </VideoContainer>
         <LeftContent>
           <FirstSection>
