@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import debounce from "lodash/debounce";
 import { useRouter } from "next/router";
 import StyledLink from "../../common/link/StyledLink";
 import {
@@ -17,28 +16,44 @@ function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isAtTop, setIsAtTop] = useState(true);
   const [isScrolledPast200px, setIsScrolledPast200px] = useState(false);
-  const [lastScrollY, setLastScrollY] = useState(0);
+  const lastScrollY = useRef(0);
+  const ticking = useRef(false);
   const { header } = globalData;
   const router = useRouter();
 
-  const handleScroll = debounce(() => {
-    const currentScrollY = window.pageYOffset;
-    setIsAtTop(currentScrollY < 140);
-    setIsScrolledPast200px(currentScrollY > 200);
-
-    if (currentScrollY > 140 && currentScrollY > lastScrollY) {
-      setIsScrolled(true);
-    } else {
-      setIsScrolled(false);
-    }
-
-    setLastScrollY(currentScrollY);
-  }, 100);
-
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    // Ignore small scroll jitter (e.g. trackpad momentum) when deciding direction
+    const DIRECTION_THRESHOLD = 10;
+
+    const update = () => {
+      const currentScrollY = Math.max(window.scrollY, 0);
+      const delta = currentScrollY - lastScrollY.current;
+
+      setIsAtTop(currentScrollY < 140);
+      setIsScrolledPast200px(currentScrollY > 200);
+
+      if (currentScrollY <= 140) {
+        setIsScrolled(false);
+        lastScrollY.current = currentScrollY;
+      } else if (Math.abs(delta) >= DIRECTION_THRESHOLD) {
+        setIsScrolled(delta > 0);
+        lastScrollY.current = currentScrollY;
+      }
+
+      ticking.current = false;
+    };
+
+    const handleScroll = () => {
+      if (!ticking.current) {
+        ticking.current = true;
+        window.requestAnimationFrame(update);
+      }
+    };
+
+    update();
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [lastScrollY]);
+  }, []);
 
   const skipToContent = () => {
     const mainContent = document.getElementById("main-content");
