@@ -11,7 +11,7 @@ import {
 } from "../src/app/components/about";
 
 export default function About() {
-  const [isBioVisible, setIsBioVisible] = useState(false);
+  const [isBioVisible, setIsBioVisible] = useState(true);
   return (
     <>
       <AboutHero

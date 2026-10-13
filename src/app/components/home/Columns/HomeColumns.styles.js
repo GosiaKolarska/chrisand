@@ -89,6 +89,8 @@ export const ColumnsSectionTitleListItemWrapper = styled.article`
 
   img {
     max-width: 480px;
+    height: auto;
+    border-radius: 12px;
   }
 
   @media (max-width: 790px) {
@@ -112,13 +114,22 @@ export const ColumnsSectionTitleListItemInner = styled.div`
   }
 `;
 
+export const ColumnsSectionTitleListItemInnerMeta = styled.p`
+  color: #213ed7;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+`;
+
 export const ColumnsSectionTitleListItemInnerTitle = styled.h3`
   color: #111;
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
   padding-bottom: 30px;
-  max-width: 330px;
+  max-width: 440px;
 
   @media (max-width: 590px) {
     flex-direction: column;

@@ -1,20 +1,32 @@
 {
     "abouthero": {
         "title": "Hey! I am Chris",
-        "description": "As a Senior Product Designer, I love solving complex problems and creating user-friendly solutions. I'm always looking for ways to innovate and simplify digital experiences.",
+        "description": "I'm a senior product designer who also builds. For 10+ years I've designed software for industries where work happens on site: paper mills, energy, construction. Today I take products from the first interview with a site manager to the code running in production.",
         "list": [
-            "10+ years of experience",
-            "Startup creator [Calenday](https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574)",
-            "Company co-owner [Palladio](https://palladioapp.com)",
+            "10+ years designing B2B software",
+            "Co-founder & product lead [Voltiq](https://voltiq.com.pl)",
+            "Creator of [Chokepoints.io](https://chokepoints.io)",
+            "Founder [Calenday](https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574)",
+            "6 ERP/MES apps for the paper industry",
             "Government advisor [MEDT](https://smart.gov.pl/grupy-robocze/gr-ds-przemyslow-kreatywnych-kis-12/)"
         ],
-        "heroVideoPoster": "about-hero-poster.png"
+        "heroVideoPoster": "homepage-hero-poster.png",
+        "heroVideo": "homepage-hero-video.mp4"
     },
     "experience": {
         "title": "Experience",
         "items": [
             {
-                "title": "Smart metering software",
+                "title": "Voltiq: construction management",
+                "description": "Co-founder and product lead. I designed and built the whole system: an office panel and a mobile app for site crews, connecting the tender cost estimate, subcontractor quotes, contracts, tasks pinned to PDF drawings and progress reports.",
+                "points": [
+                    "Runs a live contract in Krakow: 198 tasks, a 360-item cost estimate imported straight from the client's Excel file, 7 crew members on mobile.",
+                    "Subcontractors quote through a plain link, with no account or password, because every required login kills adoption on site.",
+                    "The crew uploaded 1,565 site photos in a single day without a single failure."
+                ]
+            },
+            {
+                "title": "Comgy: smart metering software",
                 "description": "I took on the responsibility of designing two web platforms and one mobile application.",
                 "points": [
                     "MGM: A platform tailored to real estate companies utilizing an app for their portfolios. The platform aimed to automate reporting, leverage decarbonization potential, meet regulatory obligations and promote energy-saving initiatives.",
@@ -23,8 +35,8 @@
                 ]
             },
             {
-                "title": "Industries Paper management solutions",
-                "description": "I was responsible for the design of six web applications (ERP, MES) integrated within the paper industry, each handling distinct aspects of the business. These applications cover logistics, production, measurement, packaging, HR, and ordering."
+                "title": "Paper industry: ERP & MES",
+                "description": "I designed six integrated web applications (ERP, MES) for the paper industry, each covering a different part of the business: logistics, production, measurement, packaging, HR and ordering."
             },
             {
                 "title": "Taxonomy management software",
@@ -58,19 +70,19 @@
         }
     },
     "aboutlinkedin": {
-        "titleFirstRow": "Passionate",
-        "titleMiddleRowBlue": "problem solver",
+        "titleFirstRow": "Builder,",
+        "titleMiddleRowBlue": "speaker",
         "titleLastRow": "and mentor",
         "description": [
-            "As a designer, I am driven by a passion for innovation and a commitment to sharing my knowledge with others in the design community.",
-            "I have not only refined my design skills but have also won hackathons and spoken at conferences. I am constantly learning and growing as a designer."
+            "I share what I learn while building. I speak at design conferences such as WaysConf and DesignWays, mentor designers, and have won hackathons (HackYeah, Aquathon, CodePlay).",
+            "On stage I talk about the same things I do every day: making complex products simple enough that people on site actually use them."
         ],
         "linkedinText": "Linkedin Profile",
         "linkedinLink": "https://www.linkedin.com/in/krzysztofpisk/",
         "linkedinPhotos": [
             {
                 "imageSrc": "Group 22522.svg",
-                "imageAlt": "win win",
+                "imageAlt": "HackYeah award ceremony",
                 "className": "first",
                 "value": 6,
                 "width": 190,
@@ -78,7 +90,7 @@
             },
             {
                 "imageSrc": "Group 22530.svg",
-                "imageAlt": "won",
+                "imageAlt": "CodePlay 3rd place award",
                 "className": "second",
                 "value": 3,
                 "width": 431,
@@ -86,7 +98,7 @@
             },
             {
                 "imageSrc": "Group 22525.svg",
-                "imageAlt": "test",
+                "imageAlt": "Speaking at DesignWays",
                 "className": "third",
                 "value": 2,
                 "width": 164,
@@ -94,7 +106,7 @@
             },
             {
                 "imageSrc": "Group 22523.svg",
-                "imageAlt": "test4",
+                "imageAlt": "Hosting WaysConf",
                 "className": "forth",
                 "value": -4,
                 "width": 238,
@@ -105,7 +117,7 @@
     "work": {
         "title": "How I make projects",
         "titleBlue": "real",
-        "description": "This is a description of how I make projects real.",
+        "description": "From the first conversation on site to a product people use every day.",
         "steps": [
             {
                 "number": 1,
@@ -128,8 +140,8 @@
             {
                 "number": 4,
                 "title": "Deliver",
-                "contentTitle": "Polish and implement",
-                "content": "In this step, I make sure our design looks good and works well. We test it with users and get their feedback. Then, I create detailed documents and resources to help with the implementation process."
+                "contentTitle": "Ship and stay with it",
+                "content": "I don't stop at handoff. I build or co-build the product, ship it to real users, and keep improving it based on how it is used on site."
             }
         ]
     },
@@ -149,8 +161,8 @@
             },
             {
                 "icon": "skillset-2.svg",
-                "title": "Presentation Skills",
-                "description": "I view presentations as storytelling opportunities to convey design concepts and decisions compellingly, making stakeholders as passionate about our designs as I am."
+                "title": "Design & Code",
+                "description": "I build what I design: Next.js, React, databases and AI tooling. This lets me test ideas on real data, ship faster and talk to developers in their language."
             },
             {
                 "icon": "skillset-3.svg",
@@ -159,8 +171,8 @@
             },
             {
                 "icon": "skillset-4.svg",
-                "title": "Project Management",
-                "description": "I take a proactive role in project management, ensuring design initiatives align with broader goals, keep on track, and deliver on time and within scope."
+                "title": "Domain Knowledge",
+                "description": "Construction, manufacturing, energy. I learn the domain from the people doing the work, so the product follows how the job really gets done, not how it looks in a spec."
             },
             {
                 "icon": "skillset-5.svg",

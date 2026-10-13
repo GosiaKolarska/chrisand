@@ -12,6 +12,7 @@ import {
   ColumnsSectionTitleListItemImage,
   ColumnsSectionTitleListItemInnerTitle,
   ColumnsSectionTitleListItemInnerParagraph,
+  ColumnsSectionTitleListItemInnerMeta,
 } from "./HomeColumns.styles";
 import Image from "next/image";
 
@@ -28,11 +29,16 @@ const HomeColumns = () => {
               <ColumnsSectionTitleListItemWrapper>
                 <Image
                   src={`/assets/${column.image}`}
-                  alt={`Story about ${column.headline}`}
-                  width="480"
-                  height="430"
+                  alt={column.headline}
+                  width={column.width || 480}
+                  height={column.height || 430}
                 />
                 <ColumnsSectionTitleListItemInner>
+                  {column.meta && (
+                    <ColumnsSectionTitleListItemInnerMeta>
+                      {column.meta}
+                    </ColumnsSectionTitleListItemInnerMeta>
+                  )}
                   <ColumnsSectionTitleListItemInnerTitle>
                     {column.headline}
                   </ColumnsSectionTitleListItemInnerTitle>

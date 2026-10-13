@@ -1,12 +1,12 @@
 {
     "hero": {
-        "title": "Product Designer \n in love with Storytelling",
-        "description": "I believe that complicated products can be explained in an easygoing way",
+        "title": "I design and build software \n for work that happens on site",
+        "description": "Product designer for construction, manufacturing and energy. I take products from the first sketch to the code that runs in production.",
         "links": [
             {
                 "href": "#case-studies",
                 "type": "background",
-                "text": "Case studies"
+                "text": "See my work"
             },
             {
                 "href": "/about",
@@ -14,9 +14,9 @@
                 "text": "About me"
             }
         ],
-        "heroVideo": "homepage-hero-video.mp4",
-        "heroVideoPoster": "homepage-hero-poster.png",
-        "trusted": "They trusted me",
+        "heroVideo": "voltiq-hero-video.mp4",
+        "heroVideoPoster": "voltiq-hero-poster.jpg",
+        "trusted": "Clients and teams I've worked with",
         "companies": [
             {
                 "logo": "logo-tietoevry.svg",
@@ -46,31 +46,47 @@
         ]
     },
     "stories": {
-        "title": "My favourite stories",
+        "title": "Selected work",
         "columns": [
             {
+                "image": "work-voltiq.jpg",
+                "width": 1200,
+                "height": 750,
+                "meta": "Voltiq · Co-founder & product lead · 2026–now",
+                "headline": "Construction management system, from tender to warranty",
+                "description": "I designed and built an office panel and a mobile app for site crews: cost estimate, subcontractor quotes, tasks and progress reports in one chain. It runs a live contract in Krakow: 198 tasks, 360 cost items, and 1,565 site photos uploaded by the crew in a single day.",
+                "href": "https://voltiq.com.pl",
+                "type": "underline-arrow",
+                "text": "Visit voltiq.com.pl"
+            },
+            {
+                "image": "work-chokepoints-map.png",
+                "width": 960,
+                "height": 860,
+                "meta": "Chokepoints.io · Independent project · 2026",
+                "headline": "Why fuel gets more expensive, explained on one map",
+                "description": "An interactive map of global oil flows and the straits they pass through, ending with the price of a litre of fuel in each EU country. Built on UN Comtrade, JODI and EU data, refreshed automatically every day, in five languages.",
+                "href": "https://chokepoints.io",
+                "type": "underline-arrow",
+                "text": "Explore the map"
+            },
+            {
                 "image": "column1.png",
-                "headline": "Energy Data Infrastructure",
-                "description": "Platform where you can easily check the energy consumption of your building.",
+                "headline": "Energy data platform for real estate",
+                "description": "Two web platforms and a mobile app for smart metering: portfolio reporting and decarbonisation for property companies, a consumption portal for tenants, and a field app for device installers.",
                 "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84",
                 "type": "underline-arrow",
-                "text": "Check case study"
+                "text": "Read the case study",
+                "meta": "Comgy · Senior product designer"
             },
             {
                 "image": "column2.png",
-                "headline": "Smart calendar",
-                "description": "As a personal trainer, you want to make scheduling easier for your customers.",
+                "meta": "Calenday · Founder · research, product, sales",
+                "headline": "Scheduling app for personal trainers, from interviews to paid licences",
+                "description": "I spotted the problem at my own gym, ran 16 interviews with trainers and built a team of seven around it. The first version made scheduling slower, so I rebuilt it around automation and mapped the scheduling algorithm in diagrams to fix 30–45 second recalculations. Pre-sales turned into paying customers.",
                 "href": "https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574",
                 "type": "underline-arrow",
-                "text": "Check case study"
-            },
-            {
-                "image": "column3.png",
-                "headline": "Github pull request",
-                "description": "Improving GitHub pull requests to make code collaboration faster, smarter, and more intuitive for developers.",
-                "href": "https://chris-and-design.notion.site/Github-Case-Study-35b5354ea79642c787596281d165a3db",
-                "type": "underline-arrow",
-                "text": "Check case study"
+                "text": "Read the case study"
             }
         ]
     }

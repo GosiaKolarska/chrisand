@@ -23,6 +23,7 @@ export const VideoContainer = styled.div`
   video {
     width: 100%;
     height: auto;
+    opacity: 0.55;
   }
 
   &::after {
@@ -44,7 +45,7 @@ export const VideoContainer = styled.div`
     width: 100%;
 
     video {
-      opacity: 0.4;
+      opacity: 0.3;
     }
   }
 `;
