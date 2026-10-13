@@ -59,19 +59,24 @@ export const RightColumn = styled.div`
     }
   }
 
-  iframe {
+  video {
+    display: block;
+    width: 100%;
     max-height: 360px;
+    aspect-ratio: 1.22;
+    object-fit: cover;
+    background-color: #000;
     border-radius: 12px 12px 12px 0px;
   }
 
   @media (max-width: 790px) {
-    iframe {
+    video {
       max-height: 290px;
     }
   }
 
   @media (max-width: 590px) {
-    iframe {
+    video {
       max-height: 270px;
     }
   }

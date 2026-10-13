@@ -1,18 +1,19 @@
 {
     "siteMetadata": {
-        "title": "Chris Piskorz - Product Designer",
-        "description": "Transforming Complex Challenges into User-Friendly Solutions | Specializing in MES and ERP Industries | Expert Problem Solver with a User-Centric Approach | Discover My Product Design Case Studies",
+        "title": "Chris Piskorz – Product designer for construction, manufacturing & energy software",
+        "description": "I design and build B2B software for work that happens on site: construction management, MES/ERP for manufacturing, and energy data platforms. From discovery to a product in production.",
         "keywords": [
-            "User-Centric Design",
-            "MES Expertise",
-            "ERP Solutions",
-            "Problem-Solving",
-            "Product Design",
-            "Case Studies",
-            "Innovation in Technology",
-            "Process Optimization",
-            "User Experience (UX)",
-            "Industry-Specific Design"
+            "Product Designer",
+            "B2B Product Design",
+            "Construction Software",
+            "ConTech",
+            "MES",
+            "ERP",
+            "Manufacturing Software",
+            "Energy Data",
+            "Field Service App",
+            "Design Engineer",
+            "Data Visualization"
         ],
         "author": "Chris Piskorz"
     },
@@ -29,34 +30,34 @@
         }
     ],
     "footer": {
-        "copy": "© 2025. Based in Krakow, coded by my beloved sister ️❤️"
+        "copy": "© 2026. Based in Krakow, coded by my beloved sister ️❤️"
     },
     "testimonials": {
-        "title": "Listen to what they said about me",
+        "title": "What it's like to work with me",
         "people": [
             {
                 "name": "Aneta Rejdych",
                 "role": "Product designer at TietoEvry",
-                "video": "https://www.dailymotion.com/video/k50ufKch11ZvVlzEsyW"
+                "video": "aneta.mp4"
             },
             {
                 "name": "Franziska Kaiser",
                 "role": "Product manager at Comgy",
-                "video": "https://www.dailymotion.com/video/k2KxomC2ij6tLezEsyV"
+                "video": "franziska.mp4"
             },
             {
                 "name": "Marcin Wluka",
                 "role": "Product Owner at GSC",
-                "video": "https://www.dailymotion.com/video/k5UgcJG8VZwdMQzECLu"
+                "video": "marcin.mp4"
             }
         ]
     },
     "cta": {
-        "title": "Need help?",
+        "title": "Have a complex product to untangle?",
         "link": {
             "href": "/about",
             "type": "underline-arrow",
-            "text": "Send me a message"
+            "text": "Tell me about your project"
         }
     }
 }

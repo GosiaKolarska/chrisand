@@ -25,29 +25,18 @@ const VideoSection = () => {
     threshold: 0,
   });
 
-  const extractDailymotionId = (url) => {
-    const match = url.match(/video\/([a-zA-Z0-9]+)/);
-    return match ? match[1] : null;
-  };
-
   const videoRefs = useRef([]);
-  videoRefs.current = people.map(
-    (_, i) => videoRefs.current[i] ?? React.createRef()
-  );
 
+  // Play the selected testimonial (muted) while the section is on screen and pause the rest
   useEffect(() => {
-    const updateVideoSource = (index) => {
-      if (videoRefs.current[index]) {
-        const videoId = extractDailymotionId(people[index].video);
-        videoRefs.current[
-          index
-        ].current.src = `https://www.dailymotion.com/embed/video/${videoId}?queue-enable=false&ui-start-screen-info=false${
-          index === selectedVideo && inView ? "&autoplay=1" : "&autoplay=0"
-        }&mute=1&queue-autoplay-next=false&sharing-enable=false&ui-logo=false&subtitles`;
+    videoRefs.current.forEach((video, index) => {
+      if (!video) return;
+      if (index === selectedVideo && inView) {
+        video.play().catch(() => {});
+      } else {
+        video.pause();
       }
-    };
-
-    updateVideoSource(selectedVideo);
+    });
   }, [selectedVideo, inView]);
 
   return (
@@ -110,14 +99,16 @@ const VideoSection = () => {
                   }`}
                   role="tabpanel"
                 >
-                  <iframe
-                    ref={videoRefs.current[index]}
-                    frameBorder="0"
-                    width="100%"
-                    height="480"
-                    allow="autoplay"
-                    title={`video-${index}`}
-                  ></iframe>
+                  <video
+                    ref={(el) => (videoRefs.current[index] = el)}
+                    src={`/assets/testimonials/${person.video}#t=0.1`}
+                    muted
+                    playsInline
+                    controls
+                    loop
+                    preload={index === selectedVideo ? "metadata" : "none"}
+                    aria-label={`${person.name}, ${person.role}, talks about working with Chris`}
+                  />
                 </li>
               ))}
             </ul>
