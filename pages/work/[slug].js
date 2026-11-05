@@ -8,10 +8,12 @@ export default function Work({ slug }) {
 export function getStaticPaths() {
   return {
     paths: caseSlugs.map((slug) => ({ params: { slug } })),
-    fallback: false,
+    fallback: "blocking",
   };
 }
 
 export function getStaticProps({ params }) {
-  return { props: { slug: params.slug } };
+  return caseSlugs.includes(params.slug)
+    ? { props: { slug: params.slug } }
+    : { notFound: true };
 }
