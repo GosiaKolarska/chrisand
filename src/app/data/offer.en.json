@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "title": "Work with me – Chris Piskorz",
+    "description": "I design and build tools for companies and improve digital products. Fixed price, working result."
+  },
+  "hero": {
+    "eyebrow": "Projects and collaboration",
+    "title": "I turn Excel and WhatsApp into a tool your company",
+    "titleAccent": "actually uses",
+    "summary": "I talk to the people, design and build it myself. No handoffs between teams.",
+    "primary": "Write to me",
+    "secondary": "See my work",
+    "image": "/assets/work-voltiq.jpg",
+    "imageAlt": "Voltiq screen comparing a subcontractor's quote with the cost estimate, with accept buttons",
+    "sheetName": "estimate_FINAL_v3_new.xlsx",
+    "sheet": ["Install", "7 pcs", "PLN 502", "Testing", "#REF!", "???"],
+    "chat": ["Who has Friday's report?", "Sent it in the group, have a look"],
+    "note": "Call back about the invoice!!"
+  },
+  "packagesTitle": "Three ways to start",
+  "packages": [
+    {
+      "id": "diagnosis",
+      "name": "Diagnosis with a prototype",
+      "forWhom": "When you know a process hurts, but not what to build.",
+      "items": [
+        "Interviews with the people doing the work",
+        "Problem map and a recommended scope",
+        "Clickable prototype to show your team"
+      ],
+      "duration": "3–5 days",
+      "price": "from PLN 2,500"
+    },
+    {
+      "id": "tool",
+      "name": "A tool for your company",
+      "forWhom": "When work runs on spreadsheets, email and chat apps.",
+      "items": [
+        "Working app for one specific process",
+        "Data moved over from your current files",
+        "Rollout with your team and fixes after launch"
+      ],
+      "duration": "2–4 weeks",
+      "price": "from PLN 8,000"
+    },
+    {
+      "id": "sprint",
+      "name": "Product sprint",
+      "forWhom": "When you run an app and one problem holds back results.",
+      "items": [
+        "Analysis of one area, such as onboarding or checkout",
+        "Prototype checked against a real flow",
+        "Working fix or a ready specification"
+      ],
+      "duration": "5 days",
+      "price": "from PLN 6,000"
+    }
+  ],
+  "art": {
+    "tool": [
+      { "label": "Handover report", "status": "Done" },
+      { "label": "Subcontractor quote", "status": "Waiting", "waiting": true },
+      { "label": "Site photos", "status": "Done" }
+    ],
+    "days": ["Mo", "Tu", "We", "Th", "Fr"]
+  },
+  "stepsTitle": "No surprises along the way",
+  "steps": [
+    { "title": "Conversation", "text": "15 minutes about the problem. If it's not for me, I'll say so right away." },
+    { "title": "Fixed quote", "text": "Scope, deadline and price in writing before we start." },
+    { "title": "Deposit", "text": "50% to start, the rest on acceptance." },
+    { "title": "Working result", "text": "I hand over something you can use, not just a document." }
+  ],
+  "casesTitle": "From the first conversation to a working product",
+  "cases": [
+    {
+      "tag": "Voltiq · co-founder, product and code",
+      "title": "Construction management system, from tender to warranty",
+      "text": "An office panel and a crew app joined into one chain: cost estimate, subcontractor quotes, tasks and reports. Runs a live contract in Krakow.",
+      "image": "/assets/voltiq-hero-poster.jpg",
+      "imageAlt": "Voltiq panel with a cost estimate and a subcontractor's quote",
+      "stats": [
+        { "value": "198", "label": "tasks in the contract" },
+        { "value": "360", "label": "cost items from Excel" },
+        { "value": "1,565", "label": "site photos in one task" }
+      ],
+      "href": "https://voltiq.com.pl",
+      "link": "See Voltiq"
+    },
+    {
+      "tag": "Chokepoints.io · independent project",
+      "title": "Why fuel gets more expensive, explained on one map",
+      "text": "An interactive map of global oil flows, ending with the price of a litre of fuel in each EU country. Data from UN Comtrade, JODI and the EU updates itself.",
+      "image": "/assets/work-chokepoints-map.png",
+      "imageAlt": "Map of oil flows and chokepoints in Chokepoints.io",
+      "stats": [
+        { "value": "5", "label": "languages" },
+        { "value": "daily", "label": "automatic refresh" }
+      ],
+      "href": "https://chokepoints.io",
+      "link": "Open the map"
+    },
+    {
+      "tag": "Comgy · senior product designer",
+      "title": "Energy data platform for real estate",
+      "text": "Reporting for property management companies, a consumption portal for tenants and an app for metering device installers.",
+      "image": "/assets/column1.png",
+      "imageAlt": "Comgy panel with tenant history and measurements",
+      "stats": [
+        { "value": "2 + 1", "label": "web platforms and a mobile app" }
+      ],
+      "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84",
+      "link": "Read the case study"
+    }
+  ],
+  "testimonialsTitle": "What it's like to work with me"
+}

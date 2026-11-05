@@ -1,6 +1,6 @@
 import React from "react";
 import StyledLink from "../../common/link/StyledLink";
-import homeData from "../../../data/home.json";
+import { useContent } from "../../../i18n/content";
 import {
   ColumnsSection,
   ColumnsSectionContainer,
@@ -17,6 +17,7 @@ import {
 import Image from "next/image";
 
 const HomeColumns = () => {
+  const { home: homeData, global: globalData } = useContent();
   const { title, columns } = homeData.stories;
 
   return (
@@ -48,7 +49,7 @@ const HomeColumns = () => {
                   <StyledLink
                     href={column.href}
                     type={column.type}
-                    aria-label={`Read more about ${column.headline}`}
+                    aria-label={`${globalData.ui.readMoreAbout} ${column.headline}`}
                   >
                     {column.text}
                   </StyledLink>

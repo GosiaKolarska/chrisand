@@ -77,3 +77,22 @@ export const CtaTitle = styled.h2`
     padding-bottom: 10px;
   }
 `;
+
+export const CtaActions = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+`;
+
+export const CtaEmail = styled.a`
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  overflow-wrap: anywhere;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;

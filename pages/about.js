@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import aboutContent from "../src/app/data/about.json";
+import { useContent } from "../src/app/i18n/content";
 
 import {
   AboutExperience,
@@ -11,6 +11,7 @@ import {
 } from "../src/app/components/about";
 
 export default function About() {
+  const { about: aboutContent } = useContent();
   const [isBioVisible, setIsBioVisible] = useState(true);
   return (
     <>

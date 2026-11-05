@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
-import globalData from "../../../data/global.json";
+import { useContent } from "../../../i18n/content";
 import {
   SectionVideo,
   VideoTitle,
@@ -17,8 +17,11 @@ import {
   VideoTabItemContentParagraph,
 } from "./VideoSection.styles";
 
-const VideoSection = () => {
-  const { title, people } = globalData.testimonials;
+const VideoSection = ({ title: titleOverride }) => {
+  const { global: globalData } = useContent();
+  const { ui } = globalData;
+  const { title: defaultTitle, people } = globalData.testimonials;
+  const title = titleOverride ?? defaultTitle;
   const [selectedVideo, setSelectedVideo] = useState(0);
 
   const { ref, inView } = useInView({
@@ -107,7 +110,7 @@ const VideoSection = () => {
                     controls
                     loop
                     preload={index === selectedVideo ? "metadata" : "none"}
-                    aria-label={`${person.name}, ${person.role}, talks about working with Chris`}
+                    aria-label={`${person.name}, ${person.role}, ${ui.testimonialAbout}`}
                   />
                 </li>
               ))}

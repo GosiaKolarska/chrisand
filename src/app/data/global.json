@@ -1,8 +1,10 @@
 {
     "siteMetadata": {
-        "title": "Chris Piskorz – Product designer for construction, manufacturing & energy software",
+        "title": "Chris Piskorz – Product builder for construction, manufacturing & energy software",
         "description": "I design and build B2B software for work that happens on site: construction management, MES/ERP for manufacturing, and energy data platforms. From discovery to a product in production.",
         "keywords": [
+            "Product Builder",
+            "Product Engineer",
             "Product Designer",
             "B2B Product Design",
             "Construction Software",
@@ -27,10 +29,15 @@
             "text": "About",
             "href": "/about",
             "type": "simple"
+        },
+        {
+            "text": "Work with me",
+            "href": "/work-with-me",
+            "type": "simple"
         }
     ],
     "footer": {
-        "copy": "© 2026. Based in Krakow, coded by my beloved sister ️❤️"
+        "copy": "© 2026 Chris Piskorz. Based in Krakow."
     },
     "testimonials": {
         "title": "What it's like to work with me",
@@ -54,10 +61,26 @@
     },
     "cta": {
         "title": "Have a complex product to untangle?",
+        "email": "hello@chrisand.design",
+        "send": "Send a message",
+        "emailPrefix": "or email",
         "link": {
             "href": "/about",
             "type": "underline-arrow",
             "text": "Tell me about your project"
         }
+    },
+    "ui": {
+        "skip": "Skip to content",
+        "home": "Chris Piskorz Home",
+        "nav": "Main navigation",
+        "switchLanguage": "Przełącz na polski",
+        "switchLabel": "PL",
+        "showBio": "Show full bio",
+        "readMoreAbout": "Read more about",
+        "logoOf": "Logo of",
+        "backgroundVideo": "Background video",
+        "speakingVideo": "Chris speaking at a design conference",
+        "testimonialAbout": "talks about working with Chris"
     }
 }

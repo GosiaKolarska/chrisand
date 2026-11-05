@@ -1,8 +1,9 @@
 import React from "react";
 import { FooterContainer, FooterText } from "./Footer.styles";
-import globalData from "../../../data/global.json";
+import { useContent } from "../../../i18n/content";
 
 const Footer = () => {
+  const { global: globalData } = useContent();
   const { copy } = globalData.footer;
   return (
     <FooterContainer>

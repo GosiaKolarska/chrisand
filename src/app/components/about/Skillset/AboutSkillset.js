@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import aboutContent from "../../../data/about.json";
 import {
   SkillsetSection,
   SkillsetContainer,

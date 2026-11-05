@@ -1,7 +1,7 @@
 {
     "abouthero": {
         "title": "Hey! I am Chris",
-        "description": "I'm a senior product designer who also builds. For 10+ years I've designed software for industries where work happens on site: paper mills, energy, construction. Today I take products from the first interview with a site manager to the code running in production.",
+        "description": "I'm a product builder with a senior design background. For 10+ years I've designed software for industries where work happens on site: paper mills, energy, construction. Today I take products from the first interview with a site manager to the code running in production.",
         "list": [
             "10+ years designing B2B software",
             "Co-founder & product lead [Voltiq](https://voltiq.com.pl)",
@@ -22,7 +22,7 @@
                 "points": [
                     "Runs a live contract in Krakow: 198 tasks, a 360-item cost estimate imported straight from the client's Excel file, 7 crew members on mobile.",
                     "Subcontractors quote through a plain link, with no account or password, because every required login kills adoption on site.",
-                    "The crew uploaded 1,565 site photos in a single day without a single failure."
+                    "The crew uploaded 1,565 site photos during one survey task, with no reported failures and no training."
                 ]
             },
             {

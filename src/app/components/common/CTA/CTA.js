@@ -1,18 +1,25 @@
 import React from "react";
 import StyledLink from "../link/StyledLink";
-import globalData from "../../../data/global.json";
+import { useContent } from "../../../i18n/content";
 import Script from "next/script";
-import { SectionCTA, Container, CtaTitle } from "./CTA.styles";
+import {
+  SectionCTA,
+  Container,
+  CtaTitle,
+  CtaActions,
+  CtaEmail,
+} from "./CTA.styles";
 
 const CTA = () => {
-  const { title, link } = globalData.cta;
+  const { global: globalData } = useContent();
+  const { title, email, send, emailPrefix } = globalData.cta;
 
   return (
     <>
       <SectionCTA as="section" aria-labelledby="cta-title">
         <Container className="container">
           <CtaTitle id="cta-title">{title}</CtaTitle>
-          <div>
+          <CtaActions>
             <a
               className="CTA-link"
               data-tf-slider="c3wb6UMr"
@@ -23,7 +30,7 @@ const CTA = () => {
               data-tf-transitive-search-params="true"
               data-tf-medium="snippet"
             >
-              Send a message
+              {send}
               <svg
                 width="20"
                 height="18"
@@ -37,7 +44,10 @@ const CTA = () => {
                 />
               </svg>
             </a>
-          </div>
+            <CtaEmail href={`mailto:${email}`}>
+              {emailPrefix} {email}
+            </CtaEmail>
+          </CtaActions>
         </Container>
       </SectionCTA>
       <Script

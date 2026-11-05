@@ -1,0 +1,18 @@
+{
+  "person": {
+    "name": "Chris Piskorz",
+    "role": "Projektuję i buduję produkty B2B od ponad 10 lat. Kraków."
+  },
+  "contact": {
+    "title": "Porozmawiajmy 15 minut",
+    "description": "Napisz, co chcesz poprawić albo zbudować. Odpowiem konkretnie, co da się zrobić i ile to potrwa.",
+    "email": "hello@chrisand.design",
+    "phone": "",
+    "calendarUrl": "",
+    "calendarText": "Umów rozmowę"
+  },
+  "ui": {
+    "switchLanguage": "Switch to English",
+    "switchLabel": "EN"
+  }
+}

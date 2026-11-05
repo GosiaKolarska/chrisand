@@ -1,5 +1,5 @@
 import React from "react";
-import aboutContent from "../../../data/about.json";
+import { useContent } from "../../../i18n/content";
 import StyledButton from "../../common/button/StyledButton";
 import {
   HeroSection,
@@ -15,7 +15,9 @@ import {
 } from "./AboutHero.styles";
 
 const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
+  const { about: aboutContent, global: globalData } = useContent();
   const { abouthero } = aboutContent;
+  const { ui } = globalData;
 
   const toggleBio = () => {
     setIsBioVisible(!isBioVisible);
@@ -39,7 +41,7 @@ const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
             loop
             muted
             playsInline
-            aria-label="Chris speaking at a design conference"
+            aria-label={ui.speakingVideo}
             role="img"
             poster={`/assets/${abouthero.heroVideoPoster}`}
           >
@@ -67,7 +69,7 @@ const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
             className={`button-transition ${isBioVisible ? "hide" : "show"}`}
           >
             <StyledButton onClick={toggleBio} color="light">
-              Show full bio
+              {ui.showBio}
             </StyledButton>
           </ButtonMore>
         </LeftContent>

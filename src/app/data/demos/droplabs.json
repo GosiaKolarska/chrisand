@@ -1,0 +1,36 @@
+{
+  "slug": "droplabs",
+  "company": "Droplabs",
+  "meta": { "title": "Demo dla Droplabs – Chris Piskorz" },
+  "hero": {
+    "eyebrow": "Przygotowane dla: Droplabs",
+    "title": "Po odrzuceniu cookies sklep z biletami może zniknąć",
+    "summary": "W jednym ze sprawdzonych sklepów klient, który odmówi zgody, nie widzi biletów ani informacji, co zrobić dalej. Wygląda to na konfigurację po stronie obiektu, a nie błąd widgetu."
+  },
+  "problem": {
+    "title": "Co znalazłem",
+    "paragraphs": [
+      "Narzędzie Cookiebot w trybie automatycznego blokowania traktuje widget jako statystyki. Po odmowie zgody ramka widgetu nie ma adresu źródłowego, jest ukryta i ma wysokość 0.",
+      "Sprawdziłem też inne sklepy, w których da się odrzucić opcjonalne cookies. Tam sprzedaż działała normalnie, więc to pojedynczy przypadek, a nie problem wszystkich wdrożeń."
+    ],
+    "facts": [
+      { "value": "1 z 6", "label": "sprawdzonych sklepów ukrywał bilety po odmowie" },
+      { "value": "0", "label": "komunikatów dla klienta w tym sklepie" }
+    ]
+  },
+  "prototype": {
+    "title": "Prototyp rozwiązania",
+    "description": "Przełączaj warianty i zobacz, co widzi klient. To symulacja na przykładowym obiekcie, bilety i ceny są umowne.",
+    "src": "/demo-files/droplabs/prototype.html",
+    "height": 760,
+    "mobileHeight": 1040
+  },
+  "next": {
+    "title": "Co mogę zrobić dalej",
+    "items": [
+      "Dopisać do instrukcji integracji zalecenia dla stron z blokowaniem cookies",
+      "Zaprojektować czytelny komunikat, gdy widget jest ukryty",
+      "Sprawdzić Twoją ścieżkę zakupu także na telefonie"
+    ]
+  }
+}

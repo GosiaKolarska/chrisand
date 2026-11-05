@@ -1,11 +1,22 @@
 import "../src/app/globals.css";
+import React from "react";
 import Head from "next/head";
 import Layout from "../src/app/components/layout/Layout";
-import global from "../src/app/data/global.json";
+import { useContent } from "../src/app/i18n/content";
+import { alternatePath, localeForPath } from "../src/app/i18n/locale";
 
-function MyApp({ Component, pageProps }) {
+const SITE_URL = "https://chrisand.design";
+const absolute = (path) => `${SITE_URL}${path === "/" ? "/" : path}`;
+
+function MyApp({ Component, pageProps, router }) {
+  const { global } = useContent();
+  const { pathname } = router;
+  const alternate = alternatePath(pathname);
+  const locale = localeForPath(pathname);
+  const Shell = Component.plainLayout ? React.Fragment : Layout;
+
   return (
-    <Layout>
+    <Shell>
       <Head>
         <link
           rel="icon"
@@ -19,23 +30,43 @@ function MyApp({ Component, pageProps }) {
           media="(prefers-color-scheme: dark)"
           type="image/png"
         />
-        <title>{global.siteMetadata.title}</title>
-        <meta name="robots" content="all" />
-        <meta name="description" content={global.siteMetadata.description} />
+        <title key="title">{global.siteMetadata.title}</title>
+        <meta key="robots" name="robots" content="all" />
+        <meta
+          key="description"
+          name="description"
+          content={global.siteMetadata.description}
+        />
         <meta name="keywords" content={global.siteMetadata.keywords} />
         <meta name="author" content={global.siteMetadata.author} />
 
-        <meta property="og:title" content={global.siteMetadata.title} />
         <meta
+          key="og:title"
+          property="og:title"
+          content={global.siteMetadata.title}
+        />
+        <meta
+          key="og:description"
           property="og:description"
           content={global.siteMetadata.description}
         />
         <meta property="og:image" content="https://chrisand.design/meta.png" />
-        <meta property="og:url" content="https://chrisand.design/" />
+        <meta key="og:url" property="og:url" content={absolute(pathname)} />
+        {alternate && <link rel="canonical" href={absolute(pathname)} />}
+        {alternate && (
+          <link rel="alternate" hrefLang={locale} href={absolute(pathname)} />
+        )}
+        {alternate && (
+          <link
+            rel="alternate"
+            hrefLang={locale === "pl" ? "en" : "pl"}
+            href={absolute(alternate)}
+          />
+        )}
         <meta property="og:type" content="website" />
       </Head>
       <Component {...pageProps} />
-    </Layout>
+    </Shell>
   );
 }
 

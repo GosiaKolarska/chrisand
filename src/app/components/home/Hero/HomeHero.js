@@ -1,6 +1,6 @@
 import React from "react";
 import StyledLink from "../../common/link/StyledLink";
-import homeData from "../../../data/home.json";
+import { useContent } from "../../../i18n/content";
 import {
   HeroSection,
   VideoContainer,
@@ -18,6 +18,8 @@ import {
 import Image from "next/image";
 
 const HomeHero = () => {
+  const { home: homeData, global: globalData } = useContent();
+  const { ui } = globalData;
   const { title, description, links, trusted, companies, heroVideo } =
     homeData.hero;
 
@@ -29,7 +31,7 @@ const HomeHero = () => {
           loop
           muted
           playsInline
-          aria-label="Background video"
+          aria-label={ui.backgroundVideo}
           role="img"
           poster={`/assets/${homeData.hero.heroVideoPoster}`}
         >
@@ -69,7 +71,7 @@ const HomeHero = () => {
               <CompanyItem key={company.logo}>
                 <Image
                   src={`/assets/companies-logo/${company.logo}`}
-                  alt={`Logo of ${company.logo.split(".")[0]}`}
+                  alt={`${ui.logoOf} ${company.logo.split(".")[0]}`}
                   width={company.width}
                   height={company.height}
                 />

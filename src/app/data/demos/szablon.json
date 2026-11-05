@@ -1,0 +1,41 @@
+{
+  "slug": "szablon",
+  "company": "Nazwa firmy",
+  "meta": { "title": "Demo dla firmy Nazwa firmy – Chris Piskorz" },
+  "hero": {
+    "eyebrow": "Przygotowane dla: Nazwa firmy",
+    "title": "Jedno zdanie o problemie, który znalazłem",
+    "summary": "Dwa zdania: co się dzieje, kogo to dotyczy i dlaczego warto się tym zająć."
+  },
+  "problem": {
+    "title": "Co znalazłem",
+    "paragraphs": [
+      "Opisz, jak odtworzyć problem. Pisz tylko to, co faktycznie sprawdziłeś."
+    ],
+    "facts": [
+      { "value": "1", "label": "fakt, który da się sprawdzić" },
+      { "value": "2", "label": "drugi fakt, bez szacunków strat" }
+    ]
+  },
+  "media": {
+    "type": "image",
+    "src": "/demo-files/szablon/screen.png",
+    "alt": "Opis zrzutu ekranu"
+  },
+  "prototype": {
+    "title": "Prototyp rozwiązania",
+    "description": "Jedno zdanie, co można tu kliknąć.",
+    "src": "/demo-files/szablon/prototype.html",
+    "height": 760,
+    "mobileHeight": 980
+  },
+  "next": {
+    "title": "Co mogę zrobić dalej",
+    "items": [
+      "Pierwszy konkretny krok",
+      "Drugi konkretny krok"
+    ],
+    "duration": "5 dni",
+    "price": "od 6 000 zł"
+  }
+}

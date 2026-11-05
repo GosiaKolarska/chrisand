@@ -34,10 +34,10 @@ export const StyledHeader = styled.header`
   }
 
   @media (max-width: 790px) {
-    padding: 23px 37px 23px 32px;
+    padding: 23px 32px;
 
     &.top0 {
-      padding: 23px 37px 23px 32px;
+      padding: 23px 32px;
     }
   }
 `;
@@ -47,6 +47,11 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
+
+  @media (max-width: 590px) {
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
 `;
 
 export const Logo = styled.div`
@@ -76,11 +81,21 @@ export const Logo = styled.div`
 
 export const Nav = styled.nav`
   display: flex;
+
+  @media (max-width: 590px) {
+    width: 100%;
+  }
 `;
 
 export const NavList = styled.ul`
   display: flex;
   align-items: center;
+
+  @media (max-width: 590px) {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 `;
 
 export const NavItem = styled.li`
@@ -106,8 +121,20 @@ export const NavItem = styled.li`
   }
 
   @media (max-width: 590px) {
+    a {
+      margin: 0 14px 0 0;
+      padding: 0;
+      font-size: 15px;
+      white-space: nowrap;
+    }
+
     a span {
-      font-size: 18px;
+      padding: 0;
+      font-size: 15px;
+    }
+
+    &:last-child {
+      margin-left: auto;
     }
   }
 `;

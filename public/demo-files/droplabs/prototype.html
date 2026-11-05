@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prototyp</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+:root{--bg:#fff;--card:#fff;--ink:#17202e;--muted:#5d6878;--line:#d9dee6;--brand:#1f6f43;--brand-ink:#fff;--warn:#fff4e5;--warn-line:#e8b66a;--focus:#1259c3}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Red Hat Display",system-ui,-apple-system,"Segoe UI",sans-serif}
+main{padding:16px}
+h1{font-size:28px;line-height:1.2;margin:0 0 8px}
+.lead{color:var(--muted);margin:0 0 24px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.tabs button{font:inherit;padding:8px 14px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button:focus-visible,a:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.stage{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;min-height:260px}
+.stage h2{font-size:20px;margin:0 0 4px;text-align:center}
+.stage>p{color:var(--muted);text-align:center;margin:0 0 20px}
+.notice{background:var(--warn);border:1px solid var(--warn-line);border-radius:10px;padding:16px}
+.notice strong{display:block;margin-bottom:4px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.btn{font:inherit;font-weight:600;padding:10px 16px;border-radius:8px;border:0;background:var(--brand);color:var(--brand-ink);cursor:pointer}
+.ticket{display:flex;justify-content:space-between;gap:16px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-top:8px}
+.ticket small{display:block;color:var(--muted)}
+.why{margin:16px 0 0;color:var(--muted);font-size:15px}
+pre{background:#101722;color:#e7edf5;padding:14px;border-radius:10px;overflow-x:auto;font-size:13px;line-height:1.5;margin:8px 0 0}
+h3{font-size:16px;margin:24px 0 0}
+</style>
+</head>
+<body>
+<main>
+  <div class="tabs" role="tablist" aria-label="Warianty">
+    <button role="tab" id="t0" aria-controls="stage" aria-selected="true" data-v="0">Dziś</button>
+    <button role="tab" id="t1" aria-controls="stage" aria-selected="false" data-v="1">Szybka poprawka</button>
+    <button role="tab" id="t2" aria-controls="stage" aria-selected="false" data-v="2">Docelowo</button>
+  </div>
+  <section class="stage" id="stage" role="tabpanel" aria-live="polite"></section>
+  <p class="why" id="why"></p>
+  <h3>Kod dla tego wariantu</h3>
+  <pre id="code"></pre>
+</main>
+<script>
+const head = '<h2>Witamy w sklepie online</h2><p>Liczba biletów online jest ograniczona.</p>';
+const tickets = '<div class="ticket"><span>Bilet dzienny<small>Wejście w wybranym dniu</small></span><strong>99 zł</strong></div><div class="ticket"><span>Bilet 2 h<small>Poniedziałek–piątek</small></span><strong>70 zł</strong></div>';
+const variants = [
+  {html: head,
+   why: 'Klient nie widzi biletów ani informacji, co się stało. Widget jest w kodzie strony, ale Cookiebot go ukrywa.',
+   code: '<!-- Automatyczne blokowanie Cookiebota -->\n<iframe id="dl-widget"\n  data-cookieconsent="statistics"\n  data-cookieblock-src="https://widget.droplabs.pl/index.html?..."\n  style="display:none"></iframe>'},
+  {html: head + '<div class="notice"><strong>Sklep jest ukryty przez ustawienia cookies</strong>Sprzedaż biletów działa dopiero po zgodzie na cookies statystyczne. Możesz zmienić wybór albo kupić bilet w kasie.<div class="actions"><button class="btn" id="renew">Zmień ustawienia cookies</button></div></div>',
+   why: 'Klient rozumie problem i ma następny krok. Wbudowany mechanizm Cookiebota pokazuje ten blok tylko po odmowie, więc poprawka nie zmienia zasad zgody.',
+   code: '<div class="cookieconsent-optout-statistics">\n  Sklep jest ukryty przez ustawienia cookies.\n  <button onclick="Cookiebot.renew()">Zmień ustawienia cookies</button>\n</div>'},
+  {html: head + tickets,
+   why: 'Sprzedaż działa niezależnie od zgody na statystyki. Wymaga to rozdzielenia cookies niezbędnych do zakupu od analitycznych i potwierdzenia po stronie osoby odpowiedzialnej za RODO.',
+   code: '<!-- Tylko jeśli widget bez zgody używa wyłącznie tego, co niezbędne do zakupu -->\n<iframe id="dl-widget" data-cookieconsent="ignore"\n  src="https://widget.droplabs.pl/index.html?..."></iframe>\n<script data-cookieconsent="ignore"\n  src="https://widget.droplabs.pl/widget.js"><\/script>'}
+];
+const stage = document.getElementById('stage');
+const why = document.getElementById('why');
+const code = document.getElementById('code');
+function show(i){
+  stage.innerHTML = variants[i].html;
+  why.textContent = variants[i].why;
+  code.textContent = variants[i].code;
+  document.querySelectorAll('[role=tab]').forEach((b,n)=>b.setAttribute('aria-selected', String(n===i)));
+  const renew = document.getElementById('renew');
+  if (renew) renew.addEventListener('click', () => show(2));
+  reportHeight();
+}
+function reportHeight(){
+  parent.postMessage({demoHeight: document.querySelector('main').getBoundingClientRect().height}, '*');
+}
+window.addEventListener('resize', reportHeight);
+window.addEventListener('message', (event) => { if (event.data === 'demo:height?') reportHeight(); });
+document.querySelectorAll('[role=tab]').forEach(b=>b.addEventListener('click',()=>show(Number(b.dataset.v))));
+show(0);
+</script>
+</body>
+</html>

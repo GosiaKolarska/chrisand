@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "I design and build software \n for work that happens on site",
-        "description": "Product designer for construction, manufacturing and energy. I take products from the first sketch to the code that runs in production.",
+        "description": "Product builder for construction, manufacturing and energy. I take products from the first conversation on site to the code that runs in production.",
         "links": [
             {
                 "href": "#case-studies",
@@ -9,9 +9,9 @@
                 "text": "See my work"
             },
             {
-                "href": "/about",
+                "href": "/work-with-me",
                 "type": "simple",
-                "text": "About me"
+                "text": "Work with me"
             }
         ],
         "heroVideo": "voltiq-hero-video.mp4",
@@ -54,7 +54,7 @@
                 "height": 750,
                 "meta": "Voltiq · Co-founder & product lead · 2026–now",
                 "headline": "Construction management system, from tender to warranty",
-                "description": "I designed and built an office panel and a mobile app for site crews: cost estimate, subcontractor quotes, tasks and progress reports in one chain. It runs a live contract in Krakow: 198 tasks, 360 cost items, and 1,565 site photos uploaded by the crew in a single day.",
+                "description": "I designed and built an office panel and a mobile app for site crews: cost estimate, subcontractor quotes, tasks and progress reports in one chain. It runs a live contract in Krakow: 198 tasks, 360 cost items, and 1,565 site photos uploaded by the crew during one survey task.",
                 "href": "https://voltiq.com.pl",
                 "type": "underline-arrow",
                 "text": "Visit voltiq.com.pl"

@@ -1,0 +1,93 @@
+{
+    "hero": {
+        "title": "Projektuję i buduję oprogramowanie \n do pracy, która dzieje się w terenie",
+        "description": "Product builder dla budownictwa, produkcji i energetyki. Prowadzę produkty od pierwszej rozmowy na miejscu do kodu działającego na produkcji.",
+        "links": [
+            {
+                "href": "#case-studies",
+                "type": "background",
+                "text": "Zobacz realizacje"
+            },
+            {
+                "href": "/zlecenia",
+                "type": "simple",
+                "text": "Współpraca"
+            }
+        ],
+        "heroVideo": "voltiq-hero-video.mp4",
+        "heroVideoPoster": "voltiq-hero-poster.jpg",
+        "trusted": "Klienci i zespoły, z którymi pracowałem",
+        "companies": [
+            {
+                "logo": "logo-tietoevry.svg",
+                "width": 118.138,
+                "height": 39.049
+            },
+            {
+                "logo": "logo-comgy.svg",
+                "width": 87.202,
+                "height": 21.049
+            },
+            {
+                "logo": "logo-pg.svg",
+                "width": 48.376,
+                "height": 21.049
+            },
+            {
+                "logo": "logo-quppy.svg",
+                "width": 83.193,
+                "height": 21.049
+            },
+            {
+                "logo": "logo-moonite.svg",
+                "width": 84.526,
+                "height": 18.997
+            }
+        ]
+    },
+    "stories": {
+        "title": "Wybrane realizacje",
+        "columns": [
+            {
+                "image": "work-voltiq.jpg",
+                "width": 1200,
+                "height": 750,
+                "meta": "Voltiq · współzałożyciel i lider produktu · od 2026",
+                "headline": "System do prowadzenia budowy, od przetargu po gwarancję",
+                "description": "Zaprojektowałem i zbudowałem panel dla biura oraz aplikację dla ekip na budowie: kosztorys, wyceny podwykonawców, zadania i protokoły w jednym łańcuchu. Działa na żywym kontrakcie w Krakowie: 198 zadań, 360 pozycji kosztorysu i 1565 zdjęć z budowy wgranych przez ekipę w ramach jednego zadania.",
+                "href": "https://voltiq.com.pl",
+                "type": "underline-arrow",
+                "text": "Odwiedź voltiq.com.pl"
+            },
+            {
+                "image": "work-chokepoints-map.png",
+                "width": 960,
+                "height": 860,
+                "meta": "Chokepoints.io · własny projekt · 2026",
+                "headline": "Dlaczego paliwo drożeje, wyjaśnione na jednej mapie",
+                "description": "Interaktywna mapa światowych przepływów ropy i cieśnin, przez które płynie, zakończona ceną litra paliwa w każdym kraju UE. Opiera się na danych UN Comtrade, JODI i UE, odświeża się automatycznie codziennie i działa w pięciu językach.",
+                "href": "https://chokepoints.io",
+                "type": "underline-arrow",
+                "text": "Otwórz mapę"
+            },
+            {
+                "image": "column1.png",
+                "headline": "Platforma danych o energii dla nieruchomości",
+                "description": "Dwie platformy webowe i aplikacja mobilna do pomiaru zużycia: raportowanie i dekarbonizacja dla firm zarządzających nieruchomościami, portal zużycia dla lokatorów i aplikacja dla instalatorów urządzeń.",
+                "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84",
+                "type": "underline-arrow",
+                "text": "Przeczytaj case study (EN)",
+                "meta": "Comgy · senior product designer"
+            },
+            {
+                "image": "column2.png",
+                "meta": "Calenday · założyciel · badania, produkt, sprzedaż",
+                "headline": "Aplikacja do grafików dla trenerów personalnych, od wywiadów po płatne licencje",
+                "description": "Problem zauważyłem na własnej siłowni, przeprowadziłem 16 wywiadów z trenerami i zbudowałem wokół tego siedmioosobowy zespół. Pierwsza wersja spowalniała układanie grafików, więc przebudowałem ją wokół automatyzacji i rozpisałem algorytm na diagramach, żeby usunąć przeliczenia trwające 30–45 sekund. Przedsprzedaż zamieniła się w płacących klientów.",
+                "href": "https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574",
+                "type": "underline-arrow",
+                "text": "Przeczytaj case study (EN)"
+            }
+        ]
+    }
+}

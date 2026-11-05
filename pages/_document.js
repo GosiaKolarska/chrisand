@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
+import { localeForPath } from "../src/app/i18n/locale";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -30,7 +31,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang={localeForPath(this.props.__NEXT_DATA__.page)}>
         <Head />
         <body>
           <Main />

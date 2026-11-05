@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import StyledLink from "../../common/link/StyledLink";
-import aboutContent from "../../../data/about.json";
+import { useContent } from "../../../i18n/content";
 import {
   LinkedinSection,
   LinkedinWrapper,
@@ -15,6 +15,7 @@ import {
 import Image from "next/image";
 
 const AboutLinkedin = () => {
+  const { about: aboutContent } = useContent();
   const linkedinData = aboutContent.aboutlinkedin;
   const parallaxContainer = useRef(null);
 

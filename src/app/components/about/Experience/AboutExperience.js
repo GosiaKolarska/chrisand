@@ -1,5 +1,5 @@
 import React from "react";
-import aboutContent from "../../../data/about.json";
+import { useContent } from "../../../i18n/content";
 import {
   SectionHero,
   Container,
@@ -21,6 +21,7 @@ import {
 } from "./AboutExperience.styles";
 
 const AboutExperience = () => {
+  const { about: aboutContent } = useContent();
   const { experience } = aboutContent;
 
   return (

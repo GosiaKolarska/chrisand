@@ -10,7 +10,8 @@ import {
   NavList,
   NavItem,
 } from "./Header.styles";
-import globalData from "../../../data/global.json";
+import { useContent } from "../../../i18n/content";
+import { alternatePath, homePath } from "../../../i18n/locale";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -18,8 +19,11 @@ function Header() {
   const [isScrolledPast200px, setIsScrolledPast200px] = useState(false);
   const lastScrollY = useRef(0);
   const ticking = useRef(false);
-  const { header } = globalData;
+  const { global: globalData } = useContent();
+  const { header, ui } = globalData;
   const router = useRouter();
+  const alternateHref = alternatePath(router.pathname);
+  const logoHref = homePath(router.pathname.startsWith("/pl") ? "pl" : "en");
 
   useEffect(() => {
     // Ignore small scroll jitter (e.g. trackpad momentum) when deciding direction
@@ -71,15 +75,15 @@ function Header() {
     >
       <Container className="container">
         <a href="#main-content" onClick={skipToContent} className="skip-link">
-          Skip to content
+          {ui.skip}
         </a>
-        <Link href="/" passHref>
-          <Logo aria-label="Chris Piskorz Home">
+        <Link href={logoHref} passHref>
+          <Logo aria-label={ui.home}>
             <span className="logo-first">chris </span>
             <span className="logo-second">piskorz</span>
           </Logo>
         </Link>
-        <Nav aria-label="Main navigation">
+        <Nav aria-label={ui.nav}>
           <NavList>
             {header.map((link) => {
               const isActiveLink = router.pathname === link.href;
@@ -97,6 +101,13 @@ function Header() {
                 </NavItem>
               );
             })}
+            {alternateHref && (
+              <NavItem>
+                <StyledLink href={alternateHref} type="simple">
+                  {ui.switchLabel}
+                </StyledLink>
+              </NavItem>
+            )}
           </NavList>
         </Nav>
       </Container>
