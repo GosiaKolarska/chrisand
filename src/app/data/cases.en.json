@@ -1,0 +1,125 @@
+[
+  {
+    "slug": "voltiq",
+    "title": "Construction management system, from tender to warranty",
+    "summary": "Construction projects worth millions often run on Excel and WhatsApp. Together with co-founders from a contracting company, I built a system where the office and the crew work on the same data.",
+    "facts": [
+      { "label": "Role", "value": "Co-founder, product and development" },
+      { "label": "Scope", "value": "Office panel and a mobile app for the crew" },
+      { "label": "Status", "value": "In production since June 2026" }
+    ],
+    "cover": "/assets/work-voltiq.jpg",
+    "coverAlt": "Voltiq screen comparing a subcontractor's quote with the cost estimate",
+    "problem": {
+      "title": "The problem",
+      "text": "Friday, 5 pm. A site manager calls subcontractors one by one to find out how much they have really done, because Monday's progress report is due. The estimate lives in Excel, tasks live in phones, and site photos get lost in chat."
+    },
+    "sections": [
+      {
+        "title": "The estimate becomes the source of truth",
+        "text": "The tender estimate from the investor's Excel file goes into the system and defines the scope and value of the project. Nobody retypes it by hand.",
+        "image": "/assets/cases/voltiq-kosztorys.jpg",
+        "imageAlt": "Tender table imported from an Excel file"
+      },
+      {
+        "title": "The site runs from a phone",
+        "text": "The crew sees their tasks, uploads photos and reports progress on site. Subcontractors quote through a plain link with no account, because every required login kills adoption on site.",
+        "image": "/assets/cases/voltiq-zadania.jpg",
+        "imageAlt": "Task list with an assigned contractor and site manager"
+      },
+      {
+        "title": "Billing follows the work",
+        "text": "The progress report is calculated from what was reported on site. Completion and value appear automatically, so billing no longer starts with a round of phone calls.",
+        "image": "/assets/cases/voltiq-protokol.jpg",
+        "imageAlt": "Progress report with automatically calculated value"
+      }
+    ],
+    "resultsTitle": "Data from a live contract",
+    "results": [
+      { "value": "1,565", "label": "phone photos in one site survey task" },
+      { "value": "360", "label": "cost items loaded from the investor's Excel" },
+      { "value": "198", "label": "tasks on site" },
+      { "value": "7", "label": "people using the mobile app" }
+    ],
+    "lessonTitle": "What it taught me",
+    "lesson": "On a construction site the hardest people to win over are not in the office, they are the crew. That's why every feature starts from a problem on a specific site, not from market analysis.",
+    "link": { "href": "https://voltiq.com.pl", "text": "Visit voltiq.com.pl" }
+  },
+  {
+    "slug": "comgy",
+    "title": "Changing a tenant without guessing what to click",
+    "summary": "Comgy provides energy data for buildings. Property managers got lost during a routine tenant change, so I rebuilt that flow around one obvious action.",
+    "facts": [
+      { "label": "Role", "value": "Senior product designer" },
+      { "label": "Scope", "value": "Management portal and tenant portal" },
+      { "label": "Way of working", "value": "More than 8 six-week Shape Up cycles" }
+    ],
+    "cover": "/assets/column1.png",
+    "coverAlt": "Comgy panel with tenant history and a change tenant button",
+    "problem": {
+      "title": "The problem",
+      "text": "Managers need to keep data up to date and send tenants consumption information. Across many apartments it was easy to get lost: it wasn't clear whether to edit the current tenant or add a new one, and installer abbreviations were mixed with manager actions."
+    },
+    "sections": [
+      {
+        "title": "Understanding the task, not the screen",
+        "text": "With the product manager I reviewed the existing solution and user reports. I wrote a simple persona, a problem canvas and user stories, then compared the old and new flows on a real task: move a tenant out of a specific apartment."
+      },
+      {
+        "title": "One primary action",
+        "text": "The apartment level got a primary \"Change tenant\" button. Users no longer need to remember whether it's a move-in or a move-out, because the system picks the right form."
+      },
+      {
+        "title": "Fewer pointless questions",
+        "text": "The wizard hides questions that don't apply to the process and shows important values as read-only. Finishing a move-out no longer forces you to add the next tenant, and the notification says who replaced whom."
+      }
+    ],
+    "resultsTitle": "The result",
+    "results": [
+      { "value": "11 of 11", "label": "test users found the option" },
+      { "value": "8+", "label": "six-week cycles with different teams" }
+    ],
+    "lessonTitle": "What stayed in the organisation",
+    "lesson": "Beyond the flow itself, we introduced UX standards such as user flows and user tests. Working with a different team every six weeks also taught me to adapt quickly to new requirements.",
+    "link": { "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84", "text": "Read the full version" }
+  },
+  {
+    "slug": "calenday",
+    "title": "Schedules for trainers: from interviews to the first paid licences",
+    "summary": "Calenday set out to shorten scheduling for personal trainers. I took the product to an MVP and first sales, and after two years my partner and I froze the project.",
+    "facts": [
+      { "label": "Role", "value": "Founder: vision, product, marketing, pre-sales" },
+      { "label": "Team", "value": "7 people, including researchers and consultants" },
+      { "label": "Status", "value": "Frozen after two years of development" }
+    ],
+    "cover": "/assets/column2.png",
+    "coverAlt": "Calenday app view with a trainer's schedule",
+    "problem": {
+      "title": "The problem",
+      "text": "Trainers spend about two hours a week organising their calendars, and clients often move sessions. A perfect schedule quickly turns into a fragmented plan full of gaps."
+    },
+    "sections": [
+      {
+        "title": "Checking that the problem was real",
+        "text": "I ran 16 interviews with trainers in two rounds and mapped the whole scheduling process. Most of them said they would use such a solution."
+      },
+      {
+        "title": "The first version didn't work",
+        "text": "Tests showed trainers spent more time on setup than before. There was a performance problem too: above 30 sessions a week, every change triggered a 30–45 second recalculation."
+      },
+      {
+        "title": "Rebuilt around automation",
+        "text": "Fixed slots, flexible ranges and a smart queue replaced manual decisions. When a session is cancelled, the system proposes a replacement and the trainer only accepts it. I mapped the algorithm in diagrams, which helped solve the performance issue."
+      }
+    ],
+    "resultsTitle": "In the market",
+    "results": [
+      { "value": "16", "label": "interviews with trainers" },
+      { "value": "3rd", "label": "place at Pitching Fight Club" },
+      { "value": "MVP", "label": "and the first licences sold" }
+    ],
+    "lessonTitle": "Why we froze it",
+    "lesson": "Many new smart calendar startups appeared, including AI-based ones, so after two years we froze the project. I came away with hands-on experience in marketing, sales and leading a team on a limited budget.",
+    "link": { "href": "https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574", "text": "Read the full version" }
+  }
+]

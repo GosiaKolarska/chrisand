@@ -55,9 +55,9 @@
                 "meta": "Voltiq · współzałożyciel i lider produktu · od 2026",
                 "headline": "System do prowadzenia budowy, od przetargu po gwarancję",
                 "description": "Zaprojektowałem i zbudowałem panel dla biura oraz aplikację dla ekip na budowie: kosztorys, wyceny podwykonawców, zadania i protokoły w jednym łańcuchu. Działa na żywym kontrakcie w Krakowie: 198 zadań, 360 pozycji kosztorysu i 1565 zdjęć z budowy wgranych przez ekipę w ramach jednego zadania.",
-                "href": "https://voltiq.com.pl",
+                "href": "/pl/work/voltiq",
                 "type": "underline-arrow",
-                "text": "Odwiedź voltiq.com.pl"
+                "text": "Przeczytaj case study"
             },
             {
                 "image": "work-chokepoints-map.png",
@@ -74,9 +74,9 @@
                 "image": "column1.png",
                 "headline": "Platforma danych o energii dla nieruchomości",
                 "description": "Dwie platformy webowe i aplikacja mobilna do pomiaru zużycia: raportowanie i dekarbonizacja dla firm zarządzających nieruchomościami, portal zużycia dla lokatorów i aplikacja dla instalatorów urządzeń.",
-                "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84",
+                "href": "/pl/work/comgy",
                 "type": "underline-arrow",
-                "text": "Przeczytaj case study (EN)",
+                "text": "Przeczytaj case study",
                 "meta": "Comgy · senior product designer"
             },
             {
@@ -84,9 +84,9 @@
                 "meta": "Calenday · założyciel · badania, produkt, sprzedaż",
                 "headline": "Aplikacja do grafików dla trenerów personalnych, od wywiadów po płatne licencje",
                 "description": "Problem zauważyłem na własnej siłowni, przeprowadziłem 16 wywiadów z trenerami i zbudowałem wokół tego siedmioosobowy zespół. Pierwsza wersja spowalniała układanie grafików, więc przebudowałem ją wokół automatyzacji i rozpisałem algorytm na diagramach, żeby usunąć przeliczenia trwające 30–45 sekund. Przedsprzedaż zamieniła się w płacących klientów.",
-                "href": "https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574",
+                "href": "/pl/work/calenday",
                 "type": "underline-arrow",
-                "text": "Przeczytaj case study (EN)"
+                "text": "Przeczytaj case study"
             }
         ]
     }

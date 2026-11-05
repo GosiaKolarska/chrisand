@@ -19,6 +19,24 @@ function generateSiteMap() {
       <url>
         <loc>https://chrisand.design/pl/about</loc>
       </url>
+      <url>
+        <loc>https://chrisand.design/work/voltiq</loc>
+      </url>
+      <url>
+        <loc>https://chrisand.design/work/comgy</loc>
+      </url>
+      <url>
+        <loc>https://chrisand.design/work/calenday</loc>
+      </url>
+      <url>
+        <loc>https://chrisand.design/pl/work/voltiq</loc>
+      </url>
+      <url>
+        <loc>https://chrisand.design/pl/work/comgy</loc>
+      </url>
+      <url>
+        <loc>https://chrisand.design/pl/work/calenday</loc>
+      </url>
       <!-- Add more URLs here -->
     </urlset>
     `;

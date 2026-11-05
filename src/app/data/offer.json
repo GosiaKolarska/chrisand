@@ -84,8 +84,8 @@
         { "value": "360", "label": "pozycji kosztorysu z Excela" },
         { "value": "1 565", "label": "zdjęć z budowy w jednym zadaniu" }
       ],
-      "href": "https://voltiq.com.pl",
-      "link": "Zobacz Voltiq"
+      "href": "/pl/work/voltiq",
+      "link": "Przeczytaj case study"
     },
     {
       "tag": "Chokepoints.io · własny projekt",
@@ -109,8 +109,8 @@
       "stats": [
         { "value": "2 + 1", "label": "platformy webowe i aplikacja mobilna" }
       ],
-      "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84",
-      "link": "Przeczytaj case study (EN)"
+      "href": "/pl/work/comgy",
+      "link": "Przeczytaj case study"
     }
   ],
   "testimonialsTitle": "Jak się ze mną pracuje"

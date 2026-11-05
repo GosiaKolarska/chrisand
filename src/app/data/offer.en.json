@@ -84,8 +84,8 @@
         { "value": "360", "label": "cost items from Excel" },
         { "value": "1,565", "label": "site photos in one task" }
       ],
-      "href": "https://voltiq.com.pl",
-      "link": "See Voltiq"
+      "href": "/work/voltiq",
+      "link": "Read the case study"
     },
     {
       "tag": "Chokepoints.io · independent project",
@@ -109,7 +109,7 @@
       "stats": [
         { "value": "2 + 1", "label": "web platforms and a mobile app" }
       ],
-      "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84",
+      "href": "/work/comgy",
       "link": "Read the case study"
     }
   ],

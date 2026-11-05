@@ -55,9 +55,9 @@
                 "meta": "Voltiq · Co-founder & product lead · 2026–now",
                 "headline": "Construction management system, from tender to warranty",
                 "description": "I designed and built an office panel and a mobile app for site crews: cost estimate, subcontractor quotes, tasks and progress reports in one chain. It runs a live contract in Krakow: 198 tasks, 360 cost items, and 1,565 site photos uploaded by the crew during one survey task.",
-                "href": "https://voltiq.com.pl",
+                "href": "/work/voltiq",
                 "type": "underline-arrow",
-                "text": "Visit voltiq.com.pl"
+                "text": "Read the case study"
             },
             {
                 "image": "work-chokepoints-map.png",
@@ -74,7 +74,7 @@
                 "image": "column1.png",
                 "headline": "Energy data platform for real estate",
                 "description": "Two web platforms and a mobile app for smart metering: portfolio reporting and decarbonisation for property companies, a consumption portal for tenants, and a field app for device installers.",
-                "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84",
+                "href": "/work/comgy",
                 "type": "underline-arrow",
                 "text": "Read the case study",
                 "meta": "Comgy · Senior product designer"
@@ -84,7 +84,7 @@
                 "meta": "Calenday · Founder · research, product, sales",
                 "headline": "Scheduling app for personal trainers, from interviews to paid licences",
                 "description": "I spotted the problem at my own gym, ran 16 interviews with trainers and built a team of seven around it. The first version made scheduling slower, so I rebuilt it around automation and mapped the scheduling algorithm in diagrams to fix 30–45 second recalculations. Pre-sales turned into paying customers.",
-                "href": "https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574",
+                "href": "/work/calenday",
                 "type": "underline-arrow",
                 "text": "Read the case study"
             }

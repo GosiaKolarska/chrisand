@@ -11,7 +11,7 @@ import {
   NavItem,
 } from "./Header.styles";
 import { useContent } from "../../../i18n/content";
-import { alternatePath, homePath } from "../../../i18n/locale";
+import { alternatePath, cleanPath, homePath } from "../../../i18n/locale";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,7 +22,7 @@ function Header() {
   const { global: globalData } = useContent();
   const { header, ui } = globalData;
   const router = useRouter();
-  const alternateHref = alternatePath(router.pathname);
+  const alternateHref = alternatePath(cleanPath(router.asPath));
   const logoHref = homePath(router.pathname.startsWith("/pl") ? "pl" : "en");
 
   useEffect(() => {

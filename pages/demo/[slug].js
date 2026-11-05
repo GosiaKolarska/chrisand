@@ -10,10 +10,11 @@ Demo.plainLayout = true;
 export function getStaticPaths() {
   return {
     paths: demoSlugs.map((slug) => ({ params: { slug } })),
-    fallback: false,
+    fallback: "blocking",
   };
 }
 
 export function getStaticProps({ params }) {
-  return { props: { demo: getDemo(params.slug) } };
+  const demo = getDemo(params.slug);
+  return demo ? { props: { demo } } : { notFound: true };
 }

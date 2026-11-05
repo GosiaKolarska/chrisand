@@ -12,7 +12,11 @@ export const localeForPath = (path) =>
     ? "pl"
     : "en";
 
+export const cleanPath = (path) => path.split(/[?#]/)[0];
+
 export const alternatePath = (path) => {
+  if (path.startsWith("/pl/work/")) return path.replace("/pl/work/", "/work/");
+  if (path.startsWith("/work/")) return `/pl${path}`;
   const pair = PAIRS.find((paths) => paths.includes(path));
   if (!pair) return null;
   return pair[0] === path ? pair[1] : pair[0];

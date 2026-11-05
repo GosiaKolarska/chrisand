@@ -1,0 +1,125 @@
+[
+  {
+    "slug": "voltiq",
+    "title": "System do prowadzenia budowy, od przetargu po gwarancję",
+    "summary": "Budowy za miliony złotych często prowadzi się w Excelu i na WhatsAppie. Razem ze współzałożycielami z firmy wykonawczej zbudowałem system, w którym biuro i ekipa pracują na tych samych danych.",
+    "facts": [
+      { "label": "Rola", "value": "Współzałożyciel, produkt i rozwój systemu" },
+      { "label": "Zakres", "value": "Panel dla biura i aplikacja mobilna dla ekipy" },
+      { "label": "Stan", "value": "Na produkcji od czerwca 2026" }
+    ],
+    "cover": "/assets/work-voltiq.jpg",
+    "coverAlt": "Ekran wyceny podwykonawcy w systemie Voltiq z porównaniem do kosztorysu",
+    "problem": {
+      "title": "Problem",
+      "text": "Piątek, 17:00. Kierownik dzwoni po kolei do podwykonawców, żeby ustalić, ile naprawdę zrobili, bo w poniedziałek musi wystawić protokół. Kosztorys żyje w Excelu, zadania w telefonie, a zdjęcia z budowy giną w czacie."
+    },
+    "sections": [
+      {
+        "title": "Kosztorys staje się źródłem prawdy",
+        "text": "Kosztorys przetargowy z Excela inwestora trafia do systemu i wyznacza zakres oraz wartość budowy. Nikt nie przepisuje go ręcznie.",
+        "image": "/assets/cases/voltiq-kosztorys.jpg",
+        "imageAlt": "Tabela przetargowa zaimportowana z pliku Excel"
+      },
+      {
+        "title": "Budowa dzieje się w telefonie",
+        "text": "Ekipa widzi swoje zadania, wgrywa zdjęcia i zgłasza postęp w terenie. Podwykonawca wycenia przez zwykły link, bez konta, bo każde wymagane logowanie zabija wdrożenie na budowie.",
+        "image": "/assets/cases/voltiq-zadania.jpg",
+        "imageAlt": "Lista zadań z przypisanym wykonawcą i kierownikiem"
+      },
+      {
+        "title": "Rozliczenie wynika z pracy",
+        "text": "Protokół przerobowy liczy się z tego, co zgłoszono na budowie. Procent wykonania i wartość pojawiają się automatycznie, więc rozliczenie nie zaczyna się od serii telefonów.",
+        "image": "/assets/cases/voltiq-protokol.jpg",
+        "imageAlt": "Protokół przerobowy z automatycznie liczoną wartością"
+      }
+    ],
+    "resultsTitle": "Dane z realnego kontraktu",
+    "results": [
+      { "value": "1 565", "label": "zdjęć z telefonów w jednym zadaniu inwentaryzacyjnym" },
+      { "value": "360", "label": "pozycji kosztorysu wczytanych z Excela inwestora" },
+      { "value": "198", "label": "zadań na budowie" },
+      { "value": "7", "label": "osób z aplikacją w telefonie" }
+    ],
+    "lessonTitle": "Czego mnie to nauczyło",
+    "lesson": "Na budowie najtrudniej przekonać nie biuro, tylko ekipę w terenie. Dlatego każda funkcja powstaje z problemu z konkretnej budowy, a nie z analizy rynku.",
+    "link": { "href": "https://voltiq.com.pl", "text": "Odwiedź voltiq.com.pl" }
+  },
+  {
+    "slug": "comgy",
+    "title": "Zmiana lokatora bez zgadywania, co kliknąć",
+    "summary": "Comgy dostarcza dane o energii dla budynków. Zarządcy nieruchomości gubili się przy zwykłej wymianie lokatora, więc przebudowałem tę ścieżkę wokół jednej, oczywistej akcji.",
+    "facts": [
+      { "label": "Rola", "value": "Senior product designer" },
+      { "label": "Zakres", "value": "Portal zarządcy i portal lokatora" },
+      { "label": "Tryb pracy", "value": "Ponad 8 sześciotygodniowych cykli Shape Up" }
+    ],
+    "cover": "/assets/column1.png",
+    "coverAlt": "Panel Comgy z historią lokatorów i przyciskiem zmiany lokatora",
+    "problem": {
+      "title": "Problem",
+      "text": "Zarządca musi aktualizować dane i wysyłać lokatorom informacje o zużyciu. Przy wielu mieszkaniach łatwo się zgubić: nie było jasne, czy edytować obecnego lokatora, czy dodać nowego, a skróty dla instalatorów mieszały się z akcjami zarządcy."
+    },
+    "sections": [
+      {
+        "title": "Zrozumienie zadania, a nie ekranu",
+        "text": "Z product managerem przejrzałem dotychczasowe rozwiązanie i zgłoszenia użytkowników. Rozpisałem persony, canvas problemu i historie użytkownika, a potem porównałem starą i nową ścieżkę na realnym zadaniu: wyprowadź lokatora z konkretnego mieszkania."
+      },
+      {
+        "title": "Jedna główna akcja",
+        "text": "Na poziomie mieszkania pojawił się główny przycisk „Change tenant”. Użytkownik nie musi pamiętać, czy to wprowadzenie, czy wyprowadzka, bo system sam wybiera właściwy formularz."
+      },
+      {
+        "title": "Mniej pytań bez sensu",
+        "text": "Kreator ukrywa pytania, które w danym procesie nie mają znaczenia, a ważne wartości pokazuje jako nieedytowalne. Zakończenie wyprowadzki nie zmusza już do dodania kolejnego lokatora, a powiadomienie mówi wprost, kto kogo zastąpił."
+      }
+    ],
+    "resultsTitle": "Efekt",
+    "results": [
+      { "value": "11 z 11", "label": "osób w testach znalazło tę funkcję" },
+      { "value": "8+", "label": "sześciotygodniowych cykli z różnymi zespołami" }
+    ],
+    "lessonTitle": "Co zostało w organizacji",
+    "lesson": "Oprócz samej ścieżki wprowadziliśmy standardy UX, takie jak przepływy użytkownika i testy. Praca co sześć tygodni z innym zespołem nauczyła mnie też szybko dopasowywać się do nowych wymagań.",
+    "link": { "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84", "text": "Pełna wersja (EN)" }
+  },
+  {
+    "slug": "calenday",
+    "title": "Grafiki dla trenerów: od wywiadów po pierwsze płatne licencje",
+    "summary": "Calenday miało skrócić układanie grafików trenerów personalnych. Doprowadziłem produkt do MVP i pierwszej sprzedaży, a po dwóch latach razem ze wspólnikiem zamroziliśmy projekt.",
+    "facts": [
+      { "label": "Rola", "value": "Założyciel: wizja, produkt, marketing, przedsprzedaż" },
+      { "label": "Zespół", "value": "7 osób, w tym researcherki i konsultantki" },
+      { "label": "Stan", "value": "Zamrożony po dwóch latach rozwoju" }
+    ],
+    "cover": "/assets/column2.png",
+    "coverAlt": "Widok aplikacji Calenday z grafikiem trenera",
+    "problem": {
+      "title": "Problem",
+      "text": "Trenerzy poświęcają około dwóch godzin tygodniowo na układanie kalendarza, a klienci często przekładają treningi. Pierwszy idealny grafik szybko zamienia się w poszatkowany plan z przerwami."
+    },
+    "sections": [
+      {
+        "title": "Sprawdzenie, czy problem istnieje",
+        "text": "Przeprowadziłem 16 wywiadów z trenerami w dwóch iteracjach i rozpisałem cały proces umawiania treningów. Większość rozmówców deklarowała, że skorzystałaby z takiego rozwiązania."
+      },
+      {
+        "title": "Pierwsza wersja nie zadziałała",
+        "text": "Testy pokazały, że trenerzy spędzali na ustawieniach więcej czasu niż wcześniej. Doszedł problem wydajności: powyżej 30 treningów w tygodniu każda zmiana wywoływała przeliczenie trwające 30–45 sekund."
+      },
+      {
+        "title": "Przebudowa wokół automatyzacji",
+        "text": "Stałe sloty, elastyczne zakresy i inteligentna kolejka zastąpiły ręczne decyzje. Po odwołaniu treningu system proponuje zastępstwo, a trener tylko je akceptuje. Algorytm rozpisałem na diagramach, co pomogło rozwiązać problem z wydajnością."
+      }
+    ],
+    "resultsTitle": "Rynek",
+    "results": [
+      { "value": "16", "label": "wywiadów z trenerami" },
+      { "value": "3.", "label": "miejsce na Pitching Fight Club" },
+      { "value": "MVP", "label": "i pierwsze sprzedane licencje" }
+    ],
+    "lessonTitle": "Dlaczego to zamroziliśmy",
+    "lesson": "Na rynku pojawiło się wiele nowych startupów z inteligentnymi kalendarzami, także opartych na AI, więc po dwóch latach zamroziliśmy projekt. Zyskałem praktykę w marketingu, sprzedaży i prowadzeniu zespołu przy ograniczonym budżecie.",
+    "link": { "href": "https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574", "text": "Pełna wersja (EN)" }
+  }
+]

@@ -3,14 +3,18 @@ import React from "react";
 import Head from "next/head";
 import Layout from "../src/app/components/layout/Layout";
 import { useContent } from "../src/app/i18n/content";
-import { alternatePath, localeForPath } from "../src/app/i18n/locale";
+import {
+  alternatePath,
+  cleanPath,
+  localeForPath,
+} from "../src/app/i18n/locale";
 
 const SITE_URL = "https://chrisand.design";
 const absolute = (path) => `${SITE_URL}${path === "/" ? "/" : path}`;
 
 function MyApp({ Component, pageProps, router }) {
   const { global } = useContent();
-  const { pathname } = router;
+  const pathname = cleanPath(router.asPath);
   const alternate = alternatePath(pathname);
   const locale = localeForPath(pathname);
   const Shell = Component.plainLayout ? React.Fragment : Layout;
