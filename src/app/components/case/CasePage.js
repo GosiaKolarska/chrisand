@@ -195,6 +195,7 @@ const CasePage = ({ slug, locale }) => {
 
         <Cover style={{ background: item.tone }}>
           <img src={item.cover} alt={item.coverAlt} />
+        {item.coverNote && <figcaption>{item.coverNote}</figcaption>}
         </Cover>
 
         <Facts>

@@ -40,7 +40,7 @@
     "imageAlt": "Task list with the contractor and site manager in Voltiq",
     "tag": "Voltiq · project lead",
     "title": "The office and the crew work on the same data",
-    "text": "A construction management system, from tender to warranty. It runs a live contract in Krakow.",
+    "text": "A construction management system, from tender to warranty. It runs a live contract in Krakow. The interface is in Polish because Voltiq is built for Polish contractors.",
     "stats": [
       {
         "value": "198",
@@ -121,7 +121,7 @@
       {
         "title": "Schedules for trainers: from interviews to the first licences",
         "text": "16 interviews, a failed first version, a rebuild and the first sales.",
-        "image": "/assets/column2.png",
+        "image": "/assets/cases/calenday-tile.webp",
         "imageAlt": "Calenday app with a trainer's schedule",
         "tone": "#f1d3b6",
         "meta": "Calenday · founder",

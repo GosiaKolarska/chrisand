@@ -73,6 +73,14 @@ export const Cover = styled.figure`
     box-shadow: 0 12px 44px rgba(34, 33, 29, 0.2);
   }
 
+  figcaption {
+    margin-top: clamp(16px, 2vw, 24px);
+    color: ${muted};
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
   @media (max-width: 790px) {
     width: calc(100% - 16px);
     padding: 16px;
