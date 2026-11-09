@@ -8,7 +8,7 @@
     "description": "I'm a product builder with a senior design background. For 10+ years I've designed B2B software, including for paper mills, energy and construction. Today I take products from the first conversation with a user to a working version in production.",
     "list": [
       "10+ years designing B2B software",
-      "Co-founder & product lead [Voltiq](https://voltiq.com.pl)",
+      "Project lead [Voltiq](https://voltiq.com.pl)",
       "Creator of [Chokepoints.io](https://chokepoints.io)",
       "Founder [Calenday](/work/calenday)",
       "6 ERP/MES apps for the paper industry",
@@ -20,7 +20,7 @@
     "items": [
       {
         "title": "Voltiq: construction management",
-        "description": "Co-founder and product lead. I designed and built the whole system: an office panel and a mobile app for site crews, connecting the tender cost estimate, subcontractor quotes, contracts, tasks pinned to PDF drawings and progress reports.",
+        "description": "Project lead. I designed and built the whole system: an office panel and a mobile app for site crews, connecting the tender cost estimate, subcontractor quotes, contracts, tasks pinned to PDF drawings and progress reports.",
         "points": [
           "Runs a live contract in Krakow: 198 tasks, a 360-item cost estimate imported straight from the client's Excel file, 7 crew members on mobile.",
           "Subcontractors quote through a plain link, with no account or password, because every required login kills adoption on site.",

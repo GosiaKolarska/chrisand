@@ -2,12 +2,8 @@
   {
     "slug": "voltiq",
     "title": "Construction management system, from tender to warranty",
-    "summary": "Construction projects worth millions often run on Excel and WhatsApp. Together with co-founders from a contracting company, I built a system where the office and the crew work on the same data.",
+    "summary": "Construction projects worth millions often run on Excel and WhatsApp. Together with a contracting company, I built a system where the office and the crew work on the same data.",
     "facts": [
-      {
-        "label": "Role",
-        "value": "Co-founder, product and development"
-      },
       {
         "label": "Scope",
         "value": "Office panel and a mobile app for the crew"

@@ -2,12 +2,8 @@
   {
     "slug": "voltiq",
     "title": "System do prowadzenia budowy, od przetargu po gwarancję",
-    "summary": "Budowy za miliony złotych często prowadzi się w Excelu i na WhatsAppie. Razem ze współzałożycielami z firmy wykonawczej zbudowałem system, w którym biuro i ekipa pracują na tych samych danych.",
+    "summary": "Budowy za miliony złotych często prowadzi się w Excelu i na WhatsAppie. Razem z firmą wykonawczą zbudowałem system, w którym biuro i ekipa pracują na tych samych danych.",
     "facts": [
-      {
-        "label": "Rola",
-        "value": "Współzałożyciel, produkt i rozwój systemu"
-      },
       {
         "label": "Zakres",
         "value": "Panel dla biura i aplikacja mobilna dla ekipy"
