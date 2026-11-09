@@ -51,7 +51,15 @@ function MyApp({ Component, pageProps, router }) {
           property="og:description"
           content={global.siteMetadata.description}
         />
-        <meta property="og:image" content="https://chrisand.design/meta.png" />
+        <meta
+          key="og:image"
+          property="og:image"
+          content={`${SITE_URL}/og-${locale === "pl" ? "pl" : "en"}.jpg`}
+        />
+        <meta property="og:image:width" content="2400" />
+        <meta property="og:image:height" content="1260" />
+        <meta property="og:image:alt" content={global.siteMetadata.title} />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta key="og:url" property="og:url" content={absolute(pathname)} />
         {alternate && <link rel="canonical" href={absolute(pathname)} />}
         {alternate && (
