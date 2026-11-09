@@ -6,6 +6,13 @@ const nextConfig = {
       displayName: true,
     },
   },
+  // The offer page was merged into the home page.
+  async redirects() {
+    return [
+      { source: "/zlecenia", destination: "/pl#wspolpraca", permanent: false },
+      { source: "/work-with-me", destination: "/#wspolpraca", permanent: false },
+    ];
+  },
   async headers() {
     const noindex = [{ key: "X-Robots-Tag", value: "noindex, nofollow" }];
     return [

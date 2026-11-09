@@ -1,194 +1,172 @@
 {
-    "abouthero": {
-        "title": "Hey! I am Chris",
-        "description": "I'm a product builder with a senior design background. For 10+ years I've designed software for industries where work happens on site: paper mills, energy, construction. Today I take products from the first interview with a site manager to the code running in production.",
-        "list": [
-            "10+ years designing B2B software",
-            "Co-founder & product lead [Voltiq](https://voltiq.com.pl)",
-            "Creator of [Chokepoints.io](https://chokepoints.io)",
-            "Founder [Calenday](https://chrisand.design/work/calenday)",
-            "6 ERP/MES apps for the paper industry",
-            "Government advisor [MEDT](https://smart.gov.pl/grupy-robocze/gr-ds-przemyslow-kreatywnych-kis-12/)"
-        ],
-        "heroVideoPoster": "homepage-hero-poster.png",
-        "heroVideo": "homepage-hero-video.mp4"
-    },
-    "experience": {
-        "title": "Experience",
-        "items": [
-            {
-                "title": "Voltiq: construction management",
-                "description": "Co-founder and product lead. I designed and built the whole system: an office panel and a mobile app for site crews, connecting the tender cost estimate, subcontractor quotes, contracts, tasks pinned to PDF drawings and progress reports.",
-                "points": [
-                    "Runs a live contract in Krakow: 198 tasks, a 360-item cost estimate imported straight from the client's Excel file, 7 crew members on mobile.",
-                    "Subcontractors quote through a plain link, with no account or password, because every required login kills adoption on site.",
-                    "The crew uploaded 1,565 site photos during one survey task, with no reported failures and no training."
-                ]
-            },
-            {
-                "title": "Comgy: smart metering software",
-                "description": "I took on the responsibility of designing two web platforms and one mobile application.",
-                "points": [
-                    "MGM: A platform tailored to real estate companies utilizing an app for their portfolios. The platform aimed to automate reporting, leverage decarbonization potential, meet regulatory obligations and promote energy-saving initiatives.",
-                    "Tenant Portal: An interactive tenant portal enabling users to monitor their consumption and identify potential areas for energy savings.",
-                    "MIM: A mobile application designed for installers who have install devices in real estates."
-                ]
-            },
-            {
-                "title": "Paper industry: ERP & MES",
-                "description": "I designed six integrated web applications (ERP, MES) for the paper industry, each covering a different part of the business: logistics, production, measurement, packaging, HR and ordering."
-            },
-            {
-                "title": "Taxonomy management software",
-                "description": "I was responsible for the design of a web application for businesses that deal with large volumes of data."
-            }
-        ],
-        "awards": {
-            "title": "Awards",
-            "items": [
-                {
-                    "title": "Aquathon 2021",
-                    "position": "1st place",
-                    "description": "A portal for local activists to assess the advantages of implementing retention measures in the city."
-                },
-                {
-                    "title": "HackYeah 2020",
-                    "position": "1st place",
-                    "description": "An agricultural farm portal that enables the calculation of afforestation benefits."
-                },
-                {
-                    "title": "CodePlay 2019",
-                    "position": "3rd place",
-                    "description": "An AI-powered application that utilizes Machine Learning to track users and notify them about nearby store discounts."
-                },
-                {
-                    "title": "HackYeah 2018",
-                    "position": "3rd place",
-                    "description": "A web application designed to compute the most efficient route for heavy transport."
-                }
-            ]
+  "meta": {
+    "title": "About – Chris Piskorz",
+    "description": "Product builder with a senior design background. 10+ years of B2B software, from the first user conversation to a working product."
+  },
+  "abouthero": {
+    "title": "Hey! I am Chris",
+    "description": "I'm a product builder with a senior design background. For 10+ years I've designed B2B software, including for paper mills, energy and construction. Today I take products from the first conversation with a user to a working version in production.",
+    "list": [
+      "10+ years designing B2B software",
+      "Co-founder & product lead [Voltiq](https://voltiq.com.pl)",
+      "Creator of [Chokepoints.io](https://chokepoints.io)",
+      "Founder [Calenday](/work/calenday)",
+      "6 ERP/MES apps for the paper industry",
+      "Government advisor [MEDT](https://smart.gov.pl/grupy-robocze/gr-ds-przemyslow-kreatywnych-kis-12/)"
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "title": "Voltiq: construction management",
+        "description": "Co-founder and product lead. I designed and built the whole system: an office panel and a mobile app for site crews, connecting the tender cost estimate, subcontractor quotes, contracts, tasks pinned to PDF drawings and progress reports.",
+        "points": [
+          "Runs a live contract in Krakow: 198 tasks, a 360-item cost estimate imported straight from the client's Excel file, 7 crew members on mobile.",
+          "Subcontractors quote through a plain link, with no account or password, because every required login kills adoption on site.",
+          "The crew uploaded 1,565 site photos during one survey task, with no reported failures and no training."
+        ]
+      },
+      {
+        "title": "Comgy: smart metering software",
+        "description": "I took on the responsibility of designing two web platforms and one mobile application.",
+        "points": [
+          "MGM: A platform tailored to real estate companies utilizing an app for their portfolios. The platform aimed to automate reporting, leverage decarbonization potential, meet regulatory obligations and promote energy-saving initiatives.",
+          "Tenant Portal: An interactive tenant portal enabling users to monitor their consumption and identify potential areas for energy savings.",
+          "MIM: A mobile application designed for installers who have install devices in real estates."
+        ]
+      },
+      {
+        "title": "Paper industry: ERP & MES",
+        "description": "I designed six integrated web applications (ERP, MES) for the paper industry, each covering a different part of the business: logistics, production, measurement, packaging, HR and ordering."
+      },
+      {
+        "title": "Taxonomy management software",
+        "description": "I was responsible for the design of a web application for businesses that deal with large volumes of data."
+      }
+    ],
+    "awards": {
+      "title": "Awards",
+      "items": [
+        {
+          "title": "Aquathon 2021",
+          "position": "1st place",
+          "description": "A portal for local activists to assess the advantages of implementing retention measures in the city."
+        },
+        {
+          "title": "HackYeah 2020",
+          "position": "1st place",
+          "description": "An agricultural farm portal that enables the calculation of afforestation benefits."
+        },
+        {
+          "title": "CodePlay 2019",
+          "position": "3rd place",
+          "description": "An AI-powered application that utilizes Machine Learning to track users and notify them about nearby store discounts."
+        },
+        {
+          "title": "HackYeah 2018",
+          "position": "3rd place",
+          "description": "A web application designed to compute the most efficient route for heavy transport."
         }
-    },
-    "aboutlinkedin": {
-        "titleFirstRow": "Builder,",
-        "titleMiddleRowBlue": "speaker",
-        "titleLastRow": "and mentor",
-        "description": [
-            "I share what I learn while building. I speak at design conferences such as WaysConf and DesignWays, mentor designers, and have won hackathons (HackYeah, Aquathon, CodePlay).",
-            "On stage I talk about the same things I do every day: making complex products simple enough that people on site actually use them."
-        ],
-        "linkedinText": "Linkedin Profile",
-        "linkedinLink": "https://www.linkedin.com/in/krzysztofpisk/",
-        "linkedinPhotos": [
-            {
-                "imageSrc": "Group 22522.svg",
-                "imageAlt": "HackYeah award ceremony",
-                "className": "first",
-                "value": 6,
-                "width": 190,
-                "height": 114.68
-            },
-            {
-                "imageSrc": "Group 22530.svg",
-                "imageAlt": "CodePlay 3rd place award",
-                "className": "second",
-                "value": 3,
-                "width": 431,
-                "height": 287.334
-            },
-            {
-                "imageSrc": "Group 22525.svg",
-                "imageAlt": "Speaking at DesignWays",
-                "className": "third",
-                "value": 2,
-                "width": 164,
-                "height": 118.353
-            },
-            {
-                "imageSrc": "Group 22523.svg",
-                "imageAlt": "Hosting WaysConf",
-                "className": "forth",
-                "value": -4,
-                "width": 238,
-                "height": 267
-            }
-        ]
-    },
-    "work": {
-        "title": "How I make projects",
-        "titleBlue": "real",
-        "description": "From the first conversation on site to a product people use every day.",
-        "steps": [
-            {
-                "number": 1,
-                "title": "Discover",
-                "contentTitle": "Understanding the problem and user needs",
-                "content": "I explore the problem space, exploring through research and interviews to grasp client needs, understand the audience, and uncover challenges that will shape our design journey."
-            },
-            {
-                "number": 2,
-                "title": "Define",
-                "contentTitle": "Clarify vision and establish parameters",
-                "content": "Together with stakeholders, we create a clear document that summarizes our vision. We set specific goals, identify our target audience, and establish design principles to guide our creative process."
-            },
-            {
-                "number": 3,
-                "title": "Develop",
-                "contentTitle": "Breathe life into ideas",
-                "content": "Bringing our ideas to life, I love working together in design sessions. We use sketches, prototypes, and make improvements to create solutions that combine functionality, beauty, and an amazing user experience."
-            },
-            {
-                "number": 4,
-                "title": "Deliver",
-                "contentTitle": "Ship and stay with it",
-                "content": "I don't stop at handoff. I build or co-build the product, ship it to real users, and keep improving it based on how it is used on site."
-            }
-        ]
-    },
-    "skillset": {
-        "title": "Skillset",
-        "description": "I am continually seeking new opportunities to learn, grow, and refine my craft, aiming to push the boundaries of my creative potential.",
-        "skills": [
-            {
-                "icon": "skillset-8.svg",
-                "title": "User-centered Design",
-                "description": "UCD is my design philosophy, prioritizing user needs and behaviors. It guides me to create not just visually appealing but also highly functional and intuitive designs through in-depth user research."
-            },
-            {
-                "icon": "skillset-1.svg",
-                "title": "Prototyping and Wireframing",
-                "description": "Prototyping and wireframing are my creative playgrounds, where I transform ideas into tangible, interactive representations, allowing quick experimentation, iteration, and user validation."
-            },
-            {
-                "icon": "skillset-2.svg",
-                "title": "Design & Code",
-                "description": "I build what I design: Next.js, React, databases and AI tooling. This lets me test ideas on real data, ship faster and talk to developers in their language."
-            },
-            {
-                "icon": "skillset-3.svg",
-                "title": "Design Research",
-                "description": "Design research is my tool to understand user behavior and needs, helping me uncover pain points and opportunities through methods like interviews, surveys, and usability studies."
-            },
-            {
-                "icon": "skillset-4.svg",
-                "title": "Domain Knowledge",
-                "description": "Construction, manufacturing, energy. I learn the domain from the people doing the work, so the product follows how the job really gets done, not how it looks in a spec."
-            },
-            {
-                "icon": "skillset-5.svg",
-                "title": "Cross-Functional Collaboration",
-                "description": "In cross-functional teams, I act as a bridge, translating the design vision to resonate with product managers, developers, and marketers, fostering open communication and understanding."
-            },
-            {
-                "icon": "skillset-6.svg",
-                "title": "Strategic Thinking",
-                "description": "I bring a strategic perspective to design, aligning it with our business goals by translating objectives into actionable design strategies."
-            },
-            {
-                "icon": "skillset-7.svg",
-                "title": "Design System Knowledge",
-                "description": "I value design systems for their efficiency, scalability, and ability to ensure a coherent user experience. They are the blueprint for a harmonious design journey."
-            }
-        ]
+      ]
     }
+  },
+  "aboutlinkedin": {
+    "titleFirstRow": "Builder,",
+    "titleMiddleRowBlue": "speaker",
+    "titleLastRow": "and mentor",
+    "description": [
+      "I share what I learn while building. I speak at design conferences such as WaysConf and DesignWays, mentor designers, and have won hackathons (HackYeah, Aquathon, CodePlay).",
+      "On stage I talk about the same things I do every day: making complex products simple enough that people actually use them."
+    ],
+    "linkedinText": "Linkedin Profile",
+    "linkedinLink": "https://www.linkedin.com/in/krzysztofpisk/",
+    "linkedinPhotos": [
+      {
+        "imageSrc": "/assets/stage/hackyeah.webp",
+        "imageAlt": "HackYeah award ceremony"
+      },
+      {
+        "imageSrc": "/assets/stage/codeplay.webp",
+        "imageAlt": "CodePlay 3rd place award"
+      },
+      {
+        "imageSrc": "/assets/stage/designways.webp",
+        "imageAlt": "Speaking at DesignWays"
+      },
+      {
+        "imageSrc": "/assets/stage/waysconf.webp",
+        "imageAlt": "Hosting WaysConf"
+      }
+    ]
+  },
+  "work": {
+    "title": "How I make projects",
+    "titleBlue": "real",
+    "description": "From the first conversation with a user to a product people use every day.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Discover",
+        "contentTitle": "Understanding the problem and user needs",
+        "content": "I explore the problem space, exploring through research and interviews to grasp client needs, understand the audience, and uncover challenges that will shape our design journey."
+      },
+      {
+        "number": 2,
+        "title": "Define",
+        "contentTitle": "Clarify vision and establish parameters",
+        "content": "Together with stakeholders, we create a clear document that summarizes our vision. We set specific goals, identify our target audience, and establish design principles to guide our creative process."
+      },
+      {
+        "number": 3,
+        "title": "Develop",
+        "contentTitle": "Breathe life into ideas",
+        "content": "Bringing our ideas to life, I love working together in design sessions. We use sketches, prototypes, and make improvements to create solutions that combine functionality, beauty, and an amazing user experience."
+      },
+      {
+        "number": 4,
+        "title": "Deliver",
+        "contentTitle": "Ship and stay with it",
+        "content": "I don't stop at handoff. I build or co-build the product, ship it to real users, and keep improving it based on how it is used."
+      }
+    ]
+  },
+  "skillset": {
+    "title": "Skillset",
+    "description": "I am continually seeking new opportunities to learn, grow, and refine my craft, aiming to push the boundaries of my creative potential.",
+    "skills": [
+      {
+        "title": "User-centered Design",
+        "description": "UCD is my design philosophy, prioritizing user needs and behaviors. It guides me to create not just visually appealing but also highly functional and intuitive designs through in-depth user research."
+      },
+      {
+        "title": "Prototyping and Wireframing",
+        "description": "Prototyping and wireframing are my creative playgrounds, where I transform ideas into tangible, interactive representations, allowing quick experimentation, iteration, and user validation."
+      },
+      {
+        "title": "Design & Building",
+        "description": "I take what I design all the way to a working version. This lets me test ideas on real data, ship faster and talk to developers in their language."
+      },
+      {
+        "title": "Design Research",
+        "description": "Design research is my tool to understand user behavior and needs, helping me uncover pain points and opportunities through methods like interviews, surveys, and usability studies."
+      },
+      {
+        "title": "Domain Knowledge",
+        "description": "Construction, manufacturing, energy. I learn the domain from the people doing the work, so the product follows how the job really gets done, not how it looks in a spec."
+      },
+      {
+        "title": "Cross-Functional Collaboration",
+        "description": "In cross-functional teams, I act as a bridge, translating the design vision to resonate with product managers, developers, and marketers, fostering open communication and understanding."
+      },
+      {
+        "title": "Strategic Thinking",
+        "description": "I bring a strategic perspective to design, aligning it with our business goals by translating objectives into actionable design strategies."
+      },
+      {
+        "title": "Design System Knowledge",
+        "description": "I value design systems for their efficiency, scalability, and ability to ensure a coherent user experience. They are the blueprint for a harmonious design journey."
+      }
+    ]
+  }
 }

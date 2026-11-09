@@ -8,8 +8,6 @@ import globalEn from "../data/global.json";
 import globalPl from "../data/global.pl.json";
 import offerEn from "../data/offer.en.json";
 import offerPl from "../data/offer.json";
-import pitchEn from "../data/pitch.en.json";
-import pitchPl from "../data/pitch.json";
 
 const content = {
   en: {
@@ -17,14 +15,12 @@ const content = {
     about: aboutEn,
     global: globalEn,
     offer: offerEn,
-    pitch: pitchEn,
   },
   pl: {
     home: homePl,
     about: aboutPl,
     global: globalPl,
     offer: offerPl,
-    pitch: pitchPl,
   },
 };
 

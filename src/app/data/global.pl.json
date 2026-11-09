@@ -1,79 +1,49 @@
 {
-    "siteMetadata": {
-        "title": "Chris Piskorz – Product builder oprogramowania dla budownictwa, produkcji i energetyki",
-        "description": "Projektuję i buduję oprogramowanie B2B do pracy w terenie: zarządzanie budową, MES i ERP dla produkcji oraz platformy danych o energii. Od badań do produktu na produkcji.",
-        "keywords": [
-            "Product Builder",
-            "Product Engineer",
-            "Product Designer",
-            "Projektowanie produktów B2B",
-            "Oprogramowanie dla budownictwa",
-            "MES",
-            "ERP",
-            "Oprogramowanie dla produkcji",
-            "Dane o energii",
-            "Aplikacja dla ekip w terenie",
-            "Wizualizacja danych"
-        ],
-        "author": "Chris Piskorz"
-    },
-    "header": [
-        {
-            "text": "Realizacje",
-            "href": "/pl",
-            "type": "simple"
-        },
-        {
-            "text": "O mnie",
-            "href": "/pl/about",
-            "type": "simple"
-        },
-        {
-            "text": "Współpraca",
-            "href": "/zlecenia",
-            "type": "simple"
-        }
+  "siteMetadata": {
+    "title": "Chris Piskorz – projektuję i tworzę oprogramowanie B2B",
+    "description": "Pomagam firmom B2B rozwijać produkty, od rozmowy z użytkownikiem po działający produkt.",
+    "keywords": [
+      "Product Builder",
+      "Product Engineer",
+      "Product Designer",
+      "Projektowanie produktów B2B",
+      "Design Engineer",
+      "ERP",
+      "MES",
+      "Wizualizacja danych"
     ],
-    "footer": {
-        "copy": "© 2026 Chris Piskorz. Kraków."
+    "author": "Chris Piskorz"
+  },
+  "header": [
+    {
+      "text": "Realizacje",
+      "href": "/pl#voltiq"
     },
-    "testimonials": {
-        "title": "Jak się ze mną pracuje",
-        "people": [
-            {
-                "name": "Aneta Rejdych",
-                "role": "Product designer, TietoEvry",
-                "video": "aneta.mp4"
-            },
-            {
-                "name": "Franziska Kaiser",
-                "role": "Product manager, Comgy",
-                "video": "franziska.mp4"
-            },
-            {
-                "name": "Marcin Wluka",
-                "role": "Product Owner, GSC",
-                "video": "marcin.mp4"
-            }
-        ]
+    {
+      "text": "Współpraca",
+      "href": "/pl#wspolpraca"
     },
-    "cta": {
-        "title": "Masz złożony produkt do uporządkowania?",
-        "email": "hello@chrisand.design",
-        "send": "Wyślij wiadomość",
-        "emailPrefix": "lub napisz na"
-    },
-    "ui": {
-        "skip": "Przejdź do treści",
-        "home": "Chris Piskorz, strona główna",
-        "nav": "Główna nawigacja",
-        "switchLanguage": "Switch to English",
-        "switchLabel": "EN",
-        "showBio": "Pokaż pełne bio",
-        "readMoreAbout": "Więcej o:",
-        "logoOf": "Logo:",
-        "backgroundVideo": "Wideo w tle",
-        "speakingVideo": "Chris podczas wystąpienia na konferencji projektowej",
-        "testimonialAbout": "opowiada o współpracy z Chrisem"
+    {
+      "text": "O mnie",
+      "href": "/pl#o-mnie"
     }
+  ],
+  "footer": {
+    "copy": "© 2026 Chris Piskorz. Kraków."
+  },
+  "cta": {
+    "write": "Napisz do mnie",
+    "title": "Rozwijasz produkt i coś blokuje wynik?",
+    "note": "Na początek 15 minut o problemie. Jeśli to nie temat dla mnie, powiem od razu.",
+    "titleAction": "Porozmawiajmy."
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "home": "Chris Piskorz, strona główna",
+    "nav": "Główna nawigacja",
+    "switchLanguage": "Switch to English",
+    "switchLabel": "EN",
+    "footerNav": "Nawigacja w stopce",
+    "menu": "Menu"
+  }
 }

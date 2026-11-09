@@ -1,93 +1,239 @@
 {
-    "hero": {
-        "title": "Projektuję i buduję oprogramowanie \n do pracy, która dzieje się w terenie",
-        "description": "Product builder dla budownictwa, produkcji i energetyki. Prowadzę produkty od pierwszej rozmowy na miejscu do kodu działającego na produkcji.",
-        "links": [
-            {
-                "href": "#case-studies",
-                "type": "background",
-                "text": "Zobacz realizacje"
-            },
-            {
-                "href": "/zlecenia",
-                "type": "simple",
-                "text": "Współpraca"
-            }
-        ],
-        "heroVideo": "voltiq-hero-video.mp4",
-        "heroVideoPoster": "voltiq-hero-poster.jpg",
-        "trusted": "Klienci i zespoły, z którymi pracowałem",
-        "companies": [
-            {
-                "logo": "logo-tietoevry.svg",
-                "width": 118.138,
-                "height": 39.049
-            },
-            {
-                "logo": "logo-comgy.svg",
-                "width": 87.202,
-                "height": 21.049
-            },
-            {
-                "logo": "logo-pg.svg",
-                "width": 48.376,
-                "height": 21.049
-            },
-            {
-                "logo": "logo-quppy.svg",
-                "width": 83.193,
-                "height": 21.049
-            },
-            {
-                "logo": "logo-moonite.svg",
-                "width": 84.526,
-                "height": 18.997
-            }
-        ]
-    },
-    "stories": {
-        "title": "Wybrane realizacje",
-        "columns": [
-            {
-                "image": "work-voltiq.jpg",
-                "width": 1200,
-                "height": 750,
-                "meta": "Voltiq · współzałożyciel i lider produktu · od 2026",
-                "headline": "System do prowadzenia budowy, od przetargu po gwarancję",
-                "description": "Zaprojektowałem i zbudowałem panel dla biura oraz aplikację dla ekip na budowie: kosztorys, wyceny podwykonawców, zadania i protokoły w jednym łańcuchu. Działa na żywym kontrakcie w Krakowie: 198 zadań, 360 pozycji kosztorysu i 1565 zdjęć z budowy wgranych przez ekipę w ramach jednego zadania.",
-                "href": "/pl/work/voltiq",
-                "type": "underline-arrow",
-                "text": "Przeczytaj case study"
-            },
-            {
-                "image": "work-chokepoints-map.png",
-                "width": 960,
-                "height": 860,
-                "meta": "Chokepoints.io · własny projekt · 2026",
-                "headline": "Dlaczego paliwo drożeje, wyjaśnione na jednej mapie",
-                "description": "Interaktywna mapa światowych przepływów ropy i cieśnin, przez które płynie, zakończona ceną litra paliwa w każdym kraju UE. Opiera się na danych UN Comtrade, JODI i UE, odświeża się automatycznie codziennie i działa w pięciu językach.",
-                "href": "https://chokepoints.io",
-                "type": "underline-arrow",
-                "text": "Otwórz mapę"
-            },
-            {
-                "image": "column1.png",
-                "headline": "Platforma danych o energii dla nieruchomości",
-                "description": "Dwie platformy webowe i aplikacja mobilna do pomiaru zużycia: raportowanie i dekarbonizacja dla firm zarządzających nieruchomościami, portal zużycia dla lokatorów i aplikacja dla instalatorów urządzeń.",
-                "href": "/pl/work/comgy",
-                "type": "underline-arrow",
-                "text": "Przeczytaj case study",
-                "meta": "Comgy · senior product designer"
-            },
-            {
-                "image": "column2.png",
-                "meta": "Calenday · założyciel · badania, produkt, sprzedaż",
-                "headline": "Aplikacja do grafików dla trenerów personalnych, od wywiadów po płatne licencje",
-                "description": "Problem zauważyłem na własnej siłowni, przeprowadziłem 16 wywiadów z trenerami i zbudowałem wokół tego siedmioosobowy zespół. Pierwsza wersja spowalniała układanie grafików, więc przebudowałem ją wokół automatyzacji i rozpisałem algorytm na diagramach, żeby usunąć przeliczenia trwające 30–45 sekund. Przedsprzedaż zamieniła się w płacących klientów.",
-                "href": "/pl/work/calenday",
-                "type": "underline-arrow",
-                "text": "Przeczytaj case study"
-            }
-        ]
-    }
+  "meta": {
+    "title": "Chris Piskorz – rozwijam produkty B2B",
+    "description": "Pomagam firmom B2B rozwijać produkty, od rozmowy z użytkownikiem po działający produkt."
+  },
+  "hero": {
+    "titleTop": "Rozwijam produkty B2B",
+    "titleBottom": "od rozmowy do wdrożenia",
+    "summary": "Rozmawiam z użytkownikami, projektuję i prowadzę zmiany, aż zaczną z nich korzystać. Ponad 10 lat w B2B.",
+    "cta": "Porozmawiajmy 15 minut",
+    "ctaHref": "mailto:hello@chrisand.design"
+  },
+  "problem": {
+    "title": "Czy to brzmi znajomo?",
+    "lead": "Produkt powoli staje się tematem, którego nikt nie chce ruszać.",
+    "threadLabel": "Przykładowa rozmowa w firmie",
+    "chat": [
+      {
+        "who": "Prezes",
+        "text": "Co z nowym modułem? Klienci pytają."
+      },
+      {
+        "who": "Product",
+        "text": "Backlog ma 200 pozycji i wszystko jest pilne."
+      },
+      {
+        "who": "Sprzedaż",
+        "text": "Klienci mówią, że dalej nie wiedzą, gdzie to się klika."
+      },
+      {
+        "who": "Dev",
+        "text": "U mnie działa. Makieta wyglądała inaczej."
+      }
+    ]
+  },
+  "voltiq": {
+    "eyebrow": "Jak to wygląda w praktyce",
+    "titleTop": "Produkt, którego ludzie",
+    "titleBottom": "używają każdego dnia",
+    "imageAlt": "Lista zadań z wykonawcą i kierownikiem w Voltiq",
+    "tag": "Voltiq · współzałożyciel i lider produktu",
+    "title": "Biuro i ekipa pracują na tych samych danych",
+    "text": "System do prowadzenia budowy, od przetargu po gwarancję. Działa na żywym kontrakcie w Krakowie.",
+    "stats": [
+      {
+        "value": "198",
+        "label": "zadań w kontrakcie"
+      },
+      {
+        "value": "360",
+        "label": "pozycji kosztorysu"
+      },
+      {
+        "value": "1 565",
+        "label": "zdjęć w jednym zadaniu"
+      },
+      {
+        "value": "7",
+        "label": "osób z aplikacją w telefonie"
+      }
+    ],
+    "caseHref": "/pl/work/voltiq",
+    "caseLabel": "Przeczytaj case study",
+    "level": "Nowe narzędzie od zera"
+  },
+  "trusted": "Klienci i zespoły, z którymi pracowałem",
+  "companies": [
+    "tieto",
+    "comgy",
+    "pg",
+    "quppy",
+    "moonite"
+  ],
+  "compare": {
+    "title": "Mniej pośredników, więcej działającego produktu",
+    "before": "Zwykle",
+    "after": "Gdy pracujemy razem",
+    "rows": [
+      {
+        "before": "Badania, projekt i wdrożenie przechodzą między zespołami",
+        "after": "Jedna osoba od rozmowy z użytkownikiem po działający produkt"
+      },
+      {
+        "before": "Makiety czekają na programistów",
+        "after": "Pomysły sprawdzam na prawdziwych danych"
+      },
+      {
+        "before": "O kierunku decyduje najgłośniejsza opinia",
+        "after": "O kierunku decyduje to, jak ludzie pracują"
+      },
+      {
+        "before": "Po wdrożeniu temat się kończy",
+        "after": "Zostaję i poprawiam na podstawie użycia"
+      }
+    ]
+  },
+  "work": {
+    "title": "Praca przy innych produktach",
+    "items": [
+      {
+        "title": "Zmiana lokatora bez zgadywania, co kliknąć",
+        "text": "Przebudowa ścieżki zarządcy wokół jednej, oczywistej akcji. W testach znalazło ją 11 z 11 osób.",
+        "image": "/assets/column1.png",
+        "imageAlt": "Panel Comgy z historią lokatorów",
+        "tone": "#cdd8df",
+        "meta": "Comgy · senior product designer",
+        "href": "/pl/work/comgy",
+        "link": "Przeczytaj case study",
+        "level": "Poprawa istniejącego produktu"
+      },
+      {
+        "title": "Dlaczego paliwo drożeje, wyjaśnione na jednej mapie",
+        "text": "Światowe przepływy ropy aż do ceny litra paliwa w każdym kraju UE. Dane aktualizują się same.",
+        "image": "/assets/work-chokepoints-map.png",
+        "imageAlt": "Mapa przepływów ropy w Chokepoints.io",
+        "tone": "#d3d9bd",
+        "meta": "Chokepoints.io · własny projekt",
+        "href": "https://chokepoints.io",
+        "link": "Otwórz mapę"
+      },
+      {
+        "title": "Grafiki dla trenerów: od wywiadów po pierwsze licencje",
+        "text": "16 wywiadów, nieudana pierwsza wersja, przebudowa i pierwsza sprzedaż.",
+        "image": "/assets/column2.png",
+        "imageAlt": "Aplikacja Calenday z grafikiem trenera",
+        "tone": "#f1d3b6",
+        "meta": "Calenday · założyciel",
+        "href": "/pl/work/calenday",
+        "link": "Przeczytaj case study",
+        "level": "Sprawdzenie pomysłu przed budową"
+      }
+    ]
+  },
+  "voices": {
+    "title": "Co mówią osoby, z którymi pracowałem",
+    "video": "Zobacz nagranie (EN)",
+    "items": [
+      {
+        "quote": "Praca z Krzysztofem to podróż, w której poznajesz swoich użytkowników, ich potrzeby i bolączki.",
+        "name": "Franziska Kaiser",
+        "role": "Product manager, Comgy",
+        "image": "/assets/art/voice-franziska.webp",
+        "video": "/assets/testimonials/franziska.mp4"
+      },
+      {
+        "quote": "Patrzy na wyzwania szeroko, tak żeby rozwiązania służyły celom projektowym i biznesowym.",
+        "name": "Aneta Rejdych",
+        "role": "Product designer, Tieto",
+        "image": "/assets/art/voice-aneta.webp",
+        "video": "/assets/testimonials/aneta.mp4"
+      },
+      {
+        "quote": "Ma talent do wyjaśniania złożonych rzeczy w prosty i zrozumiały sposób.",
+        "name": "Marcin Wluka",
+        "role": "Product Owner, GSC",
+        "image": "/assets/art/voice-marcin.webp",
+        "video": "/assets/testimonials/marcin.mp4"
+      }
+    ],
+    "trackLabel": "Opinie, jedna na ekran",
+    "prev": "Poprzednia opinia",
+    "next": "Następna opinia",
+    "dot": "Opinia"
+  },
+  "about": {
+    "eyebrow": "Kto to robi",
+    "title": "Rozmawiasz z osobą, która projektuje i buduje",
+    "text": "Od ponad 10 lat tworzę oprogramowanie B2B: platformy danych, systemy ERP i MES oraz narzędzia do codziennej pracy zespołów. Sam rozmawiam z ludźmi, projektuję i doprowadzam rzecz do działającej wersji, więc nic nie gubi się między zespołami.",
+    "href": "/pl/about",
+    "more": "Więcej o mnie",
+    "credentials": [
+      {
+        "value": "10+ lat",
+        "label": "w oprogramowaniu B2B"
+      },
+      {
+        "value": "6 aplikacji",
+        "label": "ERP i MES dla papiernictwa"
+      },
+      {
+        "value": "2 × pierwsze miejsce",
+        "label": "HackYeah i Aquathon"
+      },
+      {
+        "value": "Doradca MEDT",
+        "label": "rządowa grupa robocza"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pytania przed rozmową",
+    "items": [
+      {
+        "q": "Czyj będzie kod i dane?",
+        "a": "Po opłaceniu projektu kod i dane należą do Twojej firmy. Zapisujemy to w umowie."
+      },
+      {
+        "q": "Co, jeśli przestaniesz się tym zajmować?",
+        "a": "Oddaję kod z instrukcją uruchomienia, tak żeby mógł go przejąć inny programista."
+      },
+      {
+        "q": "Gdzie będą przechowywane dane?",
+        "a": "Ustalamy to przed startem, razem z tym, kto ma do nich dostęp i jak działają kopie zapasowe."
+      },
+      {
+        "q": "Czy używasz AI?",
+        "a": "Tak, przy projektowaniu i budowaniu, bo pozwala mi pracować szybciej. Za działanie i jakość odpowiadam ja. Dane klienta trafiają do takich narzędzi tylko po wcześniejszym uzgodnieniu."
+      },
+      {
+        "q": "Czy sam programujesz?",
+        "a": "Zaczynałem jako frontend developer, ale dziś nie spędzam dnia nad kodem. Buduję z pomocą narzędzi AI, a doświadczenie pozwala mi ocenić, co z nich wychodzi. Za wynik odpowiadam ja. Gdy projekt wymaga dodatkowego programisty, mówię o tym od razu."
+      },
+      {
+        "q": "Czy wejdziesz do istniejącego produktu i zespołu?",
+        "a": "Tak. Zaczynam od poznania produktu, zespołu i użytkowników, a potem pracuję razem z Twoim zespołem albo samodzielnie, zależnie od potrzeb."
+      },
+      {
+        "q": "Jak długo to potrwa?",
+        "a": "Termin ustalamy po poznaniu problemu, bo wcześniej byłaby to tylko deklaracja. Zapisujemy go razem z zakresem i ceną."
+      },
+      {
+        "q": "Jak wygląda rozliczenie?",
+        "a": "Zakres, termin i cenę ustalamy na piśmie przed startem. 50% płatne na start, reszta po odbiorze."
+      },
+      {
+        "q": "Ile czasu zajmie to mojemu zespołowi?",
+        "a": "Na początku kilka rozmów z osobami, które pracują z produktem. Potem krótkie przeglądy tego, co powstało."
+      },
+      {
+        "q": "Czy podpiszesz NDA?",
+        "a": "Tak, jeśli projekt tego wymaga. Możemy to załatwić przed rozmową o szczegółach."
+      },
+      {
+        "q": "Czy pracujesz z firmami spoza Polski?",
+        "a": "Tak. Pracuję zdalnie, po polsku i po angielsku."
+      }
+    ]
+  }
 }

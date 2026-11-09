@@ -1,117 +1,57 @@
 {
-  "meta": {
-    "title": "Zlecenia – Chris Piskorz",
-    "description": "Projektuję i buduję narzędzia dla firm oraz poprawiam produkty cyfrowe. Stała cena, działający efekt."
-  },
-  "hero": {
-    "eyebrow": "Zlecenia i współpraca",
-    "title": "Zamieniam Excela i WhatsAppa w narzędzie, którego Twoja firma",
-    "titleAccent": "naprawdę używa",
-    "summary": "Sam rozmawiam z ludźmi, projektuję i buduję. Bez przekazywania tematu między zespołami.",
-    "primary": "Napisz do mnie",
-    "secondary": "Zobacz realizacje",
-    "image": "/assets/work-voltiq.jpg",
-    "imageAlt": "Ekran systemu Voltiq: porównanie wyceny wykonawcy z kosztorysem i przyciski akceptacji",
-    "sheetName": "kosztorys_FINAL_v3_nowy.xlsx",
-    "sheet": ["Montaż", "7 szt.", "502 zł", "Pomiar", "#REF!", "???"],
-    "chat": ["Kto ma protokół z piątku?", "Wysłałem na grupie, poszukaj"],
-    "note": "Oddzwonić w sprawie faktury!!"
-  },
-  "packagesTitle": "Trzy sposoby, żeby zacząć",
+  "packagesTitle": "Od sprawdzenia problemu do własnego narzędzia",
   "packages": [
     {
       "id": "diagnosis",
       "name": "Diagnoza z prototypem",
-      "forWhom": "Gdy wiesz, że proces boli, ale nie wiesz, co zbudować.",
+      "forWhom": "Gdy wiesz, że coś nie działa, ale nie wiesz jeszcze, co zbudować.",
       "items": [
         "Rozmowy z osobami, które wykonują tę pracę",
         "Mapa problemu i rekomendacja zakresu",
         "Klikalny prototyp do pokazania zespołowi"
       ],
-      "duration": "3–5 dni",
-      "price": "od 2 500 zł"
+      "image": "/assets/art/offer-grow-1.webp"
+    },
+    {
+      "id": "sprint",
+      "name": "Sprint produktowy",
+      "forWhom": "Gdy wiesz, co poprawić w produkcie, i chcesz mieć to w działającej wersji.",
+      "items": [
+        "Analiza jednego obszaru, np. onboardingu lub zakupu",
+        "Prototyp sprawdzony z użytkownikami",
+        "Zmiana w produkcie albo gotowa specyfikacja dla zespołu"
+      ],
+      "image": "/assets/art/offer-grow-2.webp"
     },
     {
       "id": "tool",
       "name": "Narzędzie dla firmy",
-      "forWhom": "Gdy praca toczy się w arkuszach, mailach i na komunikatorach.",
+      "forWhom": "Gdy proces potrzebuje osobnej aplikacji, a dziś toczy się w arkuszach i mailach.",
       "items": [
         "Działająca aplikacja na jeden konkretny proces",
         "Przeniesienie danych z obecnych plików",
         "Wdrożenie z zespołem i poprawki po starcie"
       ],
-      "duration": "2–4 tygodnie",
-      "price": "od 8 000 zł"
-    },
-    {
-      "id": "sprint",
-      "name": "Sprint produktowy",
-      "forWhom": "Gdy rozwijasz aplikację i jeden problem blokuje wynik.",
-      "items": [
-        "Analiza jednego obszaru, np. onboardingu lub zakupu",
-        "Prototyp sprawdzony na realnym przebiegu",
-        "Działająca poprawka lub gotowa specyfikacja"
-      ],
-      "duration": "5 dni",
-      "price": "od 6 000 zł"
+      "image": "/assets/art/offer-grow-3.webp"
     }
   ],
-  "art": {
-    "tool": [
-      { "label": "Protokół odbioru", "status": "Gotowe" },
-      { "label": "Wycena podwykonawcy", "status": "Czeka", "waiting": true },
-      { "label": "Zdjęcia z budowy", "status": "Gotowe" }
-    ],
-    "days": ["Pn", "Wt", "Śr", "Cz", "Pt"]
-  },
-  "stepsTitle": "Bez niespodzianek po drodze",
+  "stepsTitle": "Jak wygląda współpraca",
   "steps": [
-    { "title": "Rozmowa", "text": "15 minut o problemie. Jeśli to nie temat dla mnie, powiem od razu." },
-    { "title": "Stała wycena", "text": "Zakres, termin i cena na piśmie, zanim cokolwiek zaczniemy." },
-    { "title": "Zaliczka", "text": "50% na start, reszta po odbiorze." },
-    { "title": "Działający efekt", "text": "Oddaję rzecz, której da się użyć, a nie sam dokument." }
-  ],
-  "casesTitle": "Od pierwszej rozmowy do działającego produktu",
-  "cases": [
     {
-      "tag": "Voltiq · współzałożyciel, produkt i kod",
-      "title": "System do prowadzenia budowy, od przetargu po gwarancję",
-      "text": "Panel dla biura i aplikacja dla ekipy połączone w jeden łańcuch: kosztorys, wyceny podwykonawców, zadania i protokoły. Działa na żywym kontrakcie w Krakowie.",
-      "image": "/assets/voltiq-hero-poster.jpg",
-      "imageAlt": "Panel Voltiq z kosztorysem i wyceną podwykonawcy",
-      "stats": [
-        { "value": "198", "label": "zadań w kontrakcie" },
-        { "value": "360", "label": "pozycji kosztorysu z Excela" },
-        { "value": "1 565", "label": "zdjęć z budowy w jednym zadaniu" }
-      ],
-      "href": "/pl/work/voltiq",
-      "link": "Przeczytaj case study"
+      "title": "Rozmowa",
+      "text": "15 minut o problemie. Jeśli to nie temat dla mnie, powiem od razu.",
+      "icon": "/assets/art/step-talk.webp"
     },
     {
-      "tag": "Chokepoints.io · własny projekt",
-      "title": "Dlaczego paliwo drożeje, wyjaśnione na jednej mapie",
-      "text": "Interaktywna mapa światowych przepływów ropy, zakończona ceną litra paliwa w każdym kraju UE. Dane z UN Comtrade, JODI i UE aktualizują się same.",
-      "image": "/assets/work-chokepoints-map.png",
-      "imageAlt": "Mapa przepływów ropy i wąskich gardeł w Chokepoints.io",
-      "stats": [
-        { "value": "5", "label": "języków" },
-        { "value": "codziennie", "label": "automatyczne odświeżanie" }
-      ],
-      "href": "https://chokepoints.io",
-      "link": "Otwórz mapę"
+      "title": "Poznanie problemu",
+      "text": "Rozmawiam z osobami, które pracują z produktem. Razem ustalamy, co ma się zmienić i do kiedy.",
+      "icon": "/assets/art/step-quote.webp"
     },
     {
-      "tag": "Comgy · senior product designer",
-      "title": "Platforma danych o energii dla nieruchomości",
-      "text": "Raportowanie dla firm zarządzających budynkami, portal zużycia dla lokatorów i aplikacja dla instalatorów urządzeń pomiarowych.",
-      "image": "/assets/column1.png",
-      "imageAlt": "Panel Comgy z historią lokatorów i pomiarami",
-      "stats": [
-        { "value": "2 + 1", "label": "platformy webowe i aplikacja mobilna" }
-      ],
-      "href": "/pl/work/comgy",
-      "link": "Przeczytaj case study"
+      "title": "Działające wersje",
+      "text": "Regularnie widzisz coś, co można kliknąć i sprawdzić. Po starcie poprawiamy to na podstawie użycia.",
+      "icon": "/assets/art/step-result.webp"
     }
   ],
-  "testimonialsTitle": "Jak się ze mną pracuje"
+  "priceNote": "Każdy zakres wyceniam po krótkiej rozmowie, gdy wiem, z czym przychodzisz. Cenę i zakres potwierdzam na piśmie przed startem."
 }

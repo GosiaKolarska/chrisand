@@ -8,12 +8,6 @@ function generateSiteMap() {
         <loc>https://chrisand.design/about</loc>
       </url>
       <url>
-        <loc>https://chrisand.design/zlecenia</loc>
-      </url>
-      <url>
-        <loc>https://chrisand.design/work-with-me</loc>
-      </url>
-      <url>
         <loc>https://chrisand.design/pl</loc>
       </url>
       <url>

@@ -5,8 +5,6 @@ export default function Demo({ demo }) {
   return <DemoPage demo={demo} />;
 }
 
-Demo.plainLayout = true;
-
 export function getStaticPaths() {
   return {
     paths: demoSlugs.map((slug) => ({ params: { slug } })),

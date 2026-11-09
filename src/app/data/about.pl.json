@@ -1,194 +1,172 @@
 {
-    "abouthero": {
-        "title": "Cześć! Jestem Chris",
-        "description": "Jestem product builderem z doświadczeniem senior designera. Od ponad 10 lat projektuję oprogramowanie dla branż, w których praca dzieje się na miejscu: papierni, energetyki i budownictwa. Dziś prowadzę produkty od pierwszej rozmowy z kierownikiem budowy do kodu działającego na produkcji.",
-        "list": [
-            "Ponad 10 lat projektowania oprogramowania B2B",
-            "Współzałożyciel i lider produktu [Voltiq](https://voltiq.com.pl)",
-            "Twórca [Chokepoints.io](https://chokepoints.io)",
-            "Założyciel [Calenday](https://chrisand.design/pl/work/calenday)",
-            "6 aplikacji ERP/MES dla branży papierniczej",
-            "Doradca rządowy [MEDT](https://smart.gov.pl/grupy-robocze/gr-ds-przemyslow-kreatywnych-kis-12/)"
-        ],
-        "heroVideoPoster": "homepage-hero-poster.png",
-        "heroVideo": "homepage-hero-video.mp4"
-    },
-    "experience": {
-        "title": "Doświadczenie",
-        "items": [
-            {
-                "title": "Voltiq: zarządzanie budową",
-                "description": "Współzałożyciel i lider produktu. Zaprojektowałem i zbudowałem cały system: panel dla biura i aplikację mobilną dla ekip, łączące kosztorys przetargowy, wyceny podwykonawców, umowy, zadania przypięte do rysunków PDF i protokoły postępu.",
-                "points": [
-                    "Działa na żywym kontrakcie w Krakowie: 198 zadań, 360 pozycji kosztorysu zaimportowanych wprost z Excela klienta, 7 osób z ekipy na telefonach.",
-                    "Podwykonawcy wyceniają przez zwykły link, bez konta i hasła, bo każde wymagane logowanie zabija adopcję na budowie.",
-                    "Ekipa wgrała 1565 zdjęć z budowy w ramach jednego zadania, bez zgłoszonych awarii i bez szkolenia."
-                ]
-            },
-            {
-                "title": "Comgy: oprogramowanie do pomiaru zużycia",
-                "description": "Odpowiadałem za projekt dwóch platform webowych i jednej aplikacji mobilnej.",
-                "points": [
-                    "MGM: platforma dla firm zarządzających portfelami nieruchomości, która automatyzuje raportowanie, pokazuje potencjał dekarbonizacji, pomaga spełniać obowiązki regulacyjne i wspiera oszczędzanie energii.",
-                    "Tenant Portal: interaktywny portal, w którym lokatorzy śledzą swoje zużycie i znajdują możliwości oszczędzania energii.",
-                    "MIM: aplikacja mobilna dla instalatorów montujących urządzenia w budynkach."
-                ]
-            },
-            {
-                "title": "Branża papiernicza: ERP i MES",
-                "description": "Zaprojektowałem sześć zintegrowanych aplikacji webowych (ERP, MES) dla branży papierniczej, z których każda obejmuje inną część biznesu: logistykę, produkcję, pomiary, pakowanie, kadry i zamówienia."
-            },
-            {
-                "title": "Oprogramowanie do zarządzania taksonomią",
-                "description": "Odpowiadałem za projekt aplikacji webowej dla firm pracujących na dużych zbiorach danych."
-            }
-        ],
-        "awards": {
-            "title": "Nagrody",
-            "items": [
-                {
-                    "title": "Aquathon 2021",
-                    "position": "1. miejsce",
-                    "description": "Portal dla lokalnych aktywistów, który pomaga ocenić korzyści z wdrożenia retencji w mieście."
-                },
-                {
-                    "title": "HackYeah 2020",
-                    "position": "1. miejsce",
-                    "description": "Portal dla gospodarstw rolnych do obliczania korzyści z zalesiania."
-                },
-                {
-                    "title": "CodePlay 2019",
-                    "position": "3. miejsce",
-                    "description": "Aplikacja z uczeniem maszynowym, która śledzi użytkowników i powiadamia ich o zniżkach w pobliskich sklepach."
-                },
-                {
-                    "title": "HackYeah 2018",
-                    "position": "3. miejsce",
-                    "description": "Aplikacja webowa wyznaczająca najefektywniejszą trasę dla transportu ciężkiego."
-                }
-            ]
+  "meta": {
+    "title": "O mnie – Chris Piskorz",
+    "description": "Product builder z doświadczeniem senior designera. Ponad 10 lat oprogramowania B2B, od pierwszej rozmowy z użytkownikiem po działający produkt."
+  },
+  "abouthero": {
+    "title": "Cześć! Jestem Chris",
+    "description": "Jestem product builderem z doświadczeniem senior designera. Od ponad 10 lat projektuję oprogramowanie B2B, także dla papierni, energetyki i budownictwa. Dziś prowadzę produkty od pierwszej rozmowy z użytkownikiem do działającej wersji na produkcji.",
+    "list": [
+      "Ponad 10 lat projektowania oprogramowania B2B",
+      "Współzałożyciel i lider produktu [Voltiq](https://voltiq.com.pl)",
+      "Twórca [Chokepoints.io](https://chokepoints.io)",
+      "Założyciel [Calenday](/pl/work/calenday)",
+      "6 aplikacji ERP/MES dla branży papierniczej",
+      "Doradca rządowy [MEDT](https://smart.gov.pl/grupy-robocze/gr-ds-przemyslow-kreatywnych-kis-12/)"
+    ]
+  },
+  "experience": {
+    "title": "Doświadczenie",
+    "items": [
+      {
+        "title": "Voltiq: zarządzanie budową",
+        "description": "Współzałożyciel i lider produktu. Zaprojektowałem i zbudowałem cały system: panel dla biura i aplikację mobilną dla ekip, łączące kosztorys przetargowy, wyceny podwykonawców, umowy, zadania przypięte do rysunków PDF i protokoły postępu.",
+        "points": [
+          "Działa na żywym kontrakcie w Krakowie: 198 zadań, 360 pozycji kosztorysu zaimportowanych wprost z Excela klienta, 7 osób z ekipy na telefonach.",
+          "Podwykonawcy wyceniają przez zwykły link, bez konta i hasła, bo każde wymagane logowanie zabija adopcję na budowie.",
+          "Ekipa wgrała 1565 zdjęć z budowy w ramach jednego zadania, bez zgłoszonych awarii i bez szkolenia."
+        ]
+      },
+      {
+        "title": "Comgy: oprogramowanie do pomiaru zużycia",
+        "description": "Odpowiadałem za projekt dwóch platform webowych i jednej aplikacji mobilnej.",
+        "points": [
+          "MGM: platforma dla firm zarządzających portfelami nieruchomości, która automatyzuje raportowanie, pokazuje potencjał dekarbonizacji, pomaga spełniać obowiązki regulacyjne i wspiera oszczędzanie energii.",
+          "Tenant Portal: interaktywny portal, w którym lokatorzy śledzą swoje zużycie i znajdują możliwości oszczędzania energii.",
+          "MIM: aplikacja mobilna dla instalatorów montujących urządzenia w budynkach."
+        ]
+      },
+      {
+        "title": "Branża papiernicza: ERP i MES",
+        "description": "Zaprojektowałem sześć zintegrowanych aplikacji webowych (ERP, MES) dla branży papierniczej, z których każda obejmuje inną część biznesu: logistykę, produkcję, pomiary, pakowanie, kadry i zamówienia."
+      },
+      {
+        "title": "Oprogramowanie do zarządzania taksonomią",
+        "description": "Odpowiadałem za projekt aplikacji webowej dla firm pracujących na dużych zbiorach danych."
+      }
+    ],
+    "awards": {
+      "title": "Nagrody",
+      "items": [
+        {
+          "title": "Aquathon 2021",
+          "position": "1. miejsce",
+          "description": "Portal dla lokalnych aktywistów, który pomaga ocenić korzyści z wdrożenia retencji w mieście."
+        },
+        {
+          "title": "HackYeah 2020",
+          "position": "1. miejsce",
+          "description": "Portal dla gospodarstw rolnych do obliczania korzyści z zalesiania."
+        },
+        {
+          "title": "CodePlay 2019",
+          "position": "3. miejsce",
+          "description": "Aplikacja z uczeniem maszynowym, która śledzi użytkowników i powiadamia ich o zniżkach w pobliskich sklepach."
+        },
+        {
+          "title": "HackYeah 2018",
+          "position": "3. miejsce",
+          "description": "Aplikacja webowa wyznaczająca najefektywniejszą trasę dla transportu ciężkiego."
         }
-    },
-    "aboutlinkedin": {
-        "titleFirstRow": "Twórca,",
-        "titleMiddleRowBlue": "prelegent",
-        "titleLastRow": "i mentor",
-        "description": [
-            "Dzielę się tym, czego uczę się przy budowaniu. Występuję na konferencjach projektowych, takich jak WaysConf i DesignWays, jestem mentorem designerów i wygrywałem hackathony (HackYeah, Aquathon, CodePlay).",
-            "Na scenie mówię o tym samym, czym zajmuję się na co dzień: jak uprościć złożone produkty na tyle, żeby ludzie w terenie naprawdę z nich korzystali."
-        ],
-        "linkedinText": "Profil na LinkedIn",
-        "linkedinLink": "https://www.linkedin.com/in/krzysztofpisk/",
-        "linkedinPhotos": [
-            {
-                "imageSrc": "Group 22522.svg",
-                "imageAlt": "Ceremonia wręczenia nagród HackYeah",
-                "className": "first",
-                "value": 6,
-                "width": 190,
-                "height": 114.68
-            },
-            {
-                "imageSrc": "Group 22530.svg",
-                "imageAlt": "3. miejsce w CodePlay",
-                "className": "second",
-                "value": 3,
-                "width": 431,
-                "height": 287.334
-            },
-            {
-                "imageSrc": "Group 22525.svg",
-                "imageAlt": "Wystąpienie na DesignWays",
-                "className": "third",
-                "value": 2,
-                "width": 164,
-                "height": 118.353
-            },
-            {
-                "imageSrc": "Group 22523.svg",
-                "imageAlt": "Prowadzenie WaysConf",
-                "className": "forth",
-                "value": -4,
-                "width": 238,
-                "height": 267
-            }
-        ]
-    },
-    "work": {
-        "title": "Jak doprowadzam projekty",
-        "titleBlue": "do końca",
-        "description": "Od pierwszej rozmowy na miejscu do produktu, z którego ludzie korzystają każdego dnia.",
-        "steps": [
-            {
-                "number": 1,
-                "title": "Odkrywanie",
-                "contentTitle": "Zrozumienie problemu i potrzeb użytkowników",
-                "content": "Badam problem przez research i wywiady, żeby poznać potrzeby klienta, zrozumieć odbiorców i znaleźć wyzwania, które ukształtują projekt."
-            },
-            {
-                "number": 2,
-                "title": "Definiowanie",
-                "contentTitle": "Jasna wizja i ustalone ramy",
-                "content": "Razem z interesariuszami tworzymy prosty dokument podsumowujący wizję. Ustalamy konkretne cele, grupę odbiorców i zasady, które prowadzą dalszą pracę."
-            },
-            {
-                "number": 3,
-                "title": "Rozwijanie",
-                "contentTitle": "Zamiana pomysłów w działające rozwiązania",
-                "content": "Pomysły rozwijam na wspólnych sesjach projektowych. Używamy szkiców i prototypów, a potem poprawiamy je tak, żeby rozwiązanie było funkcjonalne, estetyczne i przyjemne w użyciu."
-            },
-            {
-                "number": 4,
-                "title": "Dostarczanie",
-                "contentTitle": "Wdrożenie i dalsza opieka",
-                "content": "Nie kończę na przekazaniu projektu. Buduję lub współtworzę produkt, wdrażam go u prawdziwych użytkowników i dalej poprawiam na podstawie tego, jak jest używany w terenie."
-            }
-        ]
-    },
-    "skillset": {
-        "title": "Umiejętności",
-        "description": "Ciągle szukam okazji, żeby się uczyć, rozwijać warsztat i przesuwać granice tego, co potrafię zbudować.",
-        "skills": [
-            {
-                "icon": "skillset-8.svg",
-                "title": "Projektowanie zorientowane na użytkownika",
-                "description": "UCD to moja filozofia projektowania, w której najważniejsze są potrzeby i zachowania użytkowników. Dzięki badaniom tworzę rozwiązania nie tylko estetyczne, ale też funkcjonalne i intuicyjne."
-            },
-            {
-                "icon": "skillset-1.svg",
-                "title": "Prototypowanie i makiety",
-                "description": "Prototypy i makiety pozwalają mi szybko zamienić pomysły w coś namacalnego, eksperymentować, iterować i sprawdzać rozwiązania z użytkownikami."
-            },
-            {
-                "icon": "skillset-2.svg",
-                "title": "Projektowanie i kod",
-                "description": "Buduję to, co projektuję: Next.js, React, bazy danych i narzędzia AI. Dzięki temu testuję pomysły na prawdziwych danych, szybciej wdrażam i rozmawiam z programistami w ich języku."
-            },
-            {
-                "icon": "skillset-3.svg",
-                "title": "Badania projektowe",
-                "description": "Badania pomagają mi zrozumieć zachowania i potrzeby użytkowników oraz odkryć problemy i szanse. Korzystam m.in. z wywiadów, ankiet i testów użyteczności."
-            },
-            {
-                "icon": "skillset-4.svg",
-                "title": "Znajomość branż",
-                "description": "Budownictwo, produkcja, energetyka. Uczę się branży od ludzi, którzy wykonują tę pracę, więc produkt odpowiada temu, jak praca naprawdę wygląda, a nie temu, co opisuje specyfikacja."
-            },
-            {
-                "icon": "skillset-5.svg",
-                "title": "Współpraca między zespołami",
-                "description": "W zespołach interdyscyplinarnych jestem łącznikiem: przekładam wizję projektu na język product managerów, programistów i marketerów, wspierając otwartą komunikację."
-            },
-            {
-                "icon": "skillset-6.svg",
-                "title": "Myślenie strategiczne",
-                "description": "Patrzę na projektowanie strategicznie, łącząc je z celami biznesowymi i zamieniając je w konkretne działania."
-            },
-            {
-                "icon": "skillset-7.svg",
-                "title": "Systemy projektowe",
-                "description": "Cenię systemy projektowe za efektywność, skalowalność i spójne doświadczenie użytkownika. Są planem, który porządkuje pracę nad produktem."
-            }
-        ]
+      ]
     }
+  },
+  "aboutlinkedin": {
+    "titleFirstRow": "Twórca,",
+    "titleMiddleRowBlue": "prelegent",
+    "titleLastRow": "i mentor",
+    "description": [
+      "Dzielę się tym, czego uczę się przy budowaniu. Występuję na konferencjach projektowych, takich jak WaysConf i DesignWays, jestem mentorem designerów i wygrywałem hackathony (HackYeah, Aquathon, CodePlay).",
+      "Na scenie mówię o tym samym, czym zajmuję się na co dzień: jak uprościć złożone produkty na tyle, żeby ludzie naprawdę z nich korzystali."
+    ],
+    "linkedinText": "Profil na LinkedIn",
+    "linkedinLink": "https://www.linkedin.com/in/krzysztofpisk/",
+    "linkedinPhotos": [
+      {
+        "imageSrc": "/assets/stage/hackyeah.webp",
+        "imageAlt": "Ceremonia wręczenia nagród HackYeah"
+      },
+      {
+        "imageSrc": "/assets/stage/codeplay.webp",
+        "imageAlt": "3. miejsce w CodePlay"
+      },
+      {
+        "imageSrc": "/assets/stage/designways.webp",
+        "imageAlt": "Wystąpienie na DesignWays"
+      },
+      {
+        "imageSrc": "/assets/stage/waysconf.webp",
+        "imageAlt": "Prowadzenie WaysConf"
+      }
+    ]
+  },
+  "work": {
+    "title": "Jak doprowadzam projekty",
+    "titleBlue": "do końca",
+    "description": "Od pierwszej rozmowy z użytkownikiem do produktu, z którego ludzie korzystają każdego dnia.",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Odkrywanie",
+        "contentTitle": "Zrozumienie problemu i potrzeb użytkowników",
+        "content": "Badam problem przez research i wywiady, żeby poznać potrzeby klienta, zrozumieć odbiorców i znaleźć wyzwania, które ukształtują projekt."
+      },
+      {
+        "number": 2,
+        "title": "Definiowanie",
+        "contentTitle": "Jasna wizja i ustalone ramy",
+        "content": "Razem z interesariuszami tworzymy prosty dokument podsumowujący wizję. Ustalamy konkretne cele, grupę odbiorców i zasady, które prowadzą dalszą pracę."
+      },
+      {
+        "number": 3,
+        "title": "Rozwijanie",
+        "contentTitle": "Zamiana pomysłów w działające rozwiązania",
+        "content": "Pomysły rozwijam na wspólnych sesjach projektowych. Używamy szkiców i prototypów, a potem poprawiamy je tak, żeby rozwiązanie było funkcjonalne, estetyczne i przyjemne w użyciu."
+      },
+      {
+        "number": 4,
+        "title": "Dostarczanie",
+        "contentTitle": "Wdrożenie i dalsza opieka",
+        "content": "Nie kończę na przekazaniu projektu. Buduję lub współtworzę produkt, wdrażam go u prawdziwych użytkowników i dalej poprawiam na podstawie tego, jak jest używany."
+      }
+    ]
+  },
+  "skillset": {
+    "title": "Umiejętności",
+    "description": "Ciągle szukam okazji, żeby się uczyć, rozwijać warsztat i przesuwać granice tego, co potrafię zbudować.",
+    "skills": [
+      {
+        "title": "Projektowanie zorientowane na użytkownika",
+        "description": "UCD to moja filozofia projektowania, w której najważniejsze są potrzeby i zachowania użytkowników. Dzięki badaniom tworzę rozwiązania nie tylko estetyczne, ale też funkcjonalne i intuicyjne."
+      },
+      {
+        "title": "Prototypowanie i makiety",
+        "description": "Prototypy i makiety pozwalają mi szybko zamienić pomysły w coś namacalnego, eksperymentować, iterować i sprawdzać rozwiązania z użytkownikami."
+      },
+      {
+        "title": "Projektowanie i budowanie",
+        "description": "Doprowadzam to, co projektuję, do działającej wersji. Dzięki temu testuję pomysły na prawdziwych danych, szybciej wdrażam i rozmawiam z programistami w ich języku."
+      },
+      {
+        "title": "Badania projektowe",
+        "description": "Badania pomagają mi zrozumieć zachowania i potrzeby użytkowników oraz odkryć problemy i szanse. Korzystam m.in. z wywiadów, ankiet i testów użyteczności."
+      },
+      {
+        "title": "Znajomość branż",
+        "description": "Budownictwo, produkcja, energetyka. Uczę się branży od ludzi, którzy wykonują tę pracę, więc produkt odpowiada temu, jak praca naprawdę wygląda, a nie temu, co opisuje specyfikacja."
+      },
+      {
+        "title": "Współpraca między zespołami",
+        "description": "W zespołach interdyscyplinarnych jestem łącznikiem: przekładam wizję projektu na język product managerów, programistów i marketerów, wspierając otwartą komunikację."
+      },
+      {
+        "title": "Myślenie strategiczne",
+        "description": "Patrzę na projektowanie strategicznie, łącząc je z celami biznesowymi i zamieniając je w konkretne działania."
+      },
+      {
+        "title": "Systemy projektowe",
+        "description": "Cenię systemy projektowe za efektywność, skalowalność i spójne doświadczenie użytkownika. Są planem, który porządkuje pracę nad produktem."
+      }
+    ]
+  }
 }

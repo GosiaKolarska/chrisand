@@ -4,12 +4,21 @@
     "title": "System do prowadzenia budowy, od przetargu po gwarancję",
     "summary": "Budowy za miliony złotych często prowadzi się w Excelu i na WhatsAppie. Razem ze współzałożycielami z firmy wykonawczej zbudowałem system, w którym biuro i ekipa pracują na tych samych danych.",
     "facts": [
-      { "label": "Rola", "value": "Współzałożyciel, produkt i rozwój systemu" },
-      { "label": "Zakres", "value": "Panel dla biura i aplikacja mobilna dla ekipy" },
-      { "label": "Stan", "value": "Na produkcji od czerwca 2026" }
+      {
+        "label": "Rola",
+        "value": "Współzałożyciel, produkt i rozwój systemu"
+      },
+      {
+        "label": "Zakres",
+        "value": "Panel dla biura i aplikacja mobilna dla ekipy"
+      },
+      {
+        "label": "Stan",
+        "value": "Na produkcji od czerwca 2026"
+      }
     ],
     "cover": "/assets/work-voltiq.jpg",
-    "coverAlt": "Ekran wyceny podwykonawcy w systemie Voltiq z porównaniem do kosztorysu",
+    "coverAlt": "Porównanie wyceny podwykonawcy z kosztorysem w Voltiq",
     "problem": {
       "title": "Problem",
       "text": "Piątek, 17:00. Kierownik dzwoni po kolei do podwykonawców, żeby ustalić, ile naprawdę zrobili, bo w poniedziałek musi wystawić protokół. Kosztorys żyje w Excelu, zadania w telefonie, a zdjęcia z budowy giną w czacie."
@@ -36,61 +45,221 @@
     ],
     "resultsTitle": "Dane z realnego kontraktu",
     "results": [
-      { "value": "1 565", "label": "zdjęć z telefonów w jednym zadaniu inwentaryzacyjnym" },
-      { "value": "360", "label": "pozycji kosztorysu wczytanych z Excela inwestora" },
-      { "value": "198", "label": "zadań na budowie" },
-      { "value": "7", "label": "osób z aplikacją w telefonie" }
+      {
+        "value": "1 565",
+        "label": "zdjęć z telefonów w jednym zadaniu inwentaryzacyjnym"
+      },
+      {
+        "value": "360",
+        "label": "pozycji kosztorysu wczytanych z Excela inwestora"
+      },
+      {
+        "value": "198",
+        "label": "zadań na budowie"
+      },
+      {
+        "value": "7",
+        "label": "osób z aplikacją w telefonie"
+      }
     ],
-    "lessonTitle": "Czego mnie to nauczyło",
-    "lesson": "Na budowie najtrudniej przekonać nie biuro, tylko ekipę w terenie. Dlatego każda funkcja powstaje z problemu z konkretnej budowy, a nie z analizy rynku.",
-    "link": { "href": "https://voltiq.com.pl", "text": "Odwiedź voltiq.com.pl" }
+    "link": {
+      "href": "https://voltiq.com.pl",
+      "text": "Odwiedź voltiq.com.pl"
+    },
+    "tone": "#f1d3b6",
+    "decisionsTitle": "Trzy decyzje z projektu Voltiq",
+    "decisions": [
+      {
+        "image": "/assets/art/belief-link.webp",
+        "title": "Każde logowanie kosztuje wdrożenie",
+        "text": "Podwykonawca nie założy konta, żeby wysłać wycenę, więc wystarczy mu zwykły link."
+      },
+      {
+        "image": "/assets/art/belief-crew.webp",
+        "title": "Najtrudniej przekonać ekipę, nie biuro",
+        "text": "O wdrożeniu decydują ludzie w terenie, więc aplikacja mobilna jest rdzeniem, a nie dodatkiem."
+      },
+      {
+        "image": "/assets/art/belief-listen.webp",
+        "title": "Produkt wynika z pracy, nie ze specyfikacji",
+        "text": "Każda funkcja zaczynała się od problemu z konkretnej budowy, a nie od analizy rynku."
+      }
+    ],
+    "level": "Nowe narzędzie od zera"
   },
   {
     "slug": "comgy",
     "title": "Zmiana lokatora bez zgadywania, co kliknąć",
-    "summary": "Comgy dostarcza dane o energii dla budynków. Zarządcy nieruchomości gubili się przy zwykłej wymianie lokatora, więc przebudowałem tę ścieżkę wokół jednej, oczywistej akcji.",
+    "summary": "Comgy dostarcza dane o energii dla budynków. Zarządcy nieruchomości gubili się przy zwykłej zmianie lokatora, więc przebudowałem tę ścieżkę ekran po ekranie wokół jednej, oczywistej akcji.",
     "facts": [
-      { "label": "Rola", "value": "Senior product designer" },
-      { "label": "Zakres", "value": "Portal zarządcy i portal lokatora" },
-      { "label": "Tryb pracy", "value": "Ponad 8 sześciotygodniowych cykli Shape Up" }
+      {
+        "label": "Rola",
+        "value": "Senior product designer"
+      },
+      {
+        "label": "Zakres",
+        "value": "Portal zarządcy i portal lokatora"
+      },
+      {
+        "label": "Tryb pracy",
+        "value": "Ponad 8 sześciotygodniowych cykli Shape Up"
+      }
     ],
     "cover": "/assets/column1.png",
     "coverAlt": "Panel Comgy z historią lokatorów i przyciskiem zmiany lokatora",
     "problem": {
       "title": "Problem",
-      "text": "Zarządca musi aktualizować dane i wysyłać lokatorom informacje o zużyciu. Przy wielu mieszkaniach łatwo się zgubić: nie było jasne, czy edytować obecnego lokatora, czy dodać nowego, a skróty dla instalatorów mieszały się z akcjami zarządcy."
+      "text": "Zarządca musi aktualizować dane lokatorów i wysyłać im informacje o zużyciu. Przy wielu mieszkaniach łatwo się zgubić: nie było jasne, czy edytować obecnego lokatora, czy dodać nowego, a skróty dla instalatorów mieszały się z akcjami zarządcy."
     },
     "sections": [
       {
-        "title": "Zrozumienie zadania, a nie ekranu",
-        "text": "Z product managerem przejrzałem dotychczasowe rozwiązanie i zgłoszenia użytkowników. Rozpisałem persony, canvas problemu i historie użytkownika, a potem porównałem starą i nową ścieżkę na realnym zadaniu: wyprowadź lokatora z konkretnego mieszkania."
+        "title": "Punkt wyjścia",
+        "text": "Dołączyłem do Comgy, gdy z firmy odeszło dwóch designerów i nie było ustalonego sposobu pracy projektowej. Odpowiadałem za dwa obszary: portal lokatora, w którym widać zużycie i emisję CO₂, oraz część portalu zarządcy dla osób obsługujących lokatorów. Firma pracowała w cyklach Shape Up: co sześć tygodni zespół z PM-em, testerem, 3–4 programistami i designerem dostaje jeden opisany problem."
       },
       {
-        "title": "Jedna główna akcja",
-        "text": "Na poziomie mieszkania pojawił się główny przycisk „Change tenant”. Użytkownik nie musi pamiętać, czy to wprowadzenie, czy wyprowadzka, bo system sam wybiera właściwy formularz."
-      },
-      {
-        "title": "Mniej pytań bez sensu",
-        "text": "Kreator ukrywa pytania, które w danym procesie nie mają znaczenia, a ważne wartości pokazuje jako nieedytowalne. Zakończenie wyprowadzki nie zmusza już do dodania kolejnego lokatora, a powiadomienie mówi wprost, kto kogo zastąpił."
+        "title": "Najpierw zadanie, potem ekran",
+        "text": "Z product managerem przejrzałem dotychczasowe rozwiązanie i zgłoszenia użytkowników. Opisaliśmy prostą personę: zarządca z wieloma mieszkaniami, który gubi się w obecnym systemie. Na canvasie problemu zebrałem cel, miarę sukcesu, kontekst, zadania, szanse i ryzyka, a z zadań rozpisałem historie użytkownika i przepływ.",
+        "image": "/assets/cases/comgy-canvas.webp",
+        "imageAlt": "Canvas problemu dla zmiany lokatora"
       }
     ],
     "resultsTitle": "Efekt",
     "results": [
-      { "value": "11 z 11", "label": "osób w testach znalazło tę funkcję" },
-      { "value": "8+", "label": "sześciotygodniowych cykli z różnymi zespołami" }
+      {
+        "value": "11 z 11",
+        "label": "osób w testach znalazło tę funkcję"
+      },
+      {
+        "value": "8+",
+        "label": "sześciotygodniowych cykli z różnymi zespołami"
+      }
     ],
     "lessonTitle": "Co zostało w organizacji",
     "lesson": "Oprócz samej ścieżki wprowadziliśmy standardy UX, takie jak przepływy użytkownika i testy. Praca co sześć tygodni z innym zespołem nauczyła mnie też szybko dopasowywać się do nowych wymagań.",
-    "link": { "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84", "text": "Pełna wersja (EN)" }
+    "tone": "#cdd8df",
+    "walkthrough": {
+      "title": "Jedno zadanie, siedem ekranów",
+      "intro": "Starą i nową ścieżkę sprawdziłem na tym samym zadaniu zarządcy:",
+      "task": "Wyprowadź lokatora Maxa Mustermanna z mieszkania EG rechts przy Berlinerallee 52.",
+      "steps": [
+        {
+          "title": "Lista budynków",
+          "before": [
+            "/assets/cases/comgy-list-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-list-after.webp"
+          ],
+          "problem": "Po lewej budynki, po prawej parametry dla instalatorów ze skrótami (HCA, HM), których zarządca nie zna.",
+          "solution": "Akcje instalatorów trafiły na osobną stronę. Zarządca widzi tylko to, co może zrobić."
+        },
+        {
+          "title": "Szczegóły budynku",
+          "before": [
+            "/assets/cases/comgy-estate-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-estate-after.webp"
+          ],
+          "problem": "Na tym poziomie nie da się zmienić lokatora. Nie wiadomo też, czy edytować obecnego, czy dodać nowego, a edycja nadpisałaby historię.",
+          "solution": "W menu pojawia się „Change tenant”. Są dwa formularze, wprowadzenie i wyprowadzka, a system sam wybiera właściwy na podstawie statusu lokatora."
+        },
+        {
+          "title": "Szczegóły mieszkania",
+          "before": [
+            "/assets/cases/comgy-unit-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-unit-after.webp"
+          ],
+          "problem": "Brak głównej akcji. Nie wiadomo, od czego zacząć zmianę lokatora.",
+          "solution": "Na górze jest główny przycisk „Change tenant”. Użytkownik nie musi pamiętać, czy to wprowadzenie, czy wyprowadzka."
+        },
+        {
+          "title": "Kreator: wyprowadzka",
+          "before": [
+            "/assets/cases/comgy-wizard-before-1.webp",
+            "/assets/cases/comgy-wizard-before-2.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-wizard-after-1.webp",
+            "/assets/cases/comgy-wizard-after-2.webp"
+          ],
+          "problem": "Wszystkie pola były aktywne, także te, które przy wyprowadzce nie mają sensu.",
+          "solution": "Wartości ważne dla decyzji zostają widoczne, ale są zablokowane."
+        },
+        {
+          "title": "Kreator: dostęp do portalu",
+          "before": [
+            "/assets/cases/comgy-access-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-access-after.webp"
+          ],
+          "problem": "Pytanie o dostęp do portalu pojawiało się przy wyprowadzce, choć ma sens tylko przy wprowadzeniu.",
+          "solution": "Pytanie pojawia się tylko przy edycji i wprowadzeniu. Na górze jest przypomnienie o poprzednim lokatorze i stanie mieszkania, a niżej sekcja komunikacji."
+        },
+        {
+          "title": "Ostatni krok",
+          "before": [
+            "/assets/cases/comgy-last-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-last-after.webp"
+          ],
+          "problem": "Na końcu trzeba było zdecydować, czy dodać kolejnego lokatora. Wyjście z tego ekranu kasowało wszystkie zmiany.",
+          "solution": "Proces kończy się tutaj. Można zamknąć ekran albo dodać kolejnego lokatora i nic się nie traci."
+        },
+        {
+          "title": "Powiadomienie",
+          "before": [
+            "/assets/cases/comgy-toast-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-toast-after.webp"
+          ],
+          "problem": "Powiadomienie po zmianie nic nie mówiło.",
+          "solution": "Powiadomienie mówi, kto kogo zastąpił, więc od razu widać, czy wynik się zgadza."
+        }
+      ]
+    },
+    "afterSections": [
+      {
+        "title": "Testy korytarzowe",
+        "text": "Nowe podejście pokazaliśmy kilku zarządcom. Szybko je zrozumieli i od razu zauważyli, że skróci im naukę systemu i codzienną pracę."
+      },
+      {
+        "title": "Wdrożenie",
+        "text": "Trzy razy w tygodniu spotykałem się z programistami. Gdy czegoś brakowało albo coś zajęłoby za dużo czasu, przeprojektowywałem to na bieżąco. Na końcu robiłem odbiór i akceptowałem wynik."
+      }
+    ],
+    "level": "Poprawa istniejącego produktu",
+    "quote": {
+      "text": "Praca z Krzysztofem to podróż, w której poznajesz swoich użytkowników, ich potrzeby i bolączki.",
+      "name": "Franziska Kaiser",
+      "role": "Product manager, Comgy",
+      "image": "/assets/art/voice-franziska.webp",
+      "video": "/assets/testimonials/franziska.mp4",
+      "videoLabel": "Zobacz nagranie (EN)"
+    }
   },
   {
     "slug": "calenday",
     "title": "Grafiki dla trenerów: od wywiadów po pierwsze płatne licencje",
-    "summary": "Calenday miało skrócić układanie grafików trenerów personalnych. Doprowadziłem produkt do MVP i pierwszej sprzedaży, a po dwóch latach razem ze wspólnikiem zamroziliśmy projekt.",
+    "summary": "Calenday miało skrócić układanie grafików trenerów personalnych. Prowadziłem projekt od pierwszych rozmów, przez dwie wersje produktu, po marketing i sprzedaż pierwszych licencji. Po dwóch latach razem ze wspólnikiem zamroziliśmy projekt.",
     "facts": [
-      { "label": "Rola", "value": "Założyciel: wizja, produkt, marketing, przedsprzedaż" },
-      { "label": "Zespół", "value": "7 osób, w tym researcherki i konsultantki" },
-      { "label": "Stan", "value": "Zamrożony po dwóch latach rozwoju" }
+      {
+        "label": "Rola",
+        "value": "Założyciel: wizja, produkt, marketing, przedsprzedaż"
+      },
+      {
+        "label": "Zespół",
+        "value": "7 osób, w tym researcherki i konsultantki"
+      },
+      {
+        "label": "Stan",
+        "value": "Zamrożony po dwóch latach rozwoju"
+      }
     ],
     "cover": "/assets/column2.png",
     "coverAlt": "Widok aplikacji Calenday z grafikiem trenera",
@@ -100,26 +269,75 @@
     },
     "sections": [
       {
-        "title": "Sprawdzenie, czy problem istnieje",
-        "text": "Przeprowadziłem 16 wywiadów z trenerami w dwóch iteracjach i rozpisałem cały proces umawiania treningów. Większość rozmówców deklarowała, że skorzystałaby z takiego rozwiązania."
+        "title": "Skąd pomysł",
+        "text": "Regularnie trenuję z trenerami personalnymi i zauważyłem, jak bardzo męczy ich ciągłe przekładanie treningów przez klientów. Po rozmowie z jednym z nich uznałem, że to poważny problem, i zacząłem go badać. Z czasem przekonałem Antoine’a, inwestora i programistę, żeby dołączył do projektu.",
+        "image": "/assets/cases/calenday-gaps.webp",
+        "imageAlt": "Tygodniowy grafik trenera z przerwami po przełożonych treningach"
+      },
+      {
+        "title": "16 wywiadów w dwóch rundach",
+        "text": "Spisałem lokalnych trenerów i spotykałem się z nimi. Po kilku rozmowach zaczęły się powtarzać te same problemy. Po drugiej rundzie zapytałem, czy skorzystaliby z takiego rozwiązania, a większość odpowiedziała, że tak. Rozpisałem też cały proces umawiania treningów, a wnioski zebrałem na Lean Canvas i sprawdzałem z nim każdy nowy pomysł.",
+        "image": "/assets/cases/calenday-lean-canvas.webp",
+        "imageAlt": "Lean Canvas projektu Calenday"
       },
       {
         "title": "Pierwsza wersja nie zadziałała",
-        "text": "Testy pokazały, że trenerzy spędzali na ustawieniach więcej czasu niż wcześniej. Doszedł problem wydajności: powyżej 30 treningów w tygodniu każda zmiana wywoływała przeliczenie trwające 30–45 sekund."
+        "text": "Pomysł był prosty: klient podaje dostępne godziny, system układa tydzień, trener go akceptuje, a klienci dostają zaproszenia. Testy pokazały, że problemem są szczegóły. Trener dostał kontrolę nad wszystkim i przez to spędzał na ustawieniach więcej czasu niż wcześniej, a propozycji alternatywnych terminów nikt nie rozumiał. Doszła wydajność: powyżej 30 treningów w tygodniu każda zmiana liczyła się 30–45 sekund.",
+        "image": "/assets/cases/calenday-first-version.webp",
+        "imageAlt": "Pierwsza wersja Calenday z oknem alternatywnych propozycji"
       },
       {
-        "title": "Przebudowa wokół automatyzacji",
-        "text": "Stałe sloty, elastyczne zakresy i inteligentna kolejka zastąpiły ręczne decyzje. Po odwołaniu treningu system proponuje zastępstwo, a trener tylko je akceptuje. Algorytm rozpisałem na diagramach, co pomogło rozwiązać problem z wydajnością."
+        "title": "Druga wersja: automatyzacja",
+        "text": "Użytkownicy mówili jedno: wszystko trwa za długo. Główną zasadą została automatyzacja. Na początku współpracy trener ustawia klientowi stałe sloty i elastyczne zakresy godzin, a system sam proponuje terminy. Takie połączenie uprościło pomysł i rozwiązało problem z wydajnością.",
+        "image": "/assets/cases/calenday-fixed-slots.webp",
+        "imageAlt": "Ustawianie stałych slotów treningowych dla klienta"
       }
     ],
     "resultsTitle": "Rynek",
     "results": [
-      { "value": "16", "label": "wywiadów z trenerami" },
-      { "value": "3.", "label": "miejsce na Pitching Fight Club" },
-      { "value": "MVP", "label": "i pierwsze sprzedane licencje" }
+      {
+        "value": "16",
+        "label": "wywiadów z trenerami"
+      },
+      {
+        "value": "3.",
+        "label": "miejsce na Pitching Fight Club"
+      },
+      {
+        "value": "MVP",
+        "label": "i pierwsze sprzedane licencje"
+      }
     ],
     "lessonTitle": "Dlaczego to zamroziliśmy",
-    "lesson": "Na rynku pojawiło się wiele nowych startupów z inteligentnymi kalendarzami, także opartych na AI, więc po dwóch latach zamroziliśmy projekt. Zyskałem praktykę w marketingu, sprzedaży i prowadzeniu zespołu przy ograniczonym budżecie.",
-    "link": { "href": "https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574", "text": "Pełna wersja (EN)" }
+    "lesson": "Na rynku pojawiło się wiele nowych startupów z inteligentnymi kalendarzami, także opartych na AI, więc po dwóch latach zamroziliśmy projekt. Nauczyłem się marketingu i sprzedaży, prowadzenia zespołu oraz tego, jak wycisnąć najwięcej z ograniczonego budżetu.",
+    "tone": "#d3d9bd",
+    "decisionsTitle": "Główne funkcje",
+    "decisions": [
+      {
+        "title": "Inteligentna kolejka",
+        "text": "Gdy ktoś odwoła trening, system wstawia na jego miejsce klienta z kolejki jako propozycję. Trener tylko ją akceptuje.",
+        "image": "/assets/cases/calenday-queue.webp"
+      },
+      {
+        "title": "Pakiety treningów",
+        "text": "Trener widzi, ile treningów zostało w każdym pakiecie, a system przypomina, gdy pakiet się kończy.",
+        "image": "/assets/cases/calenday-packages.webp"
+      },
+      {
+        "title": "Odpowiedzi z SMS-ów",
+        "text": "Odpowiedzi klientów rozpoznaje Google Natural Language, więc „nie mogę” albo „pasuje” zmienia grafik bez ręcznego klikania.",
+        "image": "/assets/cases/calenday-answers.webp"
+      }
+    ],
+    "decisionsBefore": true,
+    "afterSections": [
+      {
+        "title": "Algorytm na diagramach",
+        "text": "Żeby rozwiązać problem z wydajnością, ustaliłem z programistą, że rozrysuję działanie algorytmu. Powstało wiele diagramów, które pokazują każdą sytuację, także te nietypowe. Programistom łatwiej było zbudować algorytm, a ja miałem pewność, że niczego nie pominąłem.",
+        "image": "/assets/cases/calenday-diagram.webp",
+        "imageAlt": "Diagram blokowy wysyłania wiadomości SMS"
+      }
+    ],
+    "level": "Sprawdzenie pomysłu przed budową"
   }
 ]

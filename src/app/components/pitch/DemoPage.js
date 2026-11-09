@@ -1,21 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
 import Head from "next/head";
-import PitchShell from "./PitchShell";
+import SiteShell from "../site/SiteShell";
+import { Title } from "../site/Site.styles";
 import {
-  Wrap,
-  Hero,
+  DemoHead,
   Eyebrow,
-  HeroTitle,
-  HeroSummary,
-  Section,
-  SectionTitle,
-  Body,
+  Problem,
   Facts,
-  Fact,
-  Shot,
+  Media,
+  Prototype,
   Frame,
-  List,
-  Terms,
+  NextPanel,
 } from "./Pitch.styles";
 
 const DemoPage = ({ demo }) => {
@@ -43,7 +38,7 @@ const DemoPage = ({ demo }) => {
   }
 
   return (
-    <PitchShell topLink={{ href: "/zlecenia", text: "O współpracy" }}>
+    <SiteShell>
       <Head>
         <title key="title">{meta.title}</title>
         <meta key="robots" name="robots" content="noindex, nofollow" />
@@ -55,69 +50,66 @@ const DemoPage = ({ demo }) => {
           content={hero.summary}
         />
       </Head>
-      <Hero>
-        <Wrap>
-          <Eyebrow>{hero.eyebrow}</Eyebrow>
-          <HeroTitle>{hero.title}</HeroTitle>
-          <HeroSummary>{hero.summary}</HeroSummary>
-        </Wrap>
-      </Hero>
-      <Section>
-        <Wrap>
-          <SectionTitle>{problem.title}</SectionTitle>
+
+      <DemoHead>
+        <Eyebrow>{hero.eyebrow}</Eyebrow>
+        <Title>{hero.title}</Title>
+        <p>{hero.summary}</p>
+      </DemoHead>
+
+      <Problem>
+        <h2>{problem.title}</h2>
+        <div>
           {problem.paragraphs.map((text) => (
-            <Body key={text}>{text}</Body>
+            <p key={text}>{text}</p>
           ))}
           {problem.facts && (
             <Facts>
               {problem.facts.map((fact) => (
-                <Fact key={fact.label}>
+                <div key={fact.label}>
                   <dt>{fact.value}</dt>
                   <dd>{fact.label}</dd>
-                </Fact>
+                </div>
               ))}
             </Facts>
           )}
-        </Wrap>
-      </Section>
+        </div>
+      </Problem>
+
       {media && (
-        <Section>
-          <Wrap>
-            <Shot src={media.src} alt={media.alt} />
-          </Wrap>
-        </Section>
+        <Media>
+          <img src={media.src} alt={media.alt} />
+        </Media>
       )}
+
       {prototype && (
-        <Section>
-          <Wrap>
-            <SectionTitle>{prototype.title}</SectionTitle>
-            <Body>{prototype.description}</Body>
-            <Frame
-              ref={frameRef}
-              src={prototype.src}
-              title={prototype.title}
-              sandbox="allow-scripts"
-              onLoad={requestFrameHeight}
-              $height={frameHeight ?? prototype.height}
-              $mobileHeight={frameHeight ?? prototype.mobileHeight}
-            />
-          </Wrap>
-        </Section>
+        <Prototype>
+          <h2>{prototype.title}</h2>
+          <p>{prototype.description}</p>
+          <Frame
+            ref={frameRef}
+            src={prototype.src}
+            title={prototype.title}
+            sandbox="allow-scripts"
+            onLoad={requestFrameHeight}
+            $height={frameHeight ?? prototype.height}
+            $mobileHeight={frameHeight ?? prototype.mobileHeight}
+          />
+        </Prototype>
       )}
+
       {next && (
-        <Section>
-          <Wrap>
-            <SectionTitle>{next.title}</SectionTitle>
-            <List>
-              {next.items.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </List>
-            {terms && <Terms>{terms}</Terms>}
-          </Wrap>
-        </Section>
+        <NextPanel>
+          <h2>{next.title}</h2>
+          <ul>
+            {next.items.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+          {terms && <strong>{terms}</strong>}
+        </NextPanel>
       )}
-    </PitchShell>
+    </SiteShell>
   );
 };
 

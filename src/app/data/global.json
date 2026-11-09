@@ -1,86 +1,49 @@
 {
-    "siteMetadata": {
-        "title": "Chris Piskorz – Product builder for construction, manufacturing & energy software",
-        "description": "I design and build B2B software for work that happens on site: construction management, MES/ERP for manufacturing, and energy data platforms. From discovery to a product in production.",
-        "keywords": [
-            "Product Builder",
-            "Product Engineer",
-            "Product Designer",
-            "B2B Product Design",
-            "Construction Software",
-            "ConTech",
-            "MES",
-            "ERP",
-            "Manufacturing Software",
-            "Energy Data",
-            "Field Service App",
-            "Design Engineer",
-            "Data Visualization"
-        ],
-        "author": "Chris Piskorz"
-    },
-    "header": [
-        {
-            "text": "Work",
-            "href": "/",
-            "type": "simple"
-        },
-        {
-            "text": "About",
-            "href": "/about",
-            "type": "simple"
-        },
-        {
-            "text": "Work with me",
-            "href": "/work-with-me",
-            "type": "simple"
-        }
+  "siteMetadata": {
+    "title": "Chris Piskorz – I design and build B2B software",
+    "description": "I help B2B companies develop their products, from talking to users to a working product.",
+    "keywords": [
+      "Product Builder",
+      "Product Engineer",
+      "Product Designer",
+      "B2B Product Design",
+      "Design Engineer",
+      "ERP",
+      "MES",
+      "Data Visualization"
     ],
-    "footer": {
-        "copy": "© 2026 Chris Piskorz. Based in Krakow."
+    "author": "Chris Piskorz"
+  },
+  "header": [
+    {
+      "text": "Work",
+      "href": "/#voltiq"
     },
-    "testimonials": {
-        "title": "What it's like to work with me",
-        "people": [
-            {
-                "name": "Aneta Rejdych",
-                "role": "Product designer at TietoEvry",
-                "video": "aneta.mp4"
-            },
-            {
-                "name": "Franziska Kaiser",
-                "role": "Product manager at Comgy",
-                "video": "franziska.mp4"
-            },
-            {
-                "name": "Marcin Wluka",
-                "role": "Product Owner at GSC",
-                "video": "marcin.mp4"
-            }
-        ]
+    {
+      "text": "Work with me",
+      "href": "/#wspolpraca"
     },
-    "cta": {
-        "title": "Have a complex product to untangle?",
-        "email": "hello@chrisand.design",
-        "send": "Send a message",
-        "emailPrefix": "or email",
-        "link": {
-            "href": "/about",
-            "type": "underline-arrow",
-            "text": "Tell me about your project"
-        }
-    },
-    "ui": {
-        "skip": "Skip to content",
-        "home": "Chris Piskorz Home",
-        "nav": "Main navigation",
-        "switchLanguage": "Przełącz na polski",
-        "switchLabel": "PL",
-        "showBio": "Show full bio",
-        "readMoreAbout": "Read more about",
-        "logoOf": "Logo of",
-        "backgroundVideo": "Background video",
-        "speakingVideo": "Chris speaking at a design conference",
-        "testimonialAbout": "talks about working with Chris"
+    {
+      "text": "About",
+      "href": "/#o-mnie"
     }
+  ],
+  "footer": {
+    "copy": "© 2026 Chris Piskorz. Krakow."
+  },
+  "cta": {
+    "write": "Write to me",
+    "title": "Developing a product and something is holding it back?",
+    "note": "We start with 15 minutes about the problem. If it isn’t for me, I’ll say so right away.",
+    "titleAction": "Let’s talk."
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "home": "Chris Piskorz, home page",
+    "nav": "Main navigation",
+    "switchLanguage": "Przełącz na polski",
+    "switchLabel": "PL",
+    "footerNav": "Footer navigation",
+    "menu": "Menu"
+  }
 }

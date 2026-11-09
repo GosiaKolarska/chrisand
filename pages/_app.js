@@ -1,7 +1,5 @@
 import "../src/app/globals.css";
-import React from "react";
 import Head from "next/head";
-import Layout from "../src/app/components/layout/Layout";
 import { useContent } from "../src/app/i18n/content";
 import {
   alternatePath,
@@ -17,10 +15,9 @@ function MyApp({ Component, pageProps, router }) {
   const pathname = cleanPath(router.asPath);
   const alternate = alternatePath(pathname);
   const locale = localeForPath(pathname);
-  const Shell = Component.plainLayout ? React.Fragment : Layout;
 
   return (
-    <Shell>
+    <>
       <Head>
         <link
           rel="icon"
@@ -70,7 +67,7 @@ function MyApp({ Component, pageProps, router }) {
         <meta property="og:type" content="website" />
       </Head>
       <Component {...pageProps} />
-    </Shell>
+    </>
   );
 }
 

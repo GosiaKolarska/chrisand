@@ -4,12 +4,21 @@
     "title": "Construction management system, from tender to warranty",
     "summary": "Construction projects worth millions often run on Excel and WhatsApp. Together with co-founders from a contracting company, I built a system where the office and the crew work on the same data.",
     "facts": [
-      { "label": "Role", "value": "Co-founder, product and development" },
-      { "label": "Scope", "value": "Office panel and a mobile app for the crew" },
-      { "label": "Status", "value": "In production since June 2026" }
+      {
+        "label": "Role",
+        "value": "Co-founder, product and development"
+      },
+      {
+        "label": "Scope",
+        "value": "Office panel and a mobile app for the crew"
+      },
+      {
+        "label": "Status",
+        "value": "In production since June 2026"
+      }
     ],
     "cover": "/assets/work-voltiq.jpg",
-    "coverAlt": "Voltiq screen comparing a subcontractor's quote with the cost estimate",
+    "coverAlt": "Comparing a subcontractor's quote with the cost estimate in Voltiq",
     "problem": {
       "title": "The problem",
       "text": "Friday, 5 pm. A site manager calls subcontractors one by one to find out how much they have really done, because Monday's progress report is due. The estimate lives in Excel, tasks live in phones, and site photos get lost in chat."
@@ -36,61 +45,221 @@
     ],
     "resultsTitle": "Data from a live contract",
     "results": [
-      { "value": "1,565", "label": "phone photos in one site survey task" },
-      { "value": "360", "label": "cost items loaded from the investor's Excel" },
-      { "value": "198", "label": "tasks on site" },
-      { "value": "7", "label": "people using the mobile app" }
+      {
+        "value": "1,565",
+        "label": "phone photos in one site survey task"
+      },
+      {
+        "value": "360",
+        "label": "cost items loaded from the investor's Excel"
+      },
+      {
+        "value": "198",
+        "label": "tasks on site"
+      },
+      {
+        "value": "7",
+        "label": "people using the mobile app"
+      }
     ],
-    "lessonTitle": "What it taught me",
-    "lesson": "On a construction site the hardest people to win over are not in the office, they are the crew. That's why every feature starts from a problem on a specific site, not from market analysis.",
-    "link": { "href": "https://voltiq.com.pl", "text": "Visit voltiq.com.pl" }
+    "link": {
+      "href": "https://voltiq.com.pl",
+      "text": "Visit voltiq.com.pl"
+    },
+    "tone": "#f1d3b6",
+    "decisionsTitle": "Three decisions from the Voltiq project",
+    "decisions": [
+      {
+        "image": "/assets/art/belief-link.webp",
+        "title": "Every login costs you adoption",
+        "text": "A subcontractor won't create an account to send a quote, so a plain link is enough."
+      },
+      {
+        "image": "/assets/art/belief-crew.webp",
+        "title": "The crew is harder to win over than the office",
+        "text": "People on site decide whether a rollout works, so the mobile app is the core, not an add-on."
+      },
+      {
+        "image": "/assets/art/belief-listen.webp",
+        "title": "The product comes from the work, not the spec",
+        "text": "Every feature started from a problem on a specific site, not from market analysis."
+      }
+    ],
+    "level": "A new tool from scratch"
   },
   {
     "slug": "comgy",
     "title": "Changing a tenant without guessing what to click",
-    "summary": "Comgy provides energy data for buildings. Property managers got lost during a routine tenant change, so I rebuilt that flow around one obvious action.",
+    "summary": "Comgy provides energy data for buildings. Property managers got lost during a simple tenant change, so I rebuilt that flow screen by screen around one obvious action.",
     "facts": [
-      { "label": "Role", "value": "Senior product designer" },
-      { "label": "Scope", "value": "Management portal and tenant portal" },
-      { "label": "Way of working", "value": "More than 8 six-week Shape Up cycles" }
+      {
+        "label": "Role",
+        "value": "Senior product designer"
+      },
+      {
+        "label": "Scope",
+        "value": "Management portal and tenant portal"
+      },
+      {
+        "label": "Way of working",
+        "value": "More than 8 six-week Shape Up cycles"
+      }
     ],
     "cover": "/assets/column1.png",
     "coverAlt": "Comgy panel with tenant history and a change tenant button",
     "problem": {
       "title": "The problem",
-      "text": "Managers need to keep data up to date and send tenants consumption information. Across many apartments it was easy to get lost: it wasn't clear whether to edit the current tenant or add a new one, and installer abbreviations were mixed with manager actions."
+      "text": "A manager has to keep tenant data up to date and send tenants consumption information. With many apartments it is easy to get lost: it was unclear whether to edit the current tenant or add a new one, and installer shortcuts were mixed with manager actions."
     },
     "sections": [
       {
-        "title": "Understanding the task, not the screen",
-        "text": "With the product manager I reviewed the existing solution and user reports. I wrote a simple persona, a problem canvas and user stories, then compared the old and new flows on a real task: move a tenant out of a specific apartment."
+        "title": "Starting point",
+        "text": "I joined Comgy after two designers had left and there was no established way of doing design work. I was responsible for two areas: the tenant portal, which shows consumption and CO₂ emissions, and the part of the management portal for people who handle tenants. The company worked in Shape Up cycles: every six weeks a team with a PM, a tester, 3–4 developers and a designer gets one well-described problem."
       },
       {
-        "title": "One primary action",
-        "text": "The apartment level got a primary \"Change tenant\" button. Users no longer need to remember whether it's a move-in or a move-out, because the system picks the right form."
-      },
-      {
-        "title": "Fewer pointless questions",
-        "text": "The wizard hides questions that don't apply to the process and shows important values as read-only. Finishing a move-out no longer forces you to add the next tenant, and the notification says who replaced whom."
+        "title": "The task first, then the screen",
+        "text": "With the product manager I reviewed the existing solution and user reports. We described a simple persona: a manager with many apartments who gets lost in the current system. On a problem canvas I gathered the goal, success metric, context, tasks, opportunities and risks, and turned the tasks into user stories and a flow.",
+        "image": "/assets/cases/comgy-canvas.webp",
+        "imageAlt": "Problem canvas for changing a tenant"
       }
     ],
     "resultsTitle": "The result",
     "results": [
-      { "value": "11 of 11", "label": "test users found the option" },
-      { "value": "8+", "label": "six-week cycles with different teams" }
+      {
+        "value": "11 of 11",
+        "label": "test users found the option"
+      },
+      {
+        "value": "8+",
+        "label": "six-week cycles with different teams"
+      }
     ],
     "lessonTitle": "What stayed in the organisation",
     "lesson": "Beyond the flow itself, we introduced UX standards such as user flows and user tests. Working with a different team every six weeks also taught me to adapt quickly to new requirements.",
-    "link": { "href": "https://chris-and-design.notion.site/Comgy-Case-Study-a59e6b2c261042deba28bcfd5dce5f84", "text": "Read the full version" }
+    "tone": "#cdd8df",
+    "walkthrough": {
+      "title": "One task, seven screens",
+      "intro": "I checked the old and the new flow against the same manager task:",
+      "task": "Move out tenant Max Mustermann from apartment EG rechts at Berlinerallee 52.",
+      "steps": [
+        {
+          "title": "List of buildings",
+          "before": [
+            "/assets/cases/comgy-list-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-list-after.webp"
+          ],
+          "problem": "Buildings on the left, installer parameters on the right with abbreviations (HCA, HM) that managers don't know.",
+          "solution": "Installer actions moved to a dedicated page. Managers see only what they can do."
+        },
+        {
+          "title": "Building details",
+          "before": [
+            "/assets/cases/comgy-estate-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-estate-after.webp"
+          ],
+          "problem": "You can't change the tenant at this level. It is also unclear whether to edit the current tenant or add a new one, and editing would overwrite the history.",
+          "solution": "The menu gets “Change tenant”. There are two forms, move-in and move-out, and the system picks the right one based on the tenant's status."
+        },
+        {
+          "title": "Apartment details",
+          "before": [
+            "/assets/cases/comgy-unit-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-unit-after.webp"
+          ],
+          "problem": "No primary action. It isn't clear where a tenant change starts.",
+          "solution": "A primary “Change tenant” button sits at the top. Users don't have to remember whether it is a move-in or a move-out."
+        },
+        {
+          "title": "Wizard: move-out",
+          "before": [
+            "/assets/cases/comgy-wizard-before-1.webp",
+            "/assets/cases/comgy-wizard-before-2.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-wizard-after-1.webp",
+            "/assets/cases/comgy-wizard-after-2.webp"
+          ],
+          "problem": "Every field was active, including ones that make no sense for a move-out.",
+          "solution": "Values that matter for the decision stay visible but are disabled."
+        },
+        {
+          "title": "Wizard: portal access",
+          "before": [
+            "/assets/cases/comgy-access-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-access-after.webp"
+          ],
+          "problem": "Portal access was asked about during a move-out, though it only makes sense for a move-in.",
+          "solution": "The question appears only when editing or moving in. A reminder at the top shows the previous tenant and the apartment's condition, with communication below."
+        },
+        {
+          "title": "Last step",
+          "before": [
+            "/assets/cases/comgy-last-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-last-after.webp"
+          ],
+          "problem": "At the end you had to decide whether to add the next tenant. Leaving this screen cancelled every change.",
+          "solution": "The process ends here. You can close the screen or add the next tenant, and nothing is lost."
+        },
+        {
+          "title": "Notification",
+          "before": [
+            "/assets/cases/comgy-toast-before.webp"
+          ],
+          "after": [
+            "/assets/cases/comgy-toast-after.webp"
+          ],
+          "problem": "The notification after the change said nothing useful.",
+          "solution": "The notification says who replaced whom, so you can see right away that the result is correct."
+        }
+      ]
+    },
+    "afterSections": [
+      {
+        "title": "Corridor tests",
+        "text": "We showed the new approach to a few managers. They understood it quickly and saw straight away that it would shorten learning the system and their daily work."
+      },
+      {
+        "title": "Implementation",
+        "text": "I met developers three times a week. When something was missing or would take too long, I redesigned it on the spot. At the end I did the final check and approved the result."
+      }
+    ],
+    "level": "Improving an existing product",
+    "quote": {
+      "text": "Working together with Krzysztof means being on a journey to understand your users, the use cases and their pains.",
+      "name": "Franziska Kaiser",
+      "role": "Product manager, Comgy",
+      "image": "/assets/art/voice-franziska.webp",
+      "video": "/assets/testimonials/franziska.mp4",
+      "videoLabel": "Watch the recording"
+    }
   },
   {
     "slug": "calenday",
     "title": "Schedules for trainers: from interviews to the first paid licences",
-    "summary": "Calenday set out to shorten scheduling for personal trainers. I took the product to an MVP and first sales, and after two years my partner and I froze the project.",
+    "summary": "Calenday set out to shorten schedule planning for personal trainers. I ran the project from the first conversations, through two product versions, to marketing and the first paid licences. After two years my partner and I froze the project.",
     "facts": [
-      { "label": "Role", "value": "Founder: vision, product, marketing, pre-sales" },
-      { "label": "Team", "value": "7 people, including researchers and consultants" },
-      { "label": "Status", "value": "Frozen after two years of development" }
+      {
+        "label": "Role",
+        "value": "Founder: vision, product, marketing, pre-sales"
+      },
+      {
+        "label": "Team",
+        "value": "7 people, including researchers and consultants"
+      },
+      {
+        "label": "Status",
+        "value": "Frozen after two years of development"
+      }
     ],
     "cover": "/assets/column2.png",
     "coverAlt": "Calenday app view with a trainer's schedule",
@@ -100,26 +269,75 @@
     },
     "sections": [
       {
-        "title": "Checking that the problem was real",
-        "text": "I ran 16 interviews with trainers in two rounds and mapped the whole scheduling process. Most of them said they would use such a solution."
+        "title": "Where the idea came from",
+        "text": "I train with personal trainers regularly and noticed how much clients constantly rescheduling wore them down. After talking to one of them, I decided it was a serious problem and started researching it. Over time I convinced Antoine, an investor and developer, to join the project.",
+        "image": "/assets/cases/calenday-gaps.webp",
+        "imageAlt": "A trainer's weekly schedule with gaps after rescheduled sessions"
+      },
+      {
+        "title": "16 interviews in two rounds",
+        "text": "I listed local trainers and met them. After a few conversations the same problems kept coming up. After the second round I asked whether they would use such a solution, and most said yes. I also mapped the whole booking process, gathered the conclusions on a Lean Canvas and checked every new idea against it.",
+        "image": "/assets/cases/calenday-lean-canvas.webp",
+        "imageAlt": "Calenday Lean Canvas"
       },
       {
         "title": "The first version didn't work",
-        "text": "Tests showed trainers spent more time on setup than before. There was a performance problem too: above 30 sessions a week, every change triggered a 30–45 second recalculation."
+        "text": "The idea was simple: clients share their available hours, the system builds the week, the trainer accepts it and clients get invitations. Tests showed the problem was in the details. Trainers got control over everything and ended up spending more time on setup than before, and nobody understood the alternative time proposals. Performance was another issue: above 30 sessions a week every change took 30–45 seconds to recalculate.",
+        "image": "/assets/cases/calenday-first-version.webp",
+        "imageAlt": "First version of Calenday with the alternative proposals dialog"
       },
       {
-        "title": "Rebuilt around automation",
-        "text": "Fixed slots, flexible ranges and a smart queue replaced manual decisions. When a session is cancelled, the system proposes a replacement and the trainer only accepts it. I mapped the algorithm in diagrams, which helped solve the performance issue."
+        "title": "Second version: automation",
+        "text": "Users said one thing: everything takes too long. Automation became the main principle. At the start of working with a client, the trainer sets fixed slots and flexible ranges, and the system proposes times on its own. That combination simplified the idea and solved the performance problem.",
+        "image": "/assets/cases/calenday-fixed-slots.webp",
+        "imageAlt": "Setting fixed training slots for a client"
       }
     ],
     "resultsTitle": "In the market",
     "results": [
-      { "value": "16", "label": "interviews with trainers" },
-      { "value": "3rd", "label": "place at Pitching Fight Club" },
-      { "value": "MVP", "label": "and the first licences sold" }
+      {
+        "value": "16",
+        "label": "interviews with trainers"
+      },
+      {
+        "value": "3rd",
+        "label": "place at Pitching Fight Club"
+      },
+      {
+        "value": "MVP",
+        "label": "and the first licences sold"
+      }
     ],
     "lessonTitle": "Why we froze it",
-    "lesson": "Many new smart calendar startups appeared, including AI-based ones, so after two years we froze the project. I came away with hands-on experience in marketing, sales and leading a team on a limited budget.",
-    "link": { "href": "https://chris-and-design.notion.site/Calenday-Case-Study-80ec101e813d4af09895d2d631491574", "text": "Read the full version" }
+    "lesson": "Many new smart-calendar startups appeared, including AI-based ones, so after two years we froze the project. I learned marketing and sales, how to lead a team, and how to get the most out of a limited budget.",
+    "tone": "#d3d9bd",
+    "decisionsTitle": "Main features",
+    "decisions": [
+      {
+        "title": "Smart queue",
+        "text": "When someone cancels, the system puts a client from the queue in their place as a proposal. The trainer only accepts it.",
+        "image": "/assets/cases/calenday-queue.webp"
+      },
+      {
+        "title": "Session packages",
+        "text": "Trainers see how many sessions are left in each package, and the system reminds them when a package is running out.",
+        "image": "/assets/cases/calenday-packages.webp"
+      },
+      {
+        "title": "Answers from text messages",
+        "text": "Google Natural Language recognises clients' replies, so “I can't” or “works for me” updates the schedule without manual clicks.",
+        "image": "/assets/cases/calenday-answers.webp"
+      }
+    ],
+    "decisionsBefore": true,
+    "afterSections": [
+      {
+        "title": "The algorithm on diagrams",
+        "text": "To fix performance, I agreed with the developer that I would draw how the algorithm should work. I made many diagrams covering every situation, including the unusual ones. That made the algorithm easier to build, and I knew nothing had been missed.",
+        "image": "/assets/cases/calenday-diagram.webp",
+        "imageAlt": "Block diagram for sending a text message"
+      }
+    ],
+    "level": "Testing an idea before building"
   }
 ]

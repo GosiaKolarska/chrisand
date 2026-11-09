@@ -1,13 +1,11 @@
 const PAIRS = [
   ["/", "/pl"],
   ["/about", "/pl/about"],
-  ["/work-with-me", "/zlecenia"],
 ];
 
 export const localeForPath = (path) =>
   path === "/pl" ||
   path.startsWith("/pl/") ||
-  path === "/zlecenia" ||
   path.startsWith("/demo/")
     ? "pl"
     : "en";

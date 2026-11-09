@@ -1,13 +1,5 @@
-import React from "react";
-import { HomeHero, HomeColumns } from "../src/app/components/home";
+import HomePage from "../src/app/components/home/HomePage";
 
-const Home = () => {
-  return (
-    <>
-      <HomeHero />
-      <HomeColumns />
-    </>
-  );
-};
-
-export default Home;
+export default function Home() {
+  return <HomePage />;
+}
