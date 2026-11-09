@@ -257,8 +257,8 @@
         "value": "Frozen after two years of development"
       }
     ],
-    "cover": "/assets/column2.png",
-    "coverAlt": "Calenday app view with a trainer's schedule",
+    "cover": "/assets/cases/calenday-cover.webp",
+    "coverAlt": "Trainer's weekly schedule in Calenday with an SMS conversation about moving a session",
     "problem": {
       "title": "The problem",
       "text": "Trainers spend about two hours a week organising their calendars, and clients often move sessions. A perfect schedule quickly turns into a fragmented plan full of gaps."

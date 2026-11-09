@@ -257,8 +257,8 @@
         "value": "Zamrożony po dwóch latach rozwoju"
       }
     ],
-    "cover": "/assets/column2.png",
-    "coverAlt": "Widok aplikacji Calenday z grafikiem trenera",
+    "cover": "/assets/cases/calenday-cover.webp",
+    "coverAlt": "Tygodniowy grafik trenera w Calenday z rozmową SMS o przełożeniu treningu",
     "problem": {
       "title": "Problem",
       "text": "Trenerzy poświęcają około dwóch godzin tygodniowo na układanie kalendarza, a klienci często przekładają treningi. Pierwszy idealny grafik szybko zamienia się w poszatkowany plan z przerwami."
