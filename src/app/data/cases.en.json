@@ -18,7 +18,7 @@
     "coverNote": "The interface is in Polish because Voltiq is built for Polish contractors.",
     "problem": {
       "title": "The problem",
-      "text": "Friday, 5 pm. A site manager calls subcontractors one by one to find out how much they have really done, because Monday's progress report is due. The estimate lives in Excel, tasks live in phones, and site photos get lost in chat."
+      "text": "Friday, 5 pm. A site manager calls subcontractors one by one to find out how much they have actually done, because Monday's progress report is due. The estimate lives in Excel, tasks live in phones, and site photos get lost in chat."
     },
     "sections": [
       {
@@ -38,6 +38,18 @@
         "text": "The progress report is calculated from what was reported on site. Completion and value appear automatically, so billing no longer starts with a round of phone calls.",
         "image": "/assets/cases/voltiq-protokol.jpg",
         "imageAlt": "Progress report with automatically calculated value"
+      },
+      {
+        "title": "Service after handover",
+        "text": "Each development has its own link for reporting defects. A resident picks the building and the flat, describes the problem and adds a photo from the phone. The system checks whether the defect is still under warranty, and once a technician is assigned, the job lands on their phone.",
+        "image": "/assets/cases/voltiq-serwis.jpg",
+        "imageAlt": "Defect report form and the report in the panel with the warranty check"
+      },
+      {
+        "title": "A warehouse for every site",
+        "text": "Materials and tools belong to a specific site or to the main warehouse. When stock drops below the minimum, the system shows what to order before something runs out on site.",
+        "image": "/assets/cases/voltiq-magazyn.jpg",
+        "imageAlt": "Warehouse with a stock list and items to reorder"
       }
     ],
     "resultsTitle": "Data from a live contract",
@@ -82,7 +94,19 @@
         "text": "Every feature started from a problem on a specific site, not from market analysis."
       }
     ],
-    "level": "A new tool from scratch"
+    "level": "A new tool from scratch",
+    "cta": {
+      "title": "Running a process on spreadsheets and phone calls?",
+      "titleAction": "Let’s talk."
+    },
+    "afterSections": [
+      {
+        "title": "How we worked",
+        "text": "The first version was ready in April 2026 and covered the cost estimate and tasks. Since June the system has been running a real contract, so every next feature answered a problem from that site: subcontractor quotes, contracts, progress reports, the warehouse and service. The Android and iOS app has gone through more than 40 versions. I keep developing and maintaining the system."
+      }
+    ],
+    "lessonTitle": "What changed in the company",
+    "lesson": "The cost estimate, quotes, tasks, progress reports, warehouse and service are in one place. The office and the crew no longer stitch data together from spreadsheets, phone calls and chat, so the whole process runs smoother and faster."
   },
   {
     "slug": "comgy",

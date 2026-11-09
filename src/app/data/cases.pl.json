@@ -17,7 +17,7 @@
     "coverAlt": "Porównanie wyceny podwykonawcy z kosztorysem w Voltiq",
     "problem": {
       "title": "Problem",
-      "text": "Piątek, 17:00. Kierownik dzwoni po kolei do podwykonawców, żeby ustalić, ile naprawdę zrobili, bo w poniedziałek musi wystawić protokół. Kosztorys żyje w Excelu, zadania w telefonie, a zdjęcia z budowy giną w czacie."
+      "text": "Piątek, 17:00. Kierownik dzwoni po kolei do podwykonawców, żeby ustalić, ile faktycznie zrobili, bo w poniedziałek musi wystawić protokół. Kosztorys żyje w Excelu, zadania w telefonie, a zdjęcia z budowy giną w czacie."
     },
     "sections": [
       {
@@ -37,6 +37,18 @@
         "text": "Protokół przerobowy liczy się z tego, co zgłoszono na budowie. Procent wykonania i wartość pojawiają się automatycznie, więc rozliczenie nie zaczyna się od serii telefonów.",
         "image": "/assets/cases/voltiq-protokol.jpg",
         "imageAlt": "Protokół przerobowy z automatycznie liczoną wartością"
+      },
+      {
+        "title": "Serwis po oddaniu budowy",
+        "text": "Każda inwestycja ma własny link do zgłaszania usterek. Mieszkaniec wybiera budynek i lokal, opisuje problem i dodaje zdjęcie z telefonu. System sam sprawdza, czy usterka jest jeszcze w gwarancji, a po przypisaniu serwisanta zadanie trafia do niego na telefon.",
+        "image": "/assets/cases/voltiq-serwis.jpg",
+        "imageAlt": "Formularz zgłoszenia usterki i zgłoszenie w panelu z oceną gwarancji"
+      },
+      {
+        "title": "Magazyn na każdej budowie",
+        "text": "Materiały i narzędzia są przypisane do konkretnej budowy albo magazynu głównego. Gdy stan spada poniżej minimum, system pokazuje, co trzeba zamówić, zanim zabraknie czegoś na budowie.",
+        "image": "/assets/cases/voltiq-magazyn.jpg",
+        "imageAlt": "Magazyn z listą towaru i pozycjami do zamówienia"
       }
     ],
     "resultsTitle": "Dane z realnego kontraktu",
@@ -81,7 +93,19 @@
         "text": "Każda funkcja zaczynała się od problemu z konkretnej budowy, a nie od analizy rynku."
       }
     ],
-    "level": "Nowe narzędzie od zera"
+    "level": "Nowe narzędzie od zera",
+    "cta": {
+      "title": "Masz proces na Excelu i telefonach?",
+      "titleAction": "Porozmawiajmy."
+    },
+    "afterSections": [
+      {
+        "title": "Jak pracowaliśmy",
+        "text": "Pierwsza wersja powstała w kwietniu 2026 i objęła kosztorys oraz zadania. Od czerwca system prowadzi prawdziwy kontrakt, więc każda kolejna funkcja odpowiadała na problem z tej budowy: oferty od podwykonawców, umowy, protokoły, magazyn i serwis. Aplikacja na Androida i iOS ma za sobą ponad 40 wersji. System dalej rozwijam i utrzymuję."
+      }
+    ],
+    "lessonTitle": "Co się zmieniło w firmie",
+    "lesson": "Kosztorys, oferty, zadania, protokoły, magazyn i serwis są w jednym miejscu. Biuro i ekipa nie spinają już danych z Excela, telefonów i czatu, więc cały proces jest płynniejszy i szybszy."
   },
   {
     "slug": "comgy",

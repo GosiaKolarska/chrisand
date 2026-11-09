@@ -168,7 +168,7 @@ const CasePage = ({ slug, locale }) => {
 
   return (
     <ZoomContext.Provider value={setZoom}>
-      <SiteShell>
+      <SiteShell cta={item.cta}>
         <Head>
           <title key="title">{pageTitle}</title>
           <meta key="description" name="description" content={item.summary} />

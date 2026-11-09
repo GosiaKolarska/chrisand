@@ -42,13 +42,14 @@ const generalSans = localFont({
 
 const EMAIL = "hello@chrisand.design";
 
-const SiteShell = ({ children }) => {
+const SiteShell = ({ children, cta: ctaOverride }) => {
   const { global: site } = useContent();
   const locale = useLocale();
   const router = useRouter();
   const path = cleanPath(router.asPath);
   const alternate = alternatePath(path);
-  const { header, footer, cta, ui } = site;
+  const { header, footer, ui } = site;
+  const cta = { ...site.cta, ...ctaOverride };
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => setMenuOpen(false), [router.asPath]);

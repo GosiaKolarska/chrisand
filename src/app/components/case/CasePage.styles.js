@@ -169,11 +169,11 @@ export const Steps = styled.section`
     background: #cdd8df;
   }
 
-  article[data-media]:nth-child(2) {
+  article[data-media]:nth-child(3n + 2) {
     background: #d3d9bd;
   }
 
-  article[data-media]:nth-child(3) {
+  article[data-media]:nth-child(3n) {
     background: #f1d3b6;
   }
 
