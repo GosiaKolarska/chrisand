@@ -1,5 +1,7 @@
 import "../src/app/globals.css";
 import Head from "next/head";
+import { useEffect } from "react";
+import { init } from "@sublim_analytics/tracker";
 import { useContent } from "../src/app/i18n/content";
 import {
   alternatePath,
@@ -15,6 +17,10 @@ function MyApp({ Component, pageProps, router }) {
   const pathname = cleanPath(router.asPath);
   const alternate = alternatePath(pathname);
   const locale = localeForPath(pathname);
+
+  useEffect(() => {
+    init({ projectId: "01a1c594-571c-7d30-ae7d-a4106ea22250" });
+  }, []);
 
   return (
     <>

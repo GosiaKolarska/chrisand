@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sublim_analytics/tracker": "^0.1.5",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
