@@ -128,6 +128,17 @@
         "href": "/pl/work/calenday",
         "link": "Przeczytaj case study",
         "level": "Sprawdzenie pomysłu przed budową"
+      },
+      {
+        "title": "Dzikie wysypiska: strażnik dostaje zdarzenia, nie tysiące zdjęć",
+        "text": "Usługa z fotopułapkami dla gmin. W pierwszym teście ze 447 zdjęć do obejrzenia zostały 132.",
+        "image": "/assets/cases/przylap-tile.webp",
+        "imageAlt": "Panel Przyłapu ze zdarzeniem przy altanie śmietnikowej",
+        "tone": "#e4dccb",
+        "meta": "Przyłap · założyciel",
+        "href": "/pl/work/przylap",
+        "link": "Przeczytaj case study",
+        "level": "Nowe narzędzie od zera"
       }
     ]
   },

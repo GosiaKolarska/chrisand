@@ -23,6 +23,9 @@ function generateSiteMap() {
         <loc>https://chrisand.design/work/calenday</loc>
       </url>
       <url>
+        <loc>https://chrisand.design/work/przylap</loc>
+      </url>
+      <url>
         <loc>https://chrisand.design/pl/work/voltiq</loc>
       </url>
       <url>
@@ -30,6 +33,9 @@ function generateSiteMap() {
       </url>
       <url>
         <loc>https://chrisand.design/pl/work/calenday</loc>
+      </url>
+      <url>
+        <loc>https://chrisand.design/pl/work/przylap</loc>
       </url>
       <!-- Add more URLs here -->
     </urlset>

@@ -359,5 +359,78 @@
       }
     ],
     "level": "Sprawdzenie pomysłu przed budową"
+  },
+  {
+    "slug": "przylap",
+    "title": "Dzikie wysypiska: strażnik dostaje zdarzenia, nie tysiące zdjęć",
+    "summary": "Przyłap to moja usługa dla gmin. Przy wysypisku wisi fotopułapka, system odrzuca puste kadry i zwierzęta, a strażnik gminny widzi tylko ludzi i auta, ze zdjęciami przed, w trakcie i po. Zaprojektowałem usługę, panel dla straży, stronę i ofertę. Teraz szukam pierwszego pilotażu.",
+    "facts": [
+      {
+        "label": "Rola",
+        "value": "Założyciel: research, produkt, projekt, oferta"
+      },
+      {
+        "label": "Zakres",
+        "value": "Panel dla straży, strona, opis usługi, dokumenty do pilotażu"
+      },
+      {
+        "label": "Status",
+        "value": "Działający produkt, szukam pierwszego pilotażu"
+      }
+    ],
+    "cover": "/assets/cases/przylap-cover.webp",
+    "coverAlt": "Panel Przyłapu: lista zdarzeń i jedno zdarzenie ze zdjęciami przed, w trakcie i po",
+    "coverNote": "Zdjęcia są przykładowe, ramki rysuje detektor.",
+    "problem": {
+      "title": "Problem",
+      "text": "Gminy już kupują fotopułapki, ale ktoś musi zebrać kartę pamięci i obejrzeć każde zdjęcie. W Krakowie straż miejska przejrzała ręcznie ok. 300 000 zdjęć z trzech fotopułapek, żeby ustalić trzy wykroczenia. Sprzątanie dzikich wysypisk kosztowało miasto 270 tys. zł w osiem miesięcy, a wysypiska wracają w te same miejsca."
+    },
+    "sections": [
+      {
+        "title": "Jedno zdarzenie zamiast stosu zdjęć",
+        "text": "Kamera robi zdjęcie przy każdym ruchu, więc jedno auto zostawia kilka kadrów. System łączy je w jedno zdarzenie i porównuje kadr przed i po. Jeśli na ziemi zostało coś nowego, zdarzenie trafia na górę listy jako pilne. Strażnik widzi trzy kadry obok siebie, nowe obiekty w żółtej ramce, i decyduje jednym kliknięciem: przekazać do sprawy, bez wykroczenia albo fałszywy alarm.",
+        "image": "/assets/cases/przylap-before-after.webp",
+        "imageAlt": "Zdarzenie w panelu Przyłapu: zdjęcie przed, w trakcie i po, z zaznaczonymi odpadami"
+      },
+      {
+        "title": "Zdjęcia w nocy",
+        "text": "W nocy kamera robi czarno-białe zdjęcia w podczerwieni, bez błysku. Ludzi i auta system rozpoznaje na nich tak samo jak w dzień. Tablice rejestracyjne w nocy są często prześwietlone, więc tam, gdzie liczy się numer auta, kamera wisi bliżej drogi.",
+        "image": "/assets/cases/przylap-night.webp",
+        "imageAlt": "Przykładowe nocne zdjęcie z fotopułapki z zaznaczoną osobą i autem"
+      },
+      {
+        "title": "Prywatność wpisana w ofertę",
+        "text": "System wykrywa, że na zdjęciu jest osoba albo auto, ale nie ustala, kto to jest. Mandaty i ustalanie właścicieli aut zostają po stronie straży lub policji. Puste zdjęcia i zwierzęta usuwamy po 7 dniach, zdarzenia po 3 miesiącach. Gmina jest administratorem danych, a my przetwarzamy zdjęcia na podstawie umowy powierzenia, na serwerze w Polsce."
+      },
+      {
+        "title": "Wszystko, czego gmina potrzebuje, żeby powiedzieć tak",
+        "text": "Oprócz produktu przygotowałem stronę przylap.pl, opis usługi w PDF, porozumienie o pilotażu, wzór umowy powierzenia i opis przetwarzania dla inspektora ochrony danych. Pilotaż jest bezpłatny i obejmuje 2–3 miejsca. Przez pierwsze dwa tygodnie straż przegląda zdjęcia jak dotąd, a system działa równolegle, więc liczymy, co przeoczył.",
+        "image": "/assets/cases/przylap-site.webp",
+        "imageAlt": "Ilustracja ze strony przylap.pl: fotopułapka na brzozie przy wysypisku"
+      }
+    ],
+    "resultsTitle": "Pierwszy test",
+    "results": [
+      {
+        "value": "447 → 132",
+        "label": "zdjęć do obejrzenia, na publicznych zdjęciach z fotopułapek"
+      },
+      {
+        "value": "3,4×",
+        "label": "mniej zdjęć do przejrzenia dla strażnika"
+      },
+      {
+        "value": "10 z 131",
+        "label": "zdjęć z ludźmi albo autami przeoczonych przez system"
+      }
+    ],
+    "lessonTitle": "Co dalej",
+    "lesson": "Rozmawiam z gminami i strażami o pierwszych pilotażach. Test pokazał, że system wciąż przeocza część ludzi i aut, dlatego pilotaż najpierw mierzy przeoczenia na zdjęciach gminy. Wyniki dopiszę tutaj po pilotażu.",
+    "link": {
+      "href": "https://przylap.pl",
+      "text": "Zobacz przylap.pl"
+    },
+    "tone": "#e4dccb",
+    "level": "Nowe narzędzie od zera"
   }
 ]

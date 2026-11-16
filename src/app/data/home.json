@@ -128,6 +128,17 @@
         "href": "/work/calenday",
         "link": "Read the case study",
         "level": "Testing an idea before building"
+      },
+      {
+        "title": "Illegal dumps: the guard gets events, not thousands of photos",
+        "text": "A camera-trap service for municipalities. In the first test, 132 of 447 photos were left to review.",
+        "image": "/assets/cases/przylap-tile.webp",
+        "imageAlt": "Przyłap panel with an event at a waste shelter",
+        "tone": "#e4dccb",
+        "meta": "Przyłap · founder",
+        "href": "/work/przylap",
+        "link": "Read the case study",
+        "level": "A new tool from scratch"
       }
     ]
   },

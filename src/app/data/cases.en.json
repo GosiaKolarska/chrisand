@@ -360,5 +360,78 @@
       }
     ],
     "level": "Testing an idea before building"
+  },
+  {
+    "slug": "przylap",
+    "title": "Illegal dumps: the guard gets events, not thousands of photos",
+    "summary": "Przyłap is my own service for municipalities. A camera trap hangs by an illegal dump, the system drops empty frames and animals, and the municipal guard sees only people and cars, with photos before, during and after. I designed the service, the guard's panel, the website and the offer. It is now looking for its first pilot.",
+    "facts": [
+      {
+        "label": "Role",
+        "value": "Founder: research, product, design, offer"
+      },
+      {
+        "label": "Scope",
+        "value": "Guard's panel, website, service description, pilot documents"
+      },
+      {
+        "label": "Status",
+        "value": "Working product, looking for the first pilot"
+      }
+    ],
+    "cover": "/assets/cases/przylap-cover.webp",
+    "coverAlt": "Przyłap panel: list of events and one event with photos before, during and after",
+    "coverNote": "The panel is in Polish because Przyłap is built for Polish municipalities. The photos are examples; the boxes are drawn by the detector.",
+    "problem": {
+      "title": "The problem",
+      "text": "Municipalities already buy camera traps, but someone has to collect the memory card and look through every photo. In Kraków the municipal guard reviewed about 300,000 photos from three cameras by hand to establish three offences. Cleaning up illegal dumps cost the city 270,000 zł in eight months, and the dumps come back to the same places."
+    },
+    "sections": [
+      {
+        "title": "One event instead of a pile of photos",
+        "text": "A camera takes a photo at every movement, so one car leaves several shots. The system groups them into one event and compares the frame before and after. If something new is left on the ground, the event goes to the top of the list as urgent. The guard sees three frames side by side, with new objects in a yellow box, and decides with one click: pass on to a case, no offence or false alarm.",
+        "image": "/assets/cases/przylap-before-after.webp",
+        "imageAlt": "Event in the Przyłap panel: photo before, during and after, with the dumped waste marked"
+      },
+      {
+        "title": "Photos at night",
+        "text": "At night the camera takes black-and-white infrared photos without a flash. People and cars are detected the same way as by day. Number plates are often overexposed at night, so where the plate matters, the camera hangs closer to the road.",
+        "image": "/assets/cases/przylap-night.webp",
+        "imageAlt": "Example night photo from a camera trap with a person and a car marked"
+      },
+      {
+        "title": "Privacy built into the offer",
+        "text": "The system detects that a person or a car is in the photo, but doesn't check who it is. Fines and finding car owners stay with the guard or the police. Empty photos and animals are deleted after 7 days, events after 3 months. The municipality is the data controller, and we process photos under a data processing agreement, on a server in Poland."
+      },
+      {
+        "title": "Everything a municipality needs to say yes",
+        "text": "Besides the product I prepared the website przylap.pl, a service description in PDF, a pilot agreement, a data processing agreement template and a description for the data protection officer. The pilot is free and covers 2–3 locations. In the first two weeks the guard reviews photos as usual while the system runs in parallel, so we can count what it missed.",
+        "image": "/assets/cases/przylap-site.webp",
+        "imageAlt": "Illustration from the przylap.pl homepage: a camera trap on a birch tree by a dump"
+      }
+    ],
+    "resultsTitle": "First test",
+    "results": [
+      {
+        "value": "447 → 132",
+        "label": "photos left to review, on public camera-trap photos"
+      },
+      {
+        "value": "3.4×",
+        "label": "fewer photos for the guard to look through"
+      },
+      {
+        "value": "10 of 131",
+        "label": "photos with people or cars missed by the system"
+      }
+    ],
+    "lessonTitle": "What's next",
+    "lesson": "I'm talking to municipalities and guards about the first pilots. The test showed the system still misses some people and cars, so the pilot first measures misses on the municipality's own photos. I'll add the results here after the pilot.",
+    "link": {
+      "href": "https://przylap.pl",
+      "text": "Visit przylap.pl"
+    },
+    "tone": "#e4dccb",
+    "level": "A new tool from scratch"
   }
 ]

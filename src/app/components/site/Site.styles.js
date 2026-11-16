@@ -524,7 +524,10 @@ export const WorkGrid = styled.div`
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
 
-  > :first-child {
+  /* The first card is wide; with an even count the last one would sit alone,
+     so it is wide too. */
+  > :first-child,
+  > :last-child:nth-child(even) {
     grid-column: 1 / -1;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -532,12 +535,14 @@ export const WorkGrid = styled.div`
     align-items: center;
   }
 
-  > :first-child h3 {
+  > :first-child h3,
+  > :last-child:nth-child(even) h3 {
     font-size: clamp(32px, 3.2vw, 50px);
   }
 
   @media (max-width: 960px) {
-    > :first-child {
+    > :first-child,
+    > :last-child:nth-child(even) {
       display: flex;
     }
   }
